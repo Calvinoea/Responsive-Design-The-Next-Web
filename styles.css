@@ -23,14 +23,14 @@ section {
 
 header {
   width: 100%;
-  justify-content: space-between;
   background: #fff;
-  top: 0;
   height: 48px;
+  position: fixed;
+  top: 0;
 }
 
 header .small-header-nav {
-  height: 48px;
+  height: 100%;
   display: flex;
 }
 
@@ -42,7 +42,7 @@ header .small-header-nav ul {
 }
 
 header .small-header-nav .small-logo {
-  height: 105%;
+  height: 100%;
   flex: 1;
   max-width: 106px;
 }
@@ -71,7 +71,7 @@ header .small-header-nav ul li .fa-bars {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, auto);
   grid-gap: 0.5rem;
-  padding-bottom: 80px;
+  padding: 50px 0;
 }
 
 .landing-caption {
