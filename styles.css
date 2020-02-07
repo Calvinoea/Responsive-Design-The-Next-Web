@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  margin: auto;
+  background: #f8f8f8;
+  color: #555555;
+}
+
+section {
+  width: 98%;
+  margin: 8px auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
+header {
+  width: 100%;
+  justify-content: space-between;
+  background: #fff;
+}
+
+header .small-header-nav {
+  height: 48px;
+  display: flex;
+}
+
+header .small-header-nav ul {
+  height: 100%;
+  display: flex;
+  flex: 3;
+  justify-content: flex-end;
+}
+
+header .small-header-nav .small-logo {
+  height: 105%;
+  flex: 1;
+  max-width: 106px;
+}
+
+header .small-header-nav ul li {
+  padding: 0 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-left: 1px solid lightgray;
+}
+
+header .small-header-nav ul li .fa-search {
+  font-size: 100%;
+  background: #fff;
+  color: lightgray;
+}
+
+header .small-header-nav ul li .fa-bars {
+  color: #f42;
+}
+
+.landing-banner {
+  color: #fff;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/growth_quarters-announcement-796x417.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 334px;
+  width: 100%;
+}
+
+.landing-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  width: 87%;
+}
+
+
+
+
+
