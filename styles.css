@@ -13,21 +13,20 @@ body {
   font-size: 100%;
   margin: auto;
   background: #f8f8f8;
-  color: #555555;
+  color: #555;
 }
 
 section {
   width: 98%;
   margin: 8px auto;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
 }
 
 header {
   width: 100%;
   justify-content: space-between;
   background: #fff;
+  top: 0;
+  height: 48px;
 }
 
 header .small-header-nav {
@@ -66,24 +65,48 @@ header .small-header-nav ul li .fa-bars {
   color: #f42;
 }
 
-.landing-banner {
-  color: #fff;
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/growth_quarters-announcement-796x417.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 334px;
-  width: 100%;
+.landing-banners {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 0.5rem;
+  padding-bottom: 80px;
 }
 
 .landing-caption {
+  color: #fff;
+  max-width: 796px;
+  min-height: 113px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 10px;
-  width: 87%;
+  width: 100%;
 }
 
+.caption1 {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Netflix-Mobile-796x418.jpg") no-repeat;
+  background-size: cover;
+}
 
+.caption2 {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/germany-tesla-model-3-registrations-increase-796x448.jpg") no-repeat;
+  background-size: cover;
+}
 
+.caption3 {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Screenshot-2020-02-07-at-13.48.09-796x438.png") no-repeat;
+  background-size: cover;
+}
 
+.landing-caption div {
+  height: 114px;
+  padding: 12px;
+  line-height: 22px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 41%, rgba(0, 0, 0, 0) 100%);
+}
 
+.landing-caption span {
+  font-size: 75%;
+}
