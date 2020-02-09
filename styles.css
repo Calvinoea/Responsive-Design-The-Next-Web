@@ -1,112 +1,112 @@
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 
 body {
-  min-height: 100vh;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 100%;
-  margin: auto;
-  background: #f8f8f8;
-  color: #555;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin: auto;
+    background: #f8f8f8;
+    color: #555;
 }
 
 section {
-  width: 98%;
-  margin: 8px auto;
+    width: 98%;
+    margin: 8px auto;
 }
 
 header {
-  width: 100%;
-  background: #fff;
-  height: 48px;
-  position: fixed;
-  top: 0;
+    width: 100%;
+    background: #fff;
+    height: 48px;
+    position: fixed;
+    top: 0;
 }
 
 header .small-header-nav {
-  height: 100%;
-  display: flex;
+    height: 100%;
+    display: flex;
 }
 
 header .small-header-nav ul {
-  height: 100%;
-  display: flex;
-  flex: 3;
-  justify-content: flex-end;
+    height: 100%;
+    display: flex;
+    flex: 3;
+    justify-content: flex-end;
 }
 
 header .small-header-nav .small-logo {
-  height: 100%;
-  flex: 1;
-  max-width: 106px;
+    height: 100%;
+    flex: 1;
+    max-width: 106px;
 }
 
 header .small-header-nav ul li {
-  padding: 0 10px;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  border-left: 1px solid lightgray;
+    padding: 0 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid lightgray;
 }
 
 header .small-header-nav ul li .fa-search {
-  font-size: 100%;
-  background: #fff;
-  color: lightgray;
+    font-size: 100%;
+    background: #fff;
+    color: lightgray;
 }
 
 header .small-header-nav ul li .fa-bars {
-  color: #f42;
+    color: #f42;
 }
 
 .landing-banners {
-  height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, auto);
-  grid-gap: 0.5rem;
-  padding: 50px 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 0.5rem;
+    padding: 50px 0;
 }
 
 .landing-caption {
-  color: #fff;
-  max-width: 796px;
-  min-height: 113px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  width: 100%;
+    color: #fff;
+    max-width: 796px;
+    min-height: 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
 }
 
 .caption1 {
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Netflix-Mobile-796x418.jpg") no-repeat;
-  background-size: cover;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/1-796x417.jpg") no-repeat;
+    background-size: cover;
 }
 
 .caption2 {
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/germany-tesla-model-3-registrations-increase-796x448.jpg") no-repeat;
-  background-size: cover;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/1-1-796x417.jpg") no-repeat;
+    background-size: cover;
 }
 
 .caption3 {
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Screenshot-2020-02-07-at-13.48.09-796x438.png") no-repeat;
-  background-size: cover;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Copy-of-...-796x417.png") no-repeat;
+    background-size: cover;
 }
 
 .landing-caption div {
-  height: 114px;
-  padding: 12px;
-  line-height: 22px;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 41%, rgba(0, 0, 0, 0) 100%);
+    height: 114px;
+    padding: 12px;
+    line-height: 22px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 41%, rgba(0, 0, 0, 0) 100%);
 }
 
 .landing-caption span {
-  font-size: 75%;
+    font-size: 75%;
 }
