@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+i {
+    color: #AAA;
+}
+
 body {
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
@@ -109,4 +113,179 @@ header .small-header-nav ul li .fa-bars {
 
 .landing-caption span {
     font-size: 75%;
+}
+
+
+/* Latest deals */
+
+#main_title {
+    margin-left: 9%;
+    color: red;
+    font-size: 25px;
+    margin-bottom: -16px;
+}
+
+#subtitle {
+    margin-left: 81%;
+    color: red;
+}
+
+.latest_deals_top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 9%;
+}
+
+.latest_deals_top a {
+    font-weight: bold;
+    color: black;
+}
+
+.latest_deals_top>div:nth-child(1) {
+    padding-left: 90px;
+    padding-right: 10px;
+}
+
+.latest_deals_top>div:nth-child(2) {
+    padding-left: -75px;
+}
+
+.latest_deals_top>div:nth-child(3) {
+    padding-right: 40px;
+    padding-left: 10px;
+}
+
+.latest_deals_top>div:nth-child(4) {
+    padding-left: -1900px;
+    margin-left: -30px;
+}
+
+.latest_deals_top>div p:nth-child(2) {
+    margin-top: 2%;
+}
+
+.latest_deals_top>div p:nth-child(3) {
+    margin-top: 2%;
+}
+
+.latest_deals_bottom {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 9%;
+}
+
+.latest_deals_bottom>div:nth-child(1) {
+    padding-left: 90px;
+    padding-right: 10px;
+}
+
+.latest_deals_bottom>div:nth-child(2) {
+    padding-left: -75px;
+}
+
+.latest_deals_bottom>div:nth-child(3) {
+    padding-right: 40px;
+    padding-left: 10px;
+}
+
+.latest_deals_bottom>div:nth-child(4) {
+    padding-left: -1900px;
+    margin-left: -30px;
+}
+
+.latest_deals_bottom>div p:nth-child(2) {
+    margin-top: 2%;
+    color: black;
+    font-weight: bold;
+}
+
+.latest_deals_bottom>div p:nth-child(3) {
+    margin-top: 2%;
+}
+
+#cancelled {
+    text-decoration-line: line-through;
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 5%;
+}
+
+
+/* Top Footer */
+
+.footer-links {
+    width: 100%;
+    background-color: #131313;
+    color: #AAA;
+    height: 20vh;
+}
+
+.social-media {
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: #AAA;
+    margin: 0 10px 0px 10px;
+}
+
+.social-media li {
+    margin-right: 1%;
+    background-color: rgba(146, 143, 143, 0.301);
+    border-radius: 50%;
+    height: 40px;
+    padding: 12px;
+}
+
+.links-menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: #AAA;
+    padding-top: 2%;
+}
+
+.links-menu li {
+    padding-right: 1%;
+    font-family: shentox, sans-serif;
+    font-size: 13px;
+}
+
+
+/* Bottom Footer*/
+
+.footer-legal {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    color: #AAA;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.footer-legal p {
+    padding-top: 3%;
+    margin: 0 5px;
+}
+
+.footer-legal img {
+    width: 50px;
+    height: 100px;
+}
+
+.links-menu a {
+    color: #AAA;
+    font-size: 11px;
+}
+
+#stackpath_logo {
+    inline-size: 5%;
 }
