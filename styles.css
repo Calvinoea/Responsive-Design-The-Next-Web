@@ -1,291 +1,360 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
-
-i {
-    color: #AAA;
-}
-
-body {
-    min-height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
-    margin: auto;
-    background: #f8f8f8;
-    color: #555;
-}
-
-section {
-    width: 98%;
-    margin: 8px auto;
-}
-
-header {
-    width: 100%;
-    background: #fff;
-    height: 48px;
-    position: fixed;
-    top: 0;
-}
-
-header .small-header-nav {
-    height: 100%;
-    display: flex;
-}
-
-header .small-header-nav ul {
-    height: 100%;
-    display: flex;
-    flex: 3;
-    justify-content: flex-end;
-}
-
-header .small-header-nav .small-logo {
-    height: 100%;
-    flex: 1;
-    max-width: 106px;
-}
-
-header .small-header-nav ul li {
-    padding: 0 10px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    border-left: 1px solid lightgray;
-}
-
-header .small-header-nav ul li .fa-search {
-    font-size: 100%;
-    background: #fff;
-    color: lightgray;
-}
-
-header .small-header-nav ul li .fa-bars {
-    color: #f42;
-}
-
-.landing-banners {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, auto);
-    grid-gap: 0.5rem;
-    padding: 50px 0;
-}
-
-.landing-caption {
-    color: #fff;
-    max-width: 796px;
-    min-height: 113px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 100%;
-}
-
-.caption1 {
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/1-796x417.jpg") no-repeat;
-    background-size: cover;
-}
-
-.caption2 {
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/1-1-796x417.jpg") no-repeat;
-    background-size: cover;
-}
-
-.caption3 {
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Copy-of-...-796x417.png") no-repeat;
-    background-size: cover;
-}
-
-.landing-caption div {
-    height: 114px;
-    padding: 12px;
-    line-height: 22px;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 41%, rgba(0, 0, 0, 0) 100%);
-}
-
-.landing-caption span {
-    font-size: 75%;
-}
-
-
-/* Latest deals */
-
-#main_title {
-    margin-left: 9%;
-    color: red;
-    font-size: 25px;
-    margin-bottom: -16px;
-}
-
-#subtitle {
-    margin-left: 81%;
-    color: red;
-}
-
-.latest_deals_top {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-right: 9%;
-}
-
-.latest_deals_top a {
-    font-weight: bold;
-    color: black;
-}
-
-.latest_deals_top>div:nth-child(1) {
-    padding-left: 90px;
-    padding-right: 10px;
-}
-
-.latest_deals_top>div:nth-child(2) {
-    padding-left: -75px;
-}
-
-.latest_deals_top>div:nth-child(3) {
-    padding-right: 40px;
-    padding-left: 10px;
-}
-
-.latest_deals_top>div:nth-child(4) {
-    padding-left: -1900px;
-    margin-left: -30px;
-}
-
-.latest_deals_top>div p:nth-child(2) {
-    margin-top: 2%;
-}
-
-.latest_deals_top>div p:nth-child(3) {
-    margin-top: 2%;
-}
-
-.latest_deals_bottom {
-    margin-top: 5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-right: 9%;
-}
-
-.latest_deals_bottom>div:nth-child(1) {
-    padding-left: 90px;
-    padding-right: 10px;
-}
-
-.latest_deals_bottom>div:nth-child(2) {
-    padding-left: -75px;
-}
-
-.latest_deals_bottom>div:nth-child(3) {
-    padding-right: 40px;
-    padding-left: 10px;
-}
-
-.latest_deals_bottom>div:nth-child(4) {
-    padding-left: -1900px;
-    margin-left: -30px;
-}
-
-.latest_deals_bottom>div p:nth-child(2) {
-    margin-top: 2%;
-    color: black;
-    font-weight: bold;
-}
-
-.latest_deals_bottom>div p:nth-child(3) {
-    margin-top: 2%;
-}
-
-#cancelled {
-    text-decoration-line: line-through;
-}
-
-
-/* Footer */
-
-footer {
-    margin-top: 5%;
-}
-
-
-/* Top Footer */
-
-.footer-links {
-    width: 100%;
-    background-color: #131313;
-    color: #AAA;
-    height: 20vh;
-}
-
-.social-media {
-    padding-top: 3%;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    color: #AAA;
-    margin: 0 10px 0px 10px;
-}
-
-.social-media li {
-    margin-right: 1%;
-    background-color: rgba(146, 143, 143, 0.301);
-    border-radius: 50%;
-    height: 40px;
-    padding: 12px;
-}
-
-.links-menu {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    color: #AAA;
-    padding-top: 2%;
-}
-
-.links-menu li {
-    padding-right: 1%;
-    font-family: shentox, sans-serif;
-    font-size: 13px;
-}
-
-
-/* Bottom Footer*/
-
-.footer-legal {
-    width: 100%;
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    color: #AAA;
-    justify-content: center;
-    font-size: 13px;
-}
-
-.footer-legal p {
-    padding-top: 3%;
-    margin: 0 5px;
-}
-
-.footer-legal img {
-    width: 50px;
-    height: 100px;
-}
-
-.links-menu a {
-    color: #AAA;
-    font-size: 11px;
-}
-
-#stackpath_logo {
-    inline-size: 5%;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+    }
+    
+    i {
+        color: #AAA;
+    }
+    
+    body {
+        min-height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 100%;
+        margin: auto;
+        background: #f8f8f8;
+        color: #555;
+    }
+    
+    section {
+        width: 98%;
+        margin: 8px auto;
+    }
+    
+    header {
+        width: 100%;
+        background: #fff;
+        height: 48px;
+        position: fixed;
+        top: 0;
+    }
+    
+    header .small-header-nav {
+        height: 100%;
+        display: flex;
+    }
+    
+    header .small-header-nav ul {
+        height: 100%;
+        display: flex;
+        flex: 3;
+        justify-content: flex-end;
+    }
+    
+    header .small-header-nav .small-logo {
+        height: 100%;
+        flex: 1;
+        max-width: 106px;
+    }
+    
+    header .small-header-nav ul li {
+        padding: 0 10px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        border-left: 1px solid lightgray;
+    }
+    
+    header .small-header-nav ul li .fa-search {
+        font-size: 100%;
+        background: #fff;
+        color: lightgray;
+    }
+    
+    header .small-header-nav ul li .fa-bars {
+        color: #f42;
+    }
+    
+    .landing-banners {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+        grid-gap: 0.5rem;
+        padding: 50px 0;
+    }
+    
+    .landing-caption {
+        color: #fff;
+        max-width: 796px;
+        min-height: 113px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    
+    .caption1 {
+        background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/1-796x417.jpg") no-repeat;
+        background-size: cover;
+    }
+    
+    .caption2 {
+        background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/1-1-796x417.jpg") no-repeat;
+        background-size: cover;
+    }
+    
+    .caption3 {
+        background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Copy-of-...-796x417.png") no-repeat;
+        background-size: cover;
+    }
+    
+    .landing-caption div {
+        height: 114px;
+        padding: 12px;
+        line-height: 22px;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 41%, rgba(0, 0, 0, 0) 100%);
+    }
+    
+    .landing-caption span {
+        font-size: 75%;
+    }
+    /* Distract */
+    
+    .launch_and_distract {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .launch_and_distract h3 {
+        color: red;
+        font-size: 25px;
+    }
+    
+    .latest img {
+        height: 5%;
+        width: 5%;
+    }
+    
+    .launch_latest {
+        display: flex;
+        flex-direction: row;
+        color: red;
+    }
+    
+    .launch_latest span {
+        padding-top: 5px;
+        padding-left: 2px;
+    }
+    
+    .launch_latest>img {
+        height: 12vh;
+        width: 27%;
+        /*
+    margin-left: 85%;
+    margin-bottom: 10%; */
+    }
+    
+    .launch_latest p {
+        margin-top: 30px;
+        margin-left: -56px;
+    }
+    
+    .launch_latest {
+        background-color: pink;
+        width: 50%;
+    }
+    
+    .launch {
+        padding-left: 5%;
+    }
+    
+    .distract {
+        padding-right: 15%;
+    }
+    
+    .launch>img:nth-child(3) {
+        height: 40%;
+        width: 50%;
+    }
+    
+    .distract>img:nth-child(3) {
+        height: 40%;
+        width: 80%;
+    }
+    
+    .launch ul li {
+        padding: 5px 0px;
+        border-bottom-color: gray;
+    }
+    
+    .launch ul li::before {
+        content: "\2022";
+        color: red;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+    }
+    /* Latest deals */
+    
+    #main_title {
+        margin-left: 9%;
+        color: red;
+        font-size: 25px;
+        margin-bottom: -16px;
+    }
+    
+    #subtitle {
+        margin-left: 81%;
+        color: red;
+    }
+    
+    .latest_deals_top {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-right: 9%;
+    }
+    
+    .latest_deals_top a {
+        font-weight: bold;
+        color: black;
+    }
+    
+    .latest_deals_top>div:nth-child(1) {
+        padding-left: 90px;
+        padding-right: 10px;
+    }
+    
+    .latest_deals_top>div:nth-child(2) {
+        padding-left: -75px;
+    }
+    
+    .latest_deals_top>div:nth-child(3) {
+        padding-right: 40px;
+        padding-left: 10px;
+    }
+    
+    .latest_deals_top>div:nth-child(4) {
+        padding-left: -1900px;
+        margin-left: -30px;
+    }
+    
+    .latest_deals_top>div p:nth-child(2) {
+        margin-top: 2%;
+    }
+    
+    .latest_deals_top>div p:nth-child(3) {
+        margin-top: 2%;
+    }
+    
+    .latest_deals_bottom {
+        margin-top: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-right: 9%;
+    }
+    
+    .latest_deals_bottom>div:nth-child(1) {
+        padding-left: 90px;
+        padding-right: 10px;
+    }
+    
+    .latest_deals_bottom>div:nth-child(2) {
+        padding-left: -75px;
+    }
+    
+    .latest_deals_bottom>div:nth-child(3) {
+        padding-right: 40px;
+        padding-left: 10px;
+    }
+    
+    .latest_deals_bottom>div:nth-child(4) {
+        padding-left: -1900px;
+        margin-left: -30px;
+    }
+    
+    .latest_deals_bottom>div p:nth-child(2) {
+        margin-top: 2%;
+        color: black;
+        font-weight: bold;
+    }
+    
+    .latest_deals_bottom>div p:nth-child(3) {
+        margin-top: 2%;
+    }
+    
+    #cancelled {
+        text-decoration-line: line-through;
+    }
+    /* Footer */
+    
+    footer {
+        margin-top: 5%;
+    }
+    /* Top Footer */
+    
+    .footer-links {
+        width: 100%;
+        background-color: #131313;
+        color: #AAA;
+        height: 20vh;
+    }
+    
+    .social-media {
+        padding-top: 3%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        color: #AAA;
+        margin: 0 10px 0px 10px;
+    }
+    
+    .social-media li {
+        margin-right: 1%;
+        background-color: rgba(146, 143, 143, 0.301);
+        border-radius: 50%;
+        height: 40px;
+        padding: 12px;
+    }
+    
+    .links-menu {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        color: #AAA;
+        padding-top: 2%;
+    }
+    
+    .links-menu li {
+        padding-right: 1%;
+        font-family: shentox, sans-serif;
+        font-size: 13px;
+    }
+    /* Bottom Footer*/
+    
+    .footer-legal {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        color: #AAA;
+        justify-content: center;
+        font-size: 13px;
+    }
+    
+    .footer-legal p {
+        padding-top: 3%;
+        margin: 0 5px;
+    }
+    
+    .footer-legal img {
+        width: 50px;
+        height: 100px;
+    }
+    
+    .links-menu a {
+        color: #AAA;
+        font-size: 11px;
+    }
+    
+    #stackpath_logo {
+        inline-size: 5%;
+    }
