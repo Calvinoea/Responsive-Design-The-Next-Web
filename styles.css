@@ -123,6 +123,221 @@
         font-size: 75%;
     }
     /* Article Categories */
+    /* First Row */
+    
+    .apps_gear_tech {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .apps_gear_tech h3 {
+        color: red;
+        font-size: 25px;
+    }
+    
+    .apps img {
+        height: 40%;
+        width: 70%;
+    }
+    
+    .apps_latest {
+        display: flex;
+        flex-direction: row;
+        color: red;
+        margin-top: -1%;
+        width: 80%;
+    }
+    
+    .apps_latest span {
+        padding-top: 5px;
+        padding-left: 2px;
+    }
+    
+    .apps_latest>img {
+        height: 12vh;
+        width: 27%;
+    }
+    
+    .apps_latest p {
+        margin-top: 30px;
+        margin-left: -56px;
+    }
+    
+    .apps_latest {
+        background-color: pink;
+        width: 75%;
+    }
+    
+    .apps>img:nth-child(3) {
+        height: 40%;
+        width: 75%;
+        background: transparent;
+    }
+    
+    .apps ul li {
+        padding: 5px 0px;
+        border-bottom-color: gray;
+        width: 70%;
+        margin-top: 1px;
+        margin-left: 4%;
+        font-weight: lighter;
+    }
+    
+    .apps ul li::before {
+        content: "\2022";
+        color: red;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+    }
+    
+    .apps hr {
+        background-color: #b1a8a894;
+        height: 1px;
+        width: 75%;
+        font-weight: lighter;
+        border-width: thin;
+    }
+    
+    .apps {
+        padding-left: 9%;
+        width: 78%;
+    }
+    
+    .gear {
+        padding-right: 7%;
+        margin-left: -5%;
+    }
+    
+    .gear>img:nth-child(3) {
+        height: 40%;
+        width: 90%;
+    }
+    
+    .gear ul li {
+        padding: 5px 0px;
+        border-bottom-color: gray;
+        width: 80%;
+        margin-top: 1px;
+        margin-left: 5%;
+        font-weight: lighter;
+    }
+    
+    .gear ul li::before {
+        content: "\2022";
+        color: red;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+    }
+    
+    .gear_latest {
+        display: flex;
+        flex-direction: row;
+        color: red;
+        margin-top: -1%;
+    }
+    
+    .podium_latest span {
+        padding-top: 5px;
+        padding-left: 2px;
+    }
+    
+    .gear_latest>img {
+        height: 12vh;
+        width: 27%;
+    }
+    
+    .gear_latest p {
+        margin-top: 30px;
+        margin-left: -56px;
+    }
+    
+    .gear hr {
+        background-color: #b1a8a894;
+        height: 1px;
+        width: 85%;
+        font-weight: lighter;
+        border-width: thin;
+    }
+    
+    .gear p:nth-child(1) {
+        padding-top: 7%;
+    }
+    
+    .gear_latest {
+        background-color: pink;
+        width: 88%;
+    }
+    
+    .tech {
+        padding-right: 10%;
+        margin-left: -5%;
+    }
+    
+    .tech>img:nth-child(3) {
+        height: 40%;
+        width: 90%;
+    }
+    
+    .tech ul li {
+        padding: 5px 0px;
+        border-bottom-color: gray;
+        width: 85%;
+        margin-top: 1px;
+        margin-left: 5%;
+        font-weight: lighter;
+    }
+    
+    .tech ul li::before {
+        content: "\2022";
+        color: red;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+    }
+    
+    .tech_latest {
+        display: flex;
+        flex-direction: row;
+        color: red;
+        margin-top: -1%;
+    }
+    
+    .tech_latest span {
+        padding-top: 5px;
+        padding-left: 2px;
+    }
+    
+    .tech_latest>img {
+        height: 12vh;
+        width: 27%;
+    }
+    
+    .tech_latest p {
+        margin-top: 30px;
+        margin-left: -56px;
+    }
+    
+    .tech hr {
+        background-color: #b1a8a894;
+        height: 1px;
+        width: 90%;
+        font-weight: lighter;
+        border-width: thin;
+    }
+    
+    .tech p:nth-child(1) {
+        padding-top: 7%;
+    }
+    
+    .tech_latest {
+        background-color: pink;
+        width: 90%;
+    }
     /* Second to last row */
     
     .image_text {
@@ -150,6 +365,7 @@
     .creative_podium_insights {
         display: flex;
         flex-direction: row;
+        margin-top: 5%;
     }
     
     .creative_podium_insights h3 {
@@ -167,6 +383,7 @@
         flex-direction: row;
         color: red;
         margin-top: -1%;
+        width: 80%;
     }
     
     .creative_latest span {
@@ -186,21 +403,21 @@
     
     .creative_latest {
         background-color: pink;
-        width: 50%;
+        width: 75%;
     }
     
     .creative>img:nth-child(3) {
         height: 40%;
-        width: 50%;
+        width: 75%;
         background: transparent;
     }
     
     .creative ul li {
         padding: 5px 0px;
         border-bottom-color: gray;
-        width: 50%;
+        width: 70%;
         margin-top: 1px;
-        margin-left: 2%;
+        margin-left: 4%;
         font-weight: lighter;
     }
     
@@ -213,26 +430,34 @@
         margin-left: -1em;
     }
     
+    .creative hr {
+        background-color: #b1a8a894;
+        height: 1px;
+        width: 75%;
+        font-weight: lighter;
+        border-width: thin;
+    }
+    
     .creative {
         padding-left: 9%;
     }
     
-    .podum {
-        padding-right: 30%;
-        margin-left: -23%;
+    .podium {
+        padding-right: 7%;
+        margin-left: -5%;
     }
     
     .podium>img:nth-child(3) {
         height: 40%;
-        width: 70%;
+        width: 100%;
     }
     
     .podium ul li {
         padding: 5px 0px;
         border-bottom-color: gray;
-        width: 70%;
+        width: 90%;
         margin-top: 1px;
-        margin-left: 3%;
+        margin-left: 5%;
         font-weight: lighter;
     }
     
@@ -270,7 +495,7 @@
     .podium hr {
         background-color: #b1a8a894;
         height: 1px;
-        width: 70%;
+        width: 95%;
         font-weight: lighter;
         border-width: thin;
     }
@@ -281,7 +506,7 @@
     
     .podium_latest {
         background-color: pink;
-        width: 70%;
+        width: 100%;
     }
     
     .insights {
@@ -291,15 +516,15 @@
     
     .insights>img:nth-child(3) {
         height: 40%;
-        width: 70%;
+        width: 90%;
     }
     
     .insights ul li {
         padding: 5px 0px;
         border-bottom-color: gray;
-        width: 70%;
+        width: 85%;
         margin-top: 1px;
-        margin-left: 3%;
+        margin-left: 5%;
         font-weight: lighter;
     }
     
@@ -337,7 +562,7 @@
     .insights hr {
         background-color: #b1a8a894;
         height: 1px;
-        width: 70%;
+        width: 90%;
         font-weight: lighter;
         border-width: thin;
     }
@@ -348,7 +573,7 @@
     
     .insights_latest {
         background-color: pink;
-        width: 70%;
+        width: 90%;
     }
     /* Last Row */
     
