@@ -122,12 +122,161 @@
     .landing-caption span {
         font-size: 75%;
     }
+    /* Lates Funding Section */
+    
+    .latest_funding {
+        display: flex;
+        flex-direction: row;
+        margin-top: 6%;
+    }
+    
+    .latest_funding img {
+        width: 23%;
+        height: 25%;
+    }
+    
+    .latest_funding h6 {
+        font-size: 18px;
+        background-color: #f42;
+        width: 60%;
+        height: 13%;
+        font-family: Avalon, sans-serif;
+        text-indent: 35%;
+        color: white;
+    }
+    
+    .latest_funding p,
+    ul li,
+    a {
+        font-size: 12px;
+        color: #555;
+    }
+    
+    .latest_funding hr {
+        background-color: #f42;
+        font-weight: lighter;
+    }
+    
+    .first_funding_story {
+        margin-left: 9%;
+    }
+    
+    .funding_header {
+        margin-top: -9%;
+    }
+    
+    .funding_story {
+        background-color: rgba(255, 67, 34, 0.171);
+        padding-left: 24%;
+        padding-top: 7%;
+        padding-bottom: 7%;
+        margin-top: -23%;
+        text-indent: 12%;
+    }
+    
+    .funding_story p:first-child {
+        color: black;
+        font-weight: bolder;
+        font-size: 14px;
+    }
+    
+    .funding_story p:nth-child(2) {
+        color: gray;
+        font-weight: lighter;
+        font-size: 9px;
+        padding-top: 1%;
+    }
+    
+    .third_funding_story img {
+        margin-top: -12%;
+        margin-left: 5%;
+        height: 30%;
+        width: 25%
+    }
+    
+    .third_funding_story {
+        margin-right: 11%;
+        width: 25%;
+    }
+    
+    .third_funding_story h6 {
+        font-size: 14px;
+        background-color: #f42;
+        padding-top: 3%;
+        width: 100%;
+        height: 18%;
+        font-family: Avalon, sans-serif;
+        text-indent: 33%;
+        color: white;
+    }
+    
+    .third_funding_story hr {
+        width: 100%;
+    }
+    
+    .fourth_funding_story img {
+        margin-top: -12%;
+        margin-left: 5%;
+        height: 30%;
+        width: 25%
+    }
+    
+    .fourth_funding_story {
+        margin-right: 11%;
+        width: 25%;
+    }
+    
+    .fourth_funding_story h6 {
+        font-size: 18px;
+        background-color: #f42;
+        padding-top: 3%;
+        width: 100%;
+        height: 18%;
+        font-family: Avalon, sans-serif;
+        text-indent: 33%;
+        color: white;
+    }
+    
+    .fourth_funding_story hr {
+        width: 100%;
+    }
+    
+    .additional_description {
+        text-indent: 7%;
+        padding-top: 5%;
+        padding-bottom: 14%;
+        font-size: 6px;
+        width: 45%;
+        color: gray;
+        font-weight: light;
+    }
+    
+    .venture_description {
+        background-color: rgba(255, 68, 34, .08);
+        padding-top: 8%;
+        padding-bottom: 8%;
+        text-indent: 7%;
+    }
+    
+    .venture_description i {
+        color: black;
+    }
+    
+    .venture_description li {
+        margin: 5px 0 0 0;
+    }
+    
+    .additional_description {
+        background-color: rgba(255, 68, 34, .08);
+        width: 100%;
+    }
     /* Article Categories */
     /* First Row */
     
     .apps_gear_tech {
         display: flex;
         flex-direction: row;
+        margin-top: 3%;
     }
     
     .apps_gear_tech h3 {
@@ -202,23 +351,24 @@
     
     .apps {
         padding-left: 9%;
-        width: 78%;
+        width: 90%;
     }
     
     .gear {
-        padding-right: 7%;
+        padding-right: 2%;
         margin-left: -5%;
+        width: 70%;
     }
     
     .gear>img:nth-child(3) {
         height: 40%;
-        width: 90%;
+        width: 88%;
     }
     
     .gear ul li {
         padding: 5px 0px;
         border-bottom-color: gray;
-        width: 80%;
+        width: 79%;
         margin-top: 1px;
         margin-left: 5%;
         font-weight: lighter;
@@ -247,7 +397,7 @@
     
     .gear_latest>img {
         height: 12vh;
-        width: 27%;
+        width: 30%;
     }
     
     .gear_latest p {
@@ -273,19 +423,19 @@
     }
     
     .tech {
-        padding-right: 10%;
-        margin-left: -5%;
+        padding-right: 1%;
+        margin-left: -3%;
     }
     
     .tech>img:nth-child(3) {
         height: 40%;
-        width: 90%;
+        width: 70%;
     }
     
     .tech ul li {
         padding: 5px 0px;
         border-bottom-color: gray;
-        width: 85%;
+        width: 60%;
         margin-top: 1px;
         margin-left: 5%;
         font-weight: lighter;
@@ -325,7 +475,7 @@
     .tech hr {
         background-color: #b1a8a894;
         height: 1px;
-        width: 90%;
+        width: 70%;
         font-weight: lighter;
         border-width: thin;
     }
@@ -336,7 +486,7 @@
     
     .tech_latest {
         background-color: pink;
-        width: 90%;
+        width: 70%;
     }
     /* Second to last row */
     
