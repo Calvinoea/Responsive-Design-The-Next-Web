@@ -1,3 +1,70 @@
+@media screen and (max-width:1111px) {
+    body {
+        font-weight: bold;
+        color: green;
+        font-size: 900px;
+    }
+    .fund_sub {
+        margin-top: 35%;
+    }
+    .fund_sub p {
+        margin-left: 10%;
+        color: blue;
+        margin-top: 15%;
+    }
+    .latest_funding {
+        width: 150%;
+        margin-left: -5%;
+    }
+    .first_funding_story {
+        padding-left: 10%;
+        width: 47%;
+        margin-left: 2%;
+    }
+    .funding_story p {
+        margin-top: 5%;
+    }
+    .second_funding_story {
+        padding-left: 10%;
+        width: 47%;
+        margin-left: -12%;
+    }
+    .third_funding_story {
+        padding-right: 1%;
+        width: 47%;
+        margin-left: 2%;
+    }
+    .fourth_funding_story {
+        display: none;
+    }
+    .funding_story {
+        padding-bottom: 90%;
+    }
+    .apps_gear_tech {
+        display: flex;
+        flex-flow: wrap;
+    }
+    .apps {
+        padding-left: 9%;
+        width: 30%;
+    }
+    .gear {
+        margin-left: -57%;
+        width: 30%;
+        margin-top: -77%;
+        margin-bottom: 68%;
+        padding-left: 14%;
+    }
+    .tech {
+        margin-right: -98px;
+        padding-right: 1%;
+        margin-left: -3%;
+        width: 83%;
+        margin-top: -70%;
+        padding-left: 89px;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -44,6 +111,7 @@ header {
 header .small-header-nav {
     height: 100%;
     display: flex;
+    background-color: white;
 }
 
 header .small-header-nav ul {
@@ -64,17 +132,79 @@ header .small-header-nav ul li {
     height: 100%;
     display: flex;
     align-items: center;
-    border-left: 1px solid lightgray;
 }
 
 header .small-header-nav ul li .fa-search {
-    font-size: 100%;
+    font-size: 160%;
     background: #fff;
     color: lightgray;
 }
 
+.small-header-nav ul:nth-child(2) li {
+    border-left: 1px solid lightgray;
+}
+
 header .small-header-nav ul li .fa-bars {
     color: #f42;
+}
+
+.small-header-nav ul li:nth-child(4) {
+    width: 80%;
+}
+
+.small-header-nav ul li:nth-child(5) {
+    width: 110%;
+}
+
+.small-header-nav ul li:nth-child(6) {
+    width: 40%;
+}
+
+.small-header-nav ul li:nth-child(7) {
+    width: 201%;
+}
+
+.small-header-nav ul li:nth-child(8) {
+    width: 30%;
+}
+
+.advert_banner {
+    background-color: #fd3;
+    width: 100%;
+    height: 60%;
+}
+
+.nav_options {
+    background-color: black;
+    width: 50%;
+    height: 60%;
+}
+
+.nav_options ul:first-child {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1%;
+    padding-left: 1em;
+}
+
+.nav_options ul:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100%;
+    margin-bottom: 5vh;
+    padding-left: 30em;
+    background-color: black;
+    width: 140%;
+    margin-top: -9%;
+    padding-top: 7%;
+}
+
+.advert_banner p {
+    font-size: 30%;
+    font-weight: lighter;
+    padding-left: 1%;
+    padding-top: 2em;
+    padding-bottom: 1em;
 }
 
 .landing-banners {
@@ -84,6 +214,7 @@ header .small-header-nav ul li .fa-bars {
     grid-template-rows: repeat(3, auto);
     grid-gap: 0.5rem;
     padding: 50px 0;
+    margin-top: 4%;
 }
 
 .landing-caption {
