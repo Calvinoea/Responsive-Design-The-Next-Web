@@ -128,15 +128,108 @@
             }
             
             @media screen and (max-width:767px) {
-                body {
+                .apps_gear_tech {
                     display: flex;
                     flex-direction: column;
-                    font-size: 1px;
+                    flex-flow: wrap;
+                }
+                .creative_podium_insights {
+                    display: flex;
+                    flex-direction: column;
+                    flex-flow: wrap;
+                }
+                .launch_and_distract {
+                    display: flex;
+                    flex-flow: wrap;
+                    flex-direction: column;
+                }
+                .latest {}
+                .distract {}
+                .latest-deals {
+                    margin-top: 11%;
+                }
+                .latest_deals_top {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .latest_deals_top img {
+                    width: 50%;
+                    height: 45%;
+                    margin-bottom: -30%;
+                }
+                .latest_deals_top p {
+                    color: red;
+                    margin-left: 55%;
+                    font-weight: lighter;
+                }
+                .latest_deals_bottom img {
+                    width: 50%;
+                    height: 45%;
+                    margin-bottom: -26%;
                 }
                 .latest_deals_bottom {
                     color: pink;
                     display: flex;
                     flex-direction: column;
+                }
+                .latest_deals_bottom p {
+                    color: red;
+                    margin-left: 55%;
+                    font-size: 13px;
+                }
+                .deals1 {
+                    margin-left: -27%;
+                }
+                .deals1 img {
+                    height: 60%;
+                }
+                .deals2 {
+                    margin-left: -10%;
+                }
+                .deals2 img {
+                    height: 64%;
+                }
+                .deals3 {
+                    margin-left: -12%;
+                    margin-top: -3%;
+                }
+                .deals3 img {
+                    height: 64%;
+                }
+                .deals4 {
+                    margin-top: -1%;
+                    margin-right: 2%;
+                }
+                .deals4 img {
+                    height: 60%;
+                }
+                .deals5 {
+                    margin-left: -12%;
+                    margin-top: -11%;
+                    margin-right: 9%;
+                }
+                .deals5 img {
+                    height: 28%;
+                }
+                .deals6 {
+                    margin-top: 5%;
+                    margin-left: -68%;
+                }
+                .deals7 {
+                    margin-top: 25%;
+                    margin-left: 32%;
+                    margin-bottom: -12%;
+                }
+                .deals7 img {
+                    height: 80%;
+                }
+                .deals8 {
+                    margin-right: -6%;
+                    padding-top: 16%;
+                }
+                .deals8 img {
+                    padding-top: 3%;
+                    height: 70%;
                 }
             }
             
