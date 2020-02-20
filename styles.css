@@ -126,6 +126,28 @@
             }
             
             @media screen and (max-width:767px) {
+                #display {
+                    color: red;
+                }
+                .small-header-nav ul:nth-child(3) li {
+                    border-left: 1px solid lightgray;
+                }
+                header .small-header-nav ul li .fa-bars {
+                    color: #f42;
+                    margin: 0px 10px;
+                }
+                #nav_ul1 {
+                    display: none;
+                }
+                .nav_options {
+                    display: none;
+                }
+                .advert_banner {
+                    min-height: 130%;
+                    text-align: center;
+                    line-height: 4;
+                    font-weight: bold;
+                }
                 .landing-banners {
                     height: 100vh;
                     display: grid;
@@ -153,14 +175,14 @@
                     grid-row-start: 1;
                     grid-row-end: 5;
                     position: relative;
-                    height: 45%;
-                    top: 88%;
+                    height: 36%;
+                    top: 81%;
                     max-width: 500%;
-                    min-width: 403px;
+                    min-width: 479px;
                     max-width: 200px;
-                    padding-left: 3px;
+                    padding-left: -100%;
                     text-align: center;
-                    margin-left: 124px;
+                    margin-left: 6px;
                 }
                 .caption2 {
                     background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/1-1-796x417.jpg) no-repeat;
@@ -169,11 +191,12 @@
                     grid-row-start: 1;
                     grid-row-end: 3;
                     position: relative;
-                    top: 286%;
+                    top: 239%;
                     padding-left: 0px;
                     width: 300px;
-                    margin-left: -406px;
-                    min-width: 500px;
+                    margin-left: -486px;
+                    min-width: 487px;
+                    height: 76%;
                 }
                 .caption3 {
                     background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Copy-of-...-796x417.png) no-repeat;
@@ -182,13 +205,26 @@
                     grid-row-start: 3;
                     grid-row-end: 5;
                     position: relative;
-                    top: 300%;
+                    top: 215%;
                     background-color: white;
-                    margin-left: -406px;
-                    min-width: 500px;
+                    margin-left: -485px;
+                    min-width: 486px;
+                    height: 73%;
+                }
+                .landing_description {}
+                .description_1 {
+                    min-height: 58%;
+                }
+                .description_2 {
+                    min-height: 58%;
+                    text-align: center;
+                }
+                .description_3 {
+                    min-height: 58%;
+                    text-align: center;
                 }
                 .latest_news {
-                    padding-top: 279%;
+                    padding-top: 203%;
                 }
                 .latest_news_row1 {
                     display: flex;
@@ -252,7 +288,7 @@
                     flex-flow: wrap;
                 }
                 .funding_title {
-                    margin-top: 100%;
+                    margin-top: 5%;
                 }
                 .funding_sub {
                     padding-top: 5%;
@@ -418,6 +454,20 @@
                     padding-top: 3%;
                     height: 70%;
                 }
+                .footer-legal {
+                    text-align: center;
+                }
+                #stackpath_logo {
+                    position: relative;
+                    left: -33%;
+                    /* size: 600px; */
+                    /* top: -11%; */
+                    padding-bottom: 5%;
+                }
+                #TNW_logo {
+                    padding-bottom: 12%;
+                    margin-right: -1%;
+                }
             }
             
             * {
@@ -494,13 +544,18 @@
                 background: #fff;
                 color: lightgray;
             }
-            
+            /*
             .small-header-nav ul:nth-child(3) li {
+                border-left: 1px solid lightgray;
+            } */
+            
+            #first_li {
                 border-left: 1px solid lightgray;
             }
             
             header .small-header-nav ul li .fa-bars {
-                color: #f42;
+                color: white;
+                margin: 0px 10px;
             }
             
             .small-header-nav ul li:nth-child(4) {
