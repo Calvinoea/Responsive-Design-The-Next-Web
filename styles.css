@@ -7,6 +7,16 @@
                         padding-left: 5%;
                         min-height: 130px;
                     }
+                    .landing-caption div {
+                        height: 334px;
+                        padding: 12px;
+                        line-height: 30px;
+                        background: rgb(0, 0, 0);
+                        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 41%, rgba(0, 0, 0, 0) 100%);
+                        max-height: 20%;
+                        min-height: 100%;
+                        font-size: 60%;
+                    }
                     .description_1 {
                         min-height: 20%;
                     }
@@ -137,6 +147,16 @@
                 }
                 
                 @media screen and (max-width:767px) {
+                    .landing-caption div {
+                        height: 334px;
+                        padding: 12px;
+                        line-height: 30px;
+                        background: rgb(0, 0, 0);
+                        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 41%, rgba(0, 0, 0, 0) 100%);
+                        max-height: 50%;
+                        min-height: 100%;
+                        font-size: 60%;
+                    }
                     #display {
                         color: red;
                     }
@@ -175,6 +195,13 @@
                         margin-top: 4%;
                         position: absolute;
                         top: -61%;
+                    }
+                    .landing-caption div {
+                        height: 334px;
+                        padding: 12px;
+                        line-height: 5%;
+                        background: rgb(0, 0, 0);
+                        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 41%, rgba(0, 0, 0, 0) 100%);
                     }
                     .landing-caption {
                         color: #fff;
@@ -335,7 +362,7 @@
                         margin-right: -201%;
                         min-width: 43%;
                         position: relative;
-                        margin-top: 8%;
+                        margin-top: 3%;
                         padding-right: 0%;
                         right: -37px;
                     }
@@ -365,7 +392,7 @@
                         padding-left: 20%;
                         min-width: 85%;
                         position: absolute;
-                        margin-top: 142%;
+                        margin-top: 146%;
                     }
                     .third_funding_story img {
                         padding-top: 7%;
@@ -442,7 +469,7 @@
                         margin-bottom: -25%;
                     }
                     .latest_deals_top p {
-                        color: red;
+                        color: gray;
                         margin-left: 55%;
                         font-weight: lighter;
                         position: relative;
@@ -460,7 +487,7 @@
                         flex-direction: column;
                     }
                     .latest_deals_bottom p {
-                        color: red;
+                        color: gray;
                         margin-left: 55%;
                         font-size: 13px;
                         position: relative;
@@ -540,6 +567,8 @@
                         left: 2%;
                     }
                 }
+                
+                #nav_ul1 li:nth-child(2) {}
                 
                 * {
                     margin: 0;
@@ -644,12 +673,21 @@
                     margin: 0px 10px;
                 }
                 
+                #nav_ul1 li {
+                    color: #aaa;
+                    font-weight: lighter;
+                }
+                
+                #nav_ul1 li:nth-child(2) {
+                    width: 200%;
+                }
+                
                 .small-header-nav ul li:nth-child(4) {
                     width: 80%;
                 }
                 
                 .small-header-nav ul li:nth-child(5) {
-                    width: 110%;
+                    width: 200%;
                 }
                 
                 .small-header-nav ul li:nth-child(6) {
@@ -657,11 +695,11 @@
                 }
                 
                 .small-header-nav ul li:nth-child(7) {
-                    width: 201%;
+                    width: 330%;
                 }
                 
                 .small-header-nav ul li:nth-child(8) {
-                    width: 30%;
+                    width: 290px;
                 }
                 
                 .advert_banner {
@@ -708,12 +746,23 @@
                     padding-bottom: 1em;
                 }
                 
+                #caption_sub {
+                    color: gray;
+                    min-height: 40px;
+                    font-size: 14px;
+                    font-weight: light;
+                }
+                
+                #caption_sub:hover {
+                    color: white;
+                }
+                
                 #TNW {
                     max-width: 50px !important;
                     min-width: 550px !important;
-                    padding-bottom: 50%;
+                    padding-bottom: 25%;
                     padding-left: 3%;
-                    min-height: 230px;
+                    min-height: 236px;
                 }
                 
                 .landing-banners {
@@ -734,7 +783,7 @@
                     flex-direction: column;
                     justify-content: flex-end;
                     width: 100%;
-                    font-size: 18px;
+                    font-size: 34px;
                 }
                 
                 .caption1 {
@@ -762,9 +811,9 @@
                 }
                 
                 .landing-caption div {
-                    height: 114px;
+                    height: 334px;
                     padding: 12px;
-                    line-height: 22px;
+                    line-height: 45px;
                     background: rgb(0, 0, 0);
                     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 41%, rgba(0, 0, 0, 0) 100%);
                 }
@@ -824,8 +873,16 @@
                     text-decoration: underline;
                 }
                 
+                #caption_title {
+                    font-weight: 100;
+                    font-family: Shentox, sans-serif;
+                    font-size: 15px;
+                    margin-bottom: -13px;
+                    letter-spacing: 1px;
+                }
+                
                 #sub {
-                    color: #aaaaaa;
+                    color: #504f4f;
                     font-size: 80%;
                     font-weight: lighter;
                 }
@@ -921,7 +978,17 @@
                 ul li,
                 a {
                     font-size: 12px;
-                    color: #555;
+                    color: rgb(118, 113, 113);
+                    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+                    font-weight: bold;
+                }
+                
+                .latest_funding p,
+                ul li,
+                a:hover {
+                    color: black;
+                    cursor: pointer;
+                    font-weight: bold;
                 }
                 
                 .latest_funding hr {
@@ -1154,6 +1221,8 @@
                 .apps_latest span {
                     padding-top: 5px;
                     padding-left: 5px;
+                    font-family: Shentox, sans-serif;
+                    font-size: 13px;
                 }
                 
                 .apps_latest>img {
@@ -1163,7 +1232,15 @@
                 
                 .apps_latest p {
                     margin-top: 30px;
-                    margin-left: -56px;
+                    margin-left: -47px;
+                    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+                    font-size: 14px;
+                    font-weight: bolder;
+                }
+                
+                .apps_latest p:hover {
+                    text-decoration: underline;
+                    cursor: pointer;
                 }
                 
                 .apps_latest {
@@ -1222,6 +1299,8 @@
                 .gear_latest span {
                     padding-left: 5px;
                     padding-top: 5px;
+                    font-family: Shentox, sans-serif;
+                    font-size: 13px;
                 }
                 
                 .gear ul li {
@@ -1252,6 +1331,8 @@
                 .podium_latest span {
                     padding-top: 5px;
                     padding-left: 5px;
+                    font-family: Shentox, sans-serif;
+                    font-size: 13px;
                 }
                 
                 .gear_latest>img {
@@ -1261,7 +1342,15 @@
                 
                 .gear_latest p {
                     margin-top: 30px;
-                    margin-left: -56px;
+                    margin-left: -47px;
+                    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+                    font-size: 14px;
+                    font-weight: bolder;
+                }
+                
+                .gear_latest p:hover {
+                    text-decoration: underline;
+                    cursor: pointer;
                 }
                 
                 .gear hr {
@@ -1319,6 +1408,8 @@
                 .tech_latest span {
                     padding-top: 5px;
                     padding-left: 5px;
+                    font-family: Shentox, sans-serif;
+                    font-size: 13px;
                 }
                 
                 .tech_latest>img {
@@ -1328,7 +1419,15 @@
                 
                 .tech_latest p {
                     margin-top: 30px;
-                    margin-left: -56px;
+                    margin-left: -47px;
+                    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+                    font-size: 14px;
+                    font-weight: bolder;
+                }
+                
+                .tech_latest p:hover {
+                    text-decoration: underline;
+                    cursor: pointer;
                 }
                 
                 .tech hr {
@@ -1424,6 +1523,8 @@
                 .creative_latest span {
                     padding-top: 5px;
                     padding-left: 5px;
+                    font-family: Shentox, sans-serif;
+                    font-size: 13px;
                 }
                 
                 .creative_latest>img {
@@ -1433,7 +1534,15 @@
                 
                 .creative_latest p {
                     margin-top: 30px;
-                    margin-left: -56px;
+                    margin-left: -47px;
+                    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+                    font-size: 14px;
+                    font-weight: bolder;
+                }
+                
+                .creative_latest p:hover {
+                    text-decoration: underline;
+                    cursor: pointer;
                 }
                 
                 .creative_latest {
@@ -1515,6 +1624,8 @@
                 .podium_latest span {
                     padding-top: 5px;
                     padding-left: 5px;
+                    font-family: Shentox, sans-serif;
+                    font-size: 13px;
                 }
                 
                 .podium_latest>img {
@@ -1524,7 +1635,15 @@
                 
                 .podium_latest p {
                     margin-top: 30px;
-                    margin-left: -56px;
+                    margin-left: -47px;
+                    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+                    font-size: 14px;
+                    font-weight: bolder;
+                }
+                
+                .podium_latest p:hover {
+                    text-decoration: underline;
+                    cursor: pointer;
                 }
                 
                 .podium hr {
@@ -1582,6 +1701,8 @@
                 .insights_latest span {
                     padding-top: 5px;
                     padding-left: 5px;
+                    font-family: Shentox, sans-serif;
+                    font-size: 13px;
                 }
                 
                 .insights_latest>img {
@@ -1591,7 +1712,15 @@
                 
                 .insights_latest p {
                     margin-top: 30px;
-                    margin-left: -56px;
+                    margin-left: -47px;
+                    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+                    font-size: 14px;
+                    font-weight: bolder;
+                }
+                
+                .insights_latest p:hover {
+                    text-decoration: underline;
+                    cursor: pointer;
                 }
                 
                 .insights hr {
@@ -1644,6 +1773,8 @@
                 .launch_latest span {
                     padding-top: 5px;
                     padding-left: 5px;
+                    font-family: Shentox, sans-serif;
+                    font-size: 13px;
                 }
                 
                 .launch_latest>img {
@@ -1653,7 +1784,15 @@
                 
                 .launch_latest p {
                     margin-top: 30px;
-                    margin-left: -56px;
+                    margin-left: -47px;
+                    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+                    font-size: 14px;
+                    font-weight: bolder;
+                }
+                
+                .launch_latest p:hover {
+                    text-decoration: underline;
+                    cursor: pointer;
                 }
                 
                 .launch_latest {
@@ -1727,6 +1866,8 @@
                 .distract_latest span {
                     padding-top: 5px;
                     padding-left: 5px;
+                    font-family: Shentox, sans-serif;
+                    font-size: 13px;
                 }
                 
                 .distract_latest>img {
@@ -1736,7 +1877,15 @@
                 
                 .distract_latest p {
                     margin-top: 30px;
-                    margin-left: -56px;
+                    margin-left: -47px;
+                    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+                    font-size: 14px;
+                    font-weight: bolder;
+                }
+                
+                .distract_latest p:hover {
+                    text-decoration: underline;
+                    cursor: pointer;
                 }
                 
                 .distract hr {
