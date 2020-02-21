@@ -787,9 +787,16 @@
                 
                 .latest_news_row1 a:nth-child(1) {
                     color: black;
-                    font-size: 20px;
                     font-size: 97%;
                     font-weight: bold;
+                    font-size: 16px;
+                    line-height: 20px;
+                    margin-bottom: 0;
+                }
+                
+                .latest_news_row1 a:hover {
+                    color: red;
+                    text-decoration: underline;
                 }
                 
                 .latest_news_row2 {
@@ -805,9 +812,16 @@
                 
                 .latest_news_row2 a:nth-child(1) {
                     color: black;
-                    font-size: 20px;
                     font-size: 97%;
                     font-weight: bold;
+                    font-size: 16px;
+                    line-height: 20px;
+                    margin-bottom: 0;
+                }
+                
+                .latest_news_row2 a:hover {
+                    color: red;
+                    text-decoration: underline;
                 }
                 
                 #sub {
@@ -850,11 +864,19 @@
                     color: red;
                     margin-left: 10%;
                     margin-bottom: -2%;
+                    font-family: Avalon, sans-serif;
+                    font-weight: bold;
+                    font-size: 28px;
+                    letter-spacing: -.015em;
                 }
                 
                 .funding_title a {
                     color: red;
                     font-size: 100%;
+                }
+                
+                .funding_title a:hover {
+                    color: black;
                 }
                 
                 .funding_sub {
@@ -868,6 +890,10 @@
                     font-size: 100%;
                     font-weight: light;
                     margin-top: 1%;
+                }
+                
+                .funding_sub a:hover {
+                    color: black;
                 }
                 
                 .latest_funding {
@@ -1071,6 +1097,10 @@
                     text-indent: 7%;
                 }
                 
+                .venture_description a:hover {
+                    color: black;
+                }
+                
                 .venture_description i {
                     color: black;
                 }
@@ -1082,6 +1112,11 @@
                 .additional_description {
                     background-color: rgba(255, 68, 34, .08);
                     width: 100%;
+                    line-height: 20px;
+                }
+                
+                #credit {
+                    color: darkgray;
                 }
                 /* Article Categories */
                 /* First Row */
@@ -1095,6 +1130,12 @@
                 .apps_gear_tech h3 {
                     color: red;
                     font-size: 25px;
+                    cursor: pointer;
+                    font-family: Avalon, sans-serif;
+                }
+                
+                .apps_gear_tech h3:hover {
+                    color: black;
                 }
                 
                 .apps img {
@@ -1112,7 +1153,7 @@
                 
                 .apps_latest span {
                     padding-top: 5px;
-                    padding-left: 2px;
+                    padding-left: 5px;
                 }
                 
                 .apps_latest>img {
@@ -1126,7 +1167,7 @@
                 }
                 
                 .apps_latest {
-                    background-color: pink;
+                    background-color: rgba(252, 216, 222, 0.666);
                     width: 75%;
                 }
                 
@@ -1178,6 +1219,11 @@
                     width: 88%;
                 }
                 
+                .gear_latest span {
+                    padding-left: 5px;
+                    padding-top: 5px;
+                }
+                
                 .gear ul li {
                     padding: 5px 0px;
                     border-bottom-color: gray;
@@ -1205,7 +1251,7 @@
                 
                 .podium_latest span {
                     padding-top: 5px;
-                    padding-left: 2px;
+                    padding-left: 5px;
                 }
                 
                 .gear_latest>img {
@@ -1231,7 +1277,7 @@
                 }
                 
                 .gear_latest {
-                    background-color: pink;
+                    background-color: rgba(252, 216, 222, 0.666);
                     width: 88%;
                 }
                 
@@ -1272,7 +1318,7 @@
                 
                 .tech_latest span {
                     padding-top: 5px;
-                    padding-left: 2px;
+                    padding-left: 5px;
                 }
                 
                 .tech_latest>img {
@@ -1298,31 +1344,51 @@
                 }
                 
                 .tech_latest {
-                    background-color: pink;
+                    background-color: rgba(252, 216, 222, 0.666);
                     width: 70%;
                 }
                 /* Second to last row */
                 
                 .image_text {
                     position: absolute;
-                    margin-top: -100px;
-                    margin-left: 5px;
+                    margin-top: -118px;
+                    margin-left: 10px;
+                    line-height: 22px;
                 }
                 
                 .image_text>p:first-child {
-                    font-size: 10px;
-                    color: white;
+                    color: #fff;
+                    font-size: 11px;
+                    pointer-events: none;
+                    font-weight: lighter;
+                    font-family: Shentox, sans-serif;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    letter-spacing: .04em;
+                    line-height: 1.5;
                 }
                 
                 .image_text>p:nth-child(3) {
-                    font-size: 10px;
-                    color: rgba(197, 197, 197, 0.507);
+                    font-size: 11px;
+                    color: hsla(0, 0%, 100%, .6);
+                    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+                }
+                
+                #author:hover {
+                    color: white;
+                    cursor: pointer;
                 }
                 
                 .image_text>h5 {
                     font-size: 20px;
                     color: white;
                     font-weight: bold;
+                    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+                }
+                
+                .image_text>h5:hover {
+                    cursor: pointer;
+                    text-decoration: underline;
                 }
                 
                 .creative_podium_insights {
@@ -1334,6 +1400,12 @@
                 .creative_podium_insights h3 {
                     color: red;
                     font-size: 25px;
+                    cursor: pointer;
+                    font-family: Avalon, sans-serif;
+                }
+                
+                .creative_podium_insights h3:hover {
+                    color: black;
                 }
                 
                 .creative img {
@@ -1351,7 +1423,7 @@
                 
                 .creative_latest span {
                     padding-top: 5px;
-                    padding-left: 2px;
+                    padding-left: 5px;
                 }
                 
                 .creative_latest>img {
@@ -1365,7 +1437,7 @@
                 }
                 
                 .creative_latest {
-                    background-color: pink;
+                    background-color: rgba(252, 216, 222, 0.666);
                     width: 75%;
                 }
                 
@@ -1442,7 +1514,7 @@
                 
                 .podium_latest span {
                     padding-top: 5px;
-                    padding-left: 2px;
+                    padding-left: 5px;
                 }
                 
                 .podium_latest>img {
@@ -1468,7 +1540,7 @@
                 }
                 
                 .podium_latest {
-                    background-color: pink;
+                    background-color: rgba(252, 216, 222, 0.666);
                     width: 100%;
                 }
                 
@@ -1509,7 +1581,7 @@
                 
                 .insights_latest span {
                     padding-top: 5px;
-                    padding-left: 2px;
+                    padding-left: 5px;
                 }
                 
                 .insights_latest>img {
@@ -1535,7 +1607,7 @@
                 }
                 
                 .insights_latest {
-                    background-color: pink;
+                    background-color: rgba(252, 216, 222, 0.666);
                     width: 90%;
                 }
                 /* Last Row */
@@ -1549,6 +1621,12 @@
                 .launch_and_distract h3 {
                     color: red;
                     font-size: 25px;
+                    cursor: pointer;
+                    font-family: Avalon, sans-serif;
+                }
+                
+                .launch_and_distract h3:hover {
+                    color: black;
                 }
                 
                 .latest img {
@@ -1565,7 +1643,7 @@
                 
                 .launch_latest span {
                     padding-top: 5px;
-                    padding-left: 2px;
+                    padding-left: 5px;
                 }
                 
                 .launch_latest>img {
@@ -1579,7 +1657,7 @@
                 }
                 
                 .launch_latest {
-                    background-color: pink;
+                    background-color: rgba(252, 216, 222, 0.666);
                     width: 50%;
                 }
                 
@@ -1648,7 +1726,7 @@
                 
                 .distract_latest span {
                     padding-top: 5px;
-                    padding-left: 2px;
+                    padding-left: 5px;
                 }
                 
                 .distract_latest>img {
@@ -1674,7 +1752,7 @@
                 }
                 
                 .distract_latest {
-                    background-color: pink;
+                    background-color: rgba(252, 216, 222, 0.666);
                     width: 70%;
                 }
                 /* Latest deals */
@@ -1684,6 +1762,13 @@
                     font-size: 155%;
                     font-weight: bolder;
                     padding-left: 10%;
+                    font-family: Avalon, sans-serif;
+                    font-size: 28px;
+                    letter-spacing: -.015em;
+                }
+                
+                .latest_news h4 a:hover {
+                    color: black;
                 }
                 
                 #main_title {
@@ -1691,11 +1776,23 @@
                     color: red;
                     font-size: 25px;
                     margin-bottom: -16px;
+                    cursor: pointer;
+                    font-family: Avalon, sans-serif;
+                }
+                
+                #main_title:hover {
+                    color: black;
                 }
                 
                 #subtitle {
                     margin-left: 81%;
                     color: red;
+                    cursor: pointer;
+                    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+                }
+                
+                #subtitle:hover {
+                    color: black;
                 }
                 
                 .latest_deals_top {
@@ -1708,6 +1805,14 @@
                 .latest_deals_top a {
                     font-weight: bold;
                     color: black;
+                    cursor: pointer;
+                    font-size: 100%;
+                    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+                }
+                
+                .latest_deals_top a:hover {
+                    color: red;
+                    text-decoration: underline;
                 }
                 
                 .latest_deals_top>div:nth-child(1) {
@@ -1776,6 +1881,7 @@
                 
                 #cancelled {
                     text-decoration-line: line-through;
+                    font-size: 13px;
                 }
                 /* Footer */
                 
