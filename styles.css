@@ -552,8 +552,6 @@
                     #stackpath_logo {
                         position: relative;
                         left: -32%;
-                        /* size: 600px; */
-                        /* top: -11%; */
                         padding-bottom: 5%;
                         min-width: 50px;
                     }
@@ -851,8 +849,7 @@
                 .landing-caption span {
                     font-size: 75%;
                 }
-                /* Latest News Section */
-                
+        
                 .latest_news_row1 {
                     display: flex;
                     flex-direction: row;
@@ -1003,7 +1000,6 @@
                 .row_sub {
                     width: 189%
                 }
-                /* Lates Funding Section */
                 
                 .funding_title {
                     color: red;
@@ -1273,8 +1269,7 @@
                 .credit {
                     color: darkgray;
                 }
-                /* Article Categories */
-                /* First Row */
+
                 
                 .apps_gear_tech {
                     display: flex;
@@ -1534,7 +1529,7 @@
                     background-color: rgba(252, 216, 222, 0.666);
                     width: 70%;
                 }
-                /* Second to last row */
+
                 
                 .image_text {
                     position: absolute;
@@ -1827,7 +1822,7 @@
                     background-color: rgba(252, 216, 222, 0.666);
                     width: 90%;
                 }
-                /* Last Row */
+
                 
                 .launch_and_distract {
                     display: flex;
@@ -1992,7 +1987,7 @@
                     background-color: rgba(252, 216, 222, 0.666);
                     width: 70%;
                 }
-                /* Latest deals */
+
                 
                 .latest_news h4 a {
                     color: red;
@@ -2120,12 +2115,12 @@
                     text-decoration-line: line-through;
                     font-size: 13px;
                 }
-                /* Footer */
+
                 
                 footer {
                     margin-top: 5%;
                 }
-                /* Top Footer */
+
                 
                 .footer-links {
                     width: 100%;
@@ -2177,7 +2172,7 @@
                 .links-menu>li a:hover {
                     color: white;
                 }
-                /* Bottom Footer*/
+
                 
                 .footer-legal {
                     width: 100%;
