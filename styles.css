@@ -715,6 +715,13 @@
                     cursor: pointer;
                 }
                 
+                .nav_options li {
+                    color: gray;
+                    margin-right: 4px;
+                    margin-left: 4px;
+                    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+                }
+                
                 .nav_options li:hover {
                     color: white;
                 }
@@ -734,8 +741,16 @@
                     padding-left: 30em;
                     background-color: black;
                     width: 140%;
-                    margin-top: -9%;
-                    padding-top: 7%;
+                    margin-top: -8%;
+                    padding-top: 8%;
+                    height: 240%;
+                }
+                
+                .nav_options ul:nth-child(2) li {
+                    margin-top: -3%;
+                    font-weight: light;
+                    color: gray;
+                    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
                 }
                 
                 .advert_banner p {
@@ -746,14 +761,36 @@
                     padding-bottom: 1em;
                 }
                 
-                #caption_sub {
+                #caption_sub1 {
                     color: gray;
                     min-height: 40px;
                     font-size: 14px;
                     font-weight: light;
                 }
                 
-                #caption_sub:hover {
+                #caption_sub2 {
+                    color: gray;
+                    min-height: 40px;
+                    font-size: 14px;
+                    font-weight: light;
+                }
+                
+                #caption_sub3 {
+                    color: gray;
+                    min-height: 40px;
+                    font-size: 14px;
+                    font-weight: light;
+                }
+                
+                #caption_sub1:hover {
+                    color: white;
+                }
+                
+                #caption_sub2:hover {
+                    color: white;
+                }
+                
+                #caption_sub3:hover {
                     color: white;
                 }
                 
@@ -873,7 +910,7 @@
                     text-decoration: underline;
                 }
                 
-                #caption_title {
+                #caption_title1 {
                     font-weight: 100;
                     font-family: Shentox, sans-serif;
                     font-size: 15px;
@@ -881,7 +918,65 @@
                     letter-spacing: 1px;
                 }
                 
-                #sub {
+                #caption_title2 {
+                    font-weight: 100;
+                    font-family: Shentox, sans-serif;
+                    font-size: 15px;
+                    margin-bottom: -13px;
+                    letter-spacing: 1px;
+                }
+                
+                #caption_title3 {
+                    font-weight: 100;
+                    font-family: Shentox, sans-serif;
+                    font-size: 15px;
+                    margin-bottom: -13px;
+                    letter-spacing: 1px;
+                }
+                
+                #sub1 {
+                    color: #504f4f;
+                    font-size: 80%;
+                    font-weight: lighter;
+                }
+                
+                #sub2 {
+                    color: #504f4f;
+                    font-size: 80%;
+                    font-weight: lighter;
+                }
+                
+                #sub3 {
+                    color: #504f4f;
+                    font-size: 80%;
+                    font-weight: lighter;
+                }
+                
+                #sub4 {
+                    color: #504f4f;
+                    font-size: 80%;
+                    font-weight: lighter;
+                }
+                
+                #sub5 {
+                    color: #504f4f;
+                    font-size: 80%;
+                    font-weight: lighter;
+                }
+                
+                #sub6 {
+                    color: #504f4f;
+                    font-size: 80%;
+                    font-weight: lighter;
+                }
+                
+                #sub7 {
+                    color: #504f4f;
+                    font-size: 80%;
+                    font-weight: lighter;
+                }
+                
+                #sub8 {
                     color: #504f4f;
                     font-size: 80%;
                     font-weight: lighter;
@@ -1182,7 +1277,7 @@
                     line-height: 20px;
                 }
                 
-                #credit {
+                .credit {
                     color: darkgray;
                 }
                 /* Article Categories */
@@ -1256,11 +1351,11 @@
                 
                 .apps ul li {
                     padding: 5px 0px;
-                    border-bottom-color: gray;
                     width: 70%;
                     margin-top: 1px;
                     margin-left: 4%;
                     font-weight: lighter;
+                    border-bottom: solid rgb(194, 191, 191) 1px;
                 }
                 
                 .apps ul li::before {
@@ -1305,11 +1400,11 @@
                 
                 .gear ul li {
                     padding: 5px 0px;
-                    border-bottom-color: gray;
                     width: 79%;
                     margin-top: 1px;
                     margin-left: 5%;
                     font-weight: lighter;
+                    border-bottom: solid rgb(194, 191, 191) 1px;
                 }
                 
                 .gear ul li::before {
@@ -1382,11 +1477,11 @@
                 
                 .tech ul li {
                     padding: 5px 0px;
-                    border-bottom-color: gray;
                     width: 60%;
                     margin-top: 1px;
                     margin-left: 5%;
                     font-weight: lighter;
+                    border-bottom: solid rgb(194, 191, 191) 1px;
                 }
                 
                 .tech ul li::before {
@@ -1473,7 +1568,7 @@
                     font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
                 }
                 
-                #author:hover {
+                .author:hover {
                     color: white;
                     cursor: pointer;
                 }
@@ -1558,11 +1653,11 @@
                 
                 .creative ul li {
                     padding: 5px 0px;
-                    border-bottom-color: gray;
                     width: 70%;
                     margin-top: 1px;
                     margin-left: 4%;
                     font-weight: lighter;
+                    border-bottom: solid rgb(194, 191, 191) 1px;
                 }
                 
                 .creative ul li::before {
@@ -1598,11 +1693,11 @@
                 
                 .podium ul li {
                     padding: 5px 0px;
-                    border-bottom-color: gray;
                     width: 90%;
                     margin-top: 1px;
                     margin-left: 5%;
                     font-weight: lighter;
+                    border-bottom: solid rgb(194, 191, 191) 1px;
                 }
                 
                 .podium ul li::before {
@@ -1675,11 +1770,11 @@
                 
                 .insights ul li {
                     padding: 5px 0px;
-                    border-bottom-color: gray;
                     width: 85%;
                     margin-top: 1px;
                     margin-left: 5%;
                     font-weight: lighter;
+                    border-bottom: solid rgb(194, 191, 191) 1px;
                 }
                 
                 .insights ul li::before {
@@ -1808,11 +1903,11 @@
                 
                 .launch ul li {
                     padding: 5px 0px;
-                    border-bottom-color: gray;
                     width: 50%;
                     margin-top: 1px;
                     margin-left: 2%;
                     font-weight: lighter;
+                    border-bottom: solid rgb(194, 191, 191) 1px;
                 }
                 
                 .launch ul li::before {
@@ -1840,11 +1935,11 @@
                 
                 .distract ul li {
                     padding: 5px 0px;
-                    border-bottom-color: gray;
                     width: 70%;
                     margin-top: 1px;
                     margin-left: 3%;
                     font-weight: lighter;
+                    border-bottom: solid rgb(194, 191, 191) 1px;
                 }
                 
                 .distract ul li::before {
@@ -2028,7 +2123,7 @@
                     margin-top: 2%;
                 }
                 
-                #cancelled {
+                .cancelled {
                     text-decoration-line: line-through;
                     font-size: 13px;
                 }
