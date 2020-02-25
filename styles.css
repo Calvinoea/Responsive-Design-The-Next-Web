@@ -167,7 +167,7 @@
   }
   header .small-header-nav ul li .fa-bars {
     color: #f42;
-    margin: 0px 10px;
+    margin: 0 10px;
   }
   #nav_ul1 {
     display: none;
@@ -660,7 +660,7 @@ header .small-header-nav ul li .fa-search {
 
 header .small-header-nav ul li .fa-bars {
   color: white;
-  margin: 0px 10px;
+  margin: 0 10px;
 }
 
 #nav_ul1 li {
