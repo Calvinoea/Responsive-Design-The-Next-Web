@@ -651,6 +651,45 @@ header .small-header-nav ul li .fa-search {
   border-left: 1px solid lightgray;
 }
 
+
+.nav_options li {
+  color: gray;
+  margin-right: 4px;
+  margin-left: 4px;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
+.nav_options li:hover {
+  color: white;
+}
+
+.nav_options ul:first-child {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1%;
+  padding-left: 1em;
+}
+
+.nav_options ul:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100%;
+  margin-bottom: 5vh;
+  padding-left: 30em;
+  background-color: black;
+  width: 140%;
+  margin-top: -8%;
+  padding-top: 8%;
+  height: 240%;
+}
+
+.nav_options ul:nth-child(2) li {
+  margin-top: -3%;
+  font-weight: light;
+  color: gray;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
 header .small-header-nav ul li .fa-bars {
   color: white;
   margin: 0 10px;
@@ -701,44 +740,6 @@ header .small-header-nav ul li .fa-bars {
   width: 50%;
   height: 60%;
   cursor: pointer;
-}
-
-.nav_options li {
-  color: gray;
-  margin-right: 4px;
-  margin-left: 4px;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-}
-
-.nav_options li:hover {
-  color: white;
-}
-
-.nav_options ul:first-child {
-  display: flex;
-  flex-direction: row;
-  padding-top: 1%;
-  padding-left: 1em;
-}
-
-.nav_options ul:nth-child(2) {
-  display: flex;
-  flex-direction: row;
-  margin-left: 100%;
-  margin-bottom: 5vh;
-  padding-left: 30em;
-  background-color: black;
-  width: 140%;
-  margin-top: -8%;
-  padding-top: 8%;
-  height: 240%;
-}
-
-.nav_options ul:nth-child(2) li {
-  margin-top: -3%;
-  font-weight: light;
-  color: gray;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 .advert_banner p {
