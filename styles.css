@@ -717,6 +717,15 @@ a {
   padding: 12px;
 }
 
+.apps ul li {
+  padding: 5px 0;
+  width: 70%;
+  margin-top: 1px;
+  margin-left: 4%;
+  font-weight: lighter;
+  border-bottom: solid rgb(194, 191, 191) 1px;
+}
+
 .social-media li:hover {
   background-color: black;
 }
@@ -1379,15 +1388,6 @@ header .small-header-nav ul li .fa-bars {
   height: 40%;
   width: 75%;
   background: transparent;
-}
-
-.apps ul li {
-  padding: 5px 0;
-  width: 70%;
-  margin-top: 1px;
-  margin-left: 4%;
-  font-weight: lighter;
-  border-bottom: solid rgb(194, 191, 191) 1px;
 }
 
 .apps ul li::before {
