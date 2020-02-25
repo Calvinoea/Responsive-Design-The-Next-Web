@@ -142,7 +142,7 @@
   }
   .deals7 {
     margin-left: 10%;
-  }
+  } 
 }
 
 @media screen and (max-width: 767px) {
@@ -268,12 +268,11 @@
     text-align: left;
   }
   .funding_title a {
-  color: red;
-  font-size: 100%;
+    color: red;
+    font-size: 100%;
   }
-
-.funding_title a:hover {
-  color: black;
+  .funding_title a:hover {
+    color: black;
   }
   .latest_news {
     padding-top: 180%;
