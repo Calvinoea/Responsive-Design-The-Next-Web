@@ -605,7 +605,8 @@ section {
   margin: 8px auto;
 }
 
-#nav_ul1 {
+
+{
   font-family: Shentox, sans-serif;
   font-weight: 600;
   text-transform: uppercase;
@@ -720,6 +721,23 @@ header .small-header-nav ul li .fa-bars {
 
 .small-header-nav ul li:nth-child(8) {
   width: 290px;
+}
+
+.funding_sub {
+  color: red;
+  margin-left: 68%;
+  margin-top: 1%;
+}
+
+.funding_sub a {
+  color: red;
+  font-size: 100%;
+  font-weight: light;
+  margin-top: 1%;
+}
+
+.funding_sub a:hover {
+  color: black;
 }
 
 #nav_ul1 li {
@@ -1019,23 +1037,6 @@ header .small-header-nav ul li .fa-bars {
   font-weight: bold;
   font-size: 28px;
   letter-spacing: -0.015em;
-}
-
-.funding_sub {
-  color: red;
-  margin-left: 68%;
-  margin-top: 1%;
-}
-
-.funding_sub a {
-  color: red;
-  font-size: 100%;
-  font-weight: light;
-  margin-top: 1%;
-}
-
-.funding_sub a:hover {
-  color: black;
 }
 
 .latest_funding {
