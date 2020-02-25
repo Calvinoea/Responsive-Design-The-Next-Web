@@ -652,6 +652,24 @@ a {
   font-weight: bold;
 }
 
+.latest_deals_top a {
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  font-size: 100%;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
+.latest_news h4 a {
+  color: red;
+  font-size: 155%;
+  font-weight: bolder;
+  padding-left: 10%;
+  font-family: Avalon, sans-serif;
+  font-size: 28px;
+  letter-spacing: -0.015em;
+}
+
 .latest_deals_top a:hover {
   color: red;
   text-decoration: underline;
@@ -1984,16 +2002,6 @@ header .small-header-nav ul li .fa-bars {
   padding-top: 7%;
 }
 
-.latest_news h4 a {
-  color: red;
-  font-size: 155%;
-  font-weight: bolder;
-  padding-left: 10%;
-  font-family: Avalon, sans-serif;
-  font-size: 28px;
-  letter-spacing: -0.015em;
-}
-
 .latest_news h4 a:hover {
   color: black;
 }
@@ -2027,14 +2035,6 @@ header .small-header-nav ul li .fa-bars {
   flex-direction: row;
   justify-content: center;
   margin-right: 9%;
-}
-
-.latest_deals_top a {
-  font-weight: bold;
-  color: black;
-  cursor: pointer;
-  font-size: 100%;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 .latest_deals_top > div:nth-child(1) {
