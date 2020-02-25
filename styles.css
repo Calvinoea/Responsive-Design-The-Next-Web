@@ -858,6 +858,11 @@ header .small-header-nav ul li .fa-bars {
   height: 56%;
 }
 
+.links-menu a {
+  color: #aaa;
+  font-size: 11px;
+}
+
 .latest_news_row1 a:nth-child(1) {
   color: black;
   font-size: 97%;
@@ -2112,6 +2117,11 @@ footer {
   background-color: black;
 }
 
+.links-menu a {
+  color: #aaa;
+  font-size: 11px;
+}
+
 .links-menu {
   display: flex;
   justify-content: center;
@@ -2148,11 +2158,6 @@ footer {
 .footer-legal img {
   width: 50px;
   height: 100px;
-}
-
-.links-menu a {
-  color: #aaa;
-  font-size: 11px;
 }
 
 #stackpath_logo {
