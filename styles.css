@@ -633,6 +633,13 @@ header .small-header-nav .small-logo {
   max-width: 106px;
 }
 
+.nav_options li {
+  color: gray;
+  margin-right: 4px;
+  margin-left: 4px;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
 header .small-header-nav ul li {
   padding: 0 10px;
   height: 100%;
@@ -649,14 +656,6 @@ header .small-header-nav ul li .fa-search {
 
 #first_li {
   border-left: 1px solid lightgray;
-}
-
-
-.nav_options li {
-  color: gray;
-  margin-right: 4px;
-  margin-left: 4px;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 .nav_options li:hover {
