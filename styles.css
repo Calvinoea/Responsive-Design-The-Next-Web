@@ -1335,6 +1335,30 @@ a:hover {
   height: 100px;
 }
 
+
+.links-menu a {
+  color: #aaa;
+  font-size: 11px;
+}
+
+.links-menu {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  color: #aaa;
+  padding-top: 2%;
+}
+
+.links-menu li {
+  padding-right: 1%;
+  font-family: shentox, sans-serif;
+  font-size: 13px;
+}
+
+.links-menu > li a:hover {
+  color: white;
+}
+
 .apps > img:nth-child(3) {
   height: 40%;
   width: 75%;
@@ -2124,29 +2148,6 @@ footer {
 
 .social-media li:hover {
   background-color: black;
-}
-
-.links-menu a {
-  color: #aaa;
-  font-size: 11px;
-}
-
-.links-menu {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  color: #aaa;
-  padding-top: 2%;
-}
-
-.links-menu li {
-  padding-right: 1%;
-  font-family: shentox, sans-serif;
-  font-size: 13px;
-}
-
-.links-menu > li a:hover {
-  color: white;
 }
 
 .footer-legal {
