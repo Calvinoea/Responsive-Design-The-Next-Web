@@ -652,6 +652,11 @@ a {
   font-weight: bold;
 }
 
+.latest_deals_top a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
 .links-menu a {
   color: #aaa;
   font-size: 11px;
@@ -771,10 +776,18 @@ header .small-header-nav ul li .fa-search {
   color: black;
 }
 
+
+
 .additional_description {
-  background-color: rgba(255, 68, 34, 0.08);
-  width: 100%;
+  text-indent: 7%;
+  padding-top: 5%;
+  padding-bottom: 14%;
+  font-size: 6px;
+   width: 100%;
   line-height: 20px;
+  color: gray;
+  font-weight: light;
+  background-color: rgba(255, 68, 34, 0.08);
 }
 
 header .small-header-nav ul li .fa-bars {
@@ -1211,16 +1224,6 @@ header .small-header-nav ul li .fa-bars {
 
 .second_funding_story hr {
   width: 100%;
-}
-
-.additional_description {
-  text-indent: 7%;
-  padding-top: 5%;
-  padding-bottom: 14%;
-  font-size: 6px;
-  width: 45%;
-  color: gray;
-  font-weight: light;
 }
 
 .third_funding_story img {
@@ -2032,11 +2035,6 @@ header .small-header-nav ul li .fa-bars {
   cursor: pointer;
   font-size: 100%;
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-}
-
-.latest_deals_top a:hover {
-  color: red;
-  text-decoration: underline;
 }
 
 .latest_deals_top > div:nth-child(1) {
