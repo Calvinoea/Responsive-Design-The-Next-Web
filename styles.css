@@ -1407,6 +1407,8 @@ a:hover {
   flex-direction: row;
   color: red;
   margin-top: -1%;
+  background-color: rgba(252, 216, 222, 0.666);
+  width: 88%;
 }
 
 .podium_latest span {
@@ -1446,11 +1448,6 @@ a:hover {
   padding-top: 7%;
 }
 
-.gear_latest {
-  background-color: rgba(252, 216, 222, 0.666);
-  width: 88%;
-}
-
 .tech {
   padding-right: 1%;
   margin-left: -3%;
@@ -1484,6 +1481,8 @@ a:hover {
   flex-direction: row;
   color: red;
   margin-top: -1%;
+  background-color: rgba(252, 216, 222, 0.666);
+  width: 70%;
 }
 
 .tech_latest span {
@@ -1521,11 +1520,6 @@ a:hover {
 
 .tech p:nth-child(1) {
   padding-top: 7%;
-}
-
-.tech_latest {
-  background-color: rgba(252, 216, 222, 0.666);
-  width: 70%;
 }
 
 .image_text {
@@ -1598,6 +1592,8 @@ a:hover {
   color: red;
   margin-top: -1%;
   width: 80%;
+  background-color: rgba(252, 216, 222, 0.666);
+  width: 75%;
 }
 
 .creative_latest span {
@@ -1623,11 +1619,6 @@ a:hover {
 .creative_latest p:hover {
   text-decoration: underline;
   cursor: pointer;
-}
-
-.creative_latest {
-  background-color: rgba(252, 216, 222, 0.666);
-  width: 75%;
 }
 
 .creative > img:nth-child(3) {
@@ -1699,6 +1690,8 @@ a:hover {
   flex-direction: row;
   color: red;
   margin-top: -1%;
+  background-color: rgba(252, 216, 222, 0.666);
+  width: 100%;
 }
 
 .podium_latest span {
@@ -1738,11 +1731,6 @@ a:hover {
   padding-top: 7%;
 }
 
-.podium_latest {
-  background-color: rgba(252, 216, 222, 0.666);
-  width: 100%;
-}
-
 .insights {
   padding-right: 10%;
   margin-left: -5%;
@@ -1776,6 +1764,8 @@ a:hover {
   flex-direction: row;
   color: red;
   margin-top: -1%;
+  background-color: rgba(252, 216, 222, 0.666);
+  width: 90%;
 }
 
 .insights_latest span {
@@ -1815,11 +1805,6 @@ a:hover {
   padding-top: 7%;
 }
 
-.insights_latest {
-  background-color: rgba(252, 216, 222, 0.666);
-  width: 90%;
-}
-
 .launch_and_distract {
   display: flex;
   flex-direction: row;
@@ -1847,6 +1832,8 @@ a:hover {
   flex-direction: row;
   color: red;
   margin-top: -1%;
+  background-color: rgba(252, 216, 222, 0.666);
+  width: 50%;
 }
 
 .launch_latest span {
@@ -1872,11 +1859,6 @@ a:hover {
 .launch_latest p:hover {
   text-decoration: underline;
   cursor: pointer;
-}
-
-.launch_latest {
-  background-color: rgba(252, 216, 222, 0.666);
-  width: 50%;
 }
 
 .launch > img:nth-child(3) {
@@ -1940,6 +1922,8 @@ a:hover {
   flex-direction: row;
   color: red;
   margin-top: -1%;
+  background-color: rgba(252, 216, 222, 0.666);
+  width: 70%;
 }
 
 .distract_latest span {
@@ -1977,11 +1961,6 @@ a:hover {
 
 .distract p:nth-child(1) {
   padding-top: 7%;
-}
-
-.distract_latest {
-  background-color: rgba(252, 216, 222, 0.666);
-  width: 70%;
 }
 
 .latest_news h4 a {
