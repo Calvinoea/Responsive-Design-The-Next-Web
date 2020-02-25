@@ -1269,7 +1269,6 @@ a:hover {
   color: darkgray;
 }
 
-
 .apps_gear_tech {
   display: flex;
   flex-direction: row;
@@ -1528,7 +1527,6 @@ a:hover {
   background-color: rgba(252, 216, 222, 0.666);
   width: 70%;
 }
-
 
 .image_text {
   position: absolute;
@@ -1822,7 +1820,6 @@ a:hover {
   width: 90%;
 }
 
-
 .launch_and_distract {
   display: flex;
   flex-direction: row;
@@ -1986,7 +1983,6 @@ a:hover {
   background-color: rgba(252, 216, 222, 0.666);
   width: 70%;
 }
-
 
 .latest_news h4 a {
   color: red;
@@ -2171,7 +2167,6 @@ footer {
 .links-menu>li a:hover {
   color: white;
 }
-
 
 .footer-legal {
   width: 100%;
