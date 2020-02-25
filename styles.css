@@ -143,6 +143,7 @@
   .deals7 {
     margin-left: 10%;
   } 
+  
 }
 
 @media screen and (max-width: 767px) {
@@ -634,6 +635,14 @@ header .small-header-nav .small-logo {
   max-width: 106px;
 }
 
+.latest_funding p,
+ul li,
+a:hover {
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
 .nav_options li {
   color: gray;
   margin-right: 4px;
@@ -688,6 +697,24 @@ header .small-header-nav ul li .fa-search {
   font-weight: light;
   color: gray;
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
+.venture_description a:hover {
+  color: black;
+}
+
+.venture_description i {
+  color: black;
+}
+
+.venture_description li {
+  margin: 5px 0 0 0;
+}
+
+.additional_description {
+  background-color: rgba(255, 68, 34, 0.08);
+  width: 100%;
+  line-height: 20px;
 }
 
 header .small-header-nav ul li .fa-bars {
@@ -1042,30 +1069,12 @@ header .small-header-nav ul li .fa-bars {
   height: 25%;
 }
 
-.latest_funding h6 {
-  font-size: 18px;
-  background-color: #f42;
-  width: 60%;
-  height: 13%;
-  font-family: Avalon, sans-serif;
-  text-indent: 35%;
-  color: white;
-}
-
 .latest_funding p,
 ul li,
 a {
   font-size: 12px;
   color: rgb(118, 113, 113);
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-  font-weight: bold;
-}
-
-.latest_funding p,
-ul li,
-a:hover {
-  color: black;
-  cursor: pointer;
   font-weight: bold;
 }
 
@@ -1237,24 +1246,6 @@ a:hover {
   padding-top: 8%;
   padding-bottom: 8%;
   text-indent: 7%;
-}
-
-.venture_description a:hover {
-  color: black;
-}
-
-.venture_description i {
-  color: black;
-}
-
-.venture_description li {
-  margin: 5px 0 0 0;
-}
-
-.additional_description {
-  background-color: rgba(255, 68, 34, 0.08);
-  width: 100%;
-  line-height: 20px;
 }
 
 .credit {
