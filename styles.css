@@ -650,6 +650,10 @@ a:hover {
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
+.venture_description li {
+  margin: 5px 0 0 0;
+}
+
 header .small-header-nav ul li {
   padding: 0 10px;
   height: 100%;
@@ -699,16 +703,28 @@ header .small-header-nav ul li .fa-search {
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
+.funding_sub a {
+  color: red;
+  font-size: 100%;
+  font-weight: light;
+  margin-top: 1%;
+}
+
+.links-menu a {
+  color: #aaa;
+  font-size: 11px;
+}
+
+.funding_sub a:hover {
+  color: black;
+}
+
 .venture_description a:hover {
   color: black;
 }
 
 .venture_description i {
   color: black;
-}
-
-.venture_description li {
-  margin: 5px 0 0 0;
 }
 
 .additional_description {
@@ -746,17 +762,6 @@ header .small-header-nav ul li .fa-bars {
   color: red;
   margin-left: 68%;
   margin-top: 1%;
-}
-
-.funding_sub a {
-  color: red;
-  font-size: 100%;
-  font-weight: light;
-  margin-top: 1%;
-}
-
-.funding_sub a:hover {
-  color: black;
 }
 
 #nav_ul1 li {
@@ -901,11 +906,6 @@ header .small-header-nav ul li .fa-bars {
 .latest_news_row1 img {
   width: 185%;
   height: 56%;
-}
-
-.links-menu a {
-  color: #aaa;
-  font-size: 11px;
 }
 
 .latest_news_row1 a:nth-child(1) {
