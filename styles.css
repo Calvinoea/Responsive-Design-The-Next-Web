@@ -195,13 +195,6 @@
     position: absolute;
     top: -61%;
   }
-  .landing-caption div {
-    height: 334px;
-    padding: 12px;
-    line-height: 5%;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 41%, rgba(0, 0, 0, 0) 100%);
-  }
   .landing-caption {
     color: #fff;
     max-width: 796px;
