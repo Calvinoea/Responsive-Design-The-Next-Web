@@ -7,7 +7,7 @@
     padding-left: 5%;
     min-height: 130px;
   }
-.landing-caption div {
+  .landing-caption div {
     height: 334px;
     padding: 12px;
     line-height: 30px;
@@ -16,135 +16,135 @@
     max-height: 20%;
     min-height: 100%;
     font-size: 60%;
-}
-.description_1 {
+  }
+  .description_1 {
     min-height: 20%;
-}
-body {
+  }
+  body {
     font-weight: bold;
     color: green;
     font-size: 900px;
-}
-.fund_sub {
+  }
+  .fund_sub {
     margin-top: 35%;
-}
-.fund_sub p {
-  margin-left: 10%;
-  color: blue;
-  margin-top: 15%;
-}
-.latest_funding {
-  width: 150%;
-  margin-left: -5%;
-}
-.first_funding_story {
+  }
+  .fund_sub p {
+    margin-left: 10%;
+    color: blue;
+    margin-top: 15%;
+  }
+  .latest_funding {
+    width: 150%;
+    margin-left: -5%;
+  }
+  .first_funding_story {
     padding-left: 10%;
     width: 47%;
     margin-left: 2%;
-}
-.funding_story p {
+  }
+  .funding_story p {
     margin-top: 5%;
-}
-.second_funding_story {
+  }
+  .second_funding_story {
     padding-left: 10%;
     width: 47%;
     margin-left: -12%;
-}
-.third_funding_story {
+  }
+  .third_funding_story {
     padding-right: 1%;
     width: 47%;
     margin-left: 2%;
-}
-.fourth_funding_story {
+  }
+  .fourth_funding_story {
     display: none;
-}
-.funding_story {
+  }
+  .funding_story {
     padding-bottom: 90%;
-}
-.apps_gear_tech {
+  }
+  .apps_gear_tech {
     display: flex;
     flex-flow: wrap;
-}
-.apps {
+  }
+  .apps {
     padding-right: 57%;
     min-width: 122%;
-}
-.gear {
+  }
+  .gear {
     margin-top: -58%;
     margin-bottom: 68%;
     padding-left: 59%;
     margin-right: 44%;
     min-width: 111%;
-}
-.tech {
+  }
+  .tech {
     width: 73%;
     margin-top: -69%;
     padding-left: 119px;
     margin-right: -98px;
-}
-.creative_podium_insights {
+  }
+  .creative_podium_insights {
     display: flex;
     flex-flow: wrap;
-}
-.creative {
+  }
+  .creative {
     margin-left: 45%;
     margin-top: -74%;
     min-width: 67%;
-}
-.podium {
+  }
+  .podium {
     max-width: 64%;
     padding-left: 13%;
     margin-top: -10%;
-}
-.insights {
+  }
+  .insights {
     margin-top: -58%;
     min-width: 58%;
     margin-left: 54%;
     padding-left: 58%;
     min-width: 118%;
-}
-.launch {
+  }
+  .launch {
     min-width: 96%;
     margin-right: -19%;
     margin-top: -8%;
-}
-.distract {
+  }
+  .distract {
     min-width: 95%;
     margin-right: 50%;
     margin-top: -8%;
-}
-.launch_and_distract {
+  }
+  .launch_and_distract {
     margin-top: 5%;
-}
-.latest_deals_top {
+  }
+  .latest_deals_top {
     display: flex;
     flex-flow: wrap;
-}
-.latest_deals_bottom {
+  }
+   .latest_deals_bottom {
     flex-flow: wrap;
     margin-left: -5%;
     margin-top: 5%;
-}
-.deals3 {
+  }
+   .deals3 {
     margin-right: -10%;
-}
-.deals4 {
+  }
+   .deals4 {
     margin-right: 39%;
     margin-top: 5%;
-}
-.deals5 {
+   }
+   .deals5 {
     margin-top: -31%;
     margin-left: 10%;
-}
-.deals6 {
+   }
+   .deals6 {
     margin-top: -31%;
     margin-right: -91%;
-}
-.deals7 {
+   }
+   .deals7 {
     margin-left: 10%;
-}
-.deals8 {}
-}
+   }
+   .deals8 {}
+   }
 
 @media screen and (max-width:767px) {
     .landing-caption div {
