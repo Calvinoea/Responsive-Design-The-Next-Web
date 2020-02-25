@@ -606,11 +606,6 @@ section {
   letter-spacing: 0.04em;
 }
 
-#nav_ul1 li:hover {
-  color: black;
-  cursor: pointer;
-}
-
 header {
   width: 100%;
   background: #fff;
@@ -661,15 +656,6 @@ header .small-header-nav ul li .fa-bars {
   margin: 0 10px;
 }
 
-#nav_ul1 li {
-  color: #aaa;
-  font-weight: lighter;
-}
-
-#nav_ul1 li:nth-child(2) {
-  width: 200%;
-}
-
 .small-header-nav ul li:nth-child(4) {
   width: 80%;
 }
@@ -688,6 +674,20 @@ header .small-header-nav ul li .fa-bars {
 
 .small-header-nav ul li:nth-child(8) {
   width: 290px;
+}
+
+#nav_ul1 li {
+  color: #aaa;
+  font-weight: lighter;
+}
+
+#nav_ul1 li:hover {
+  color: black;
+  cursor: pointer;
+}
+
+#nav_ul1 li:nth-child(2) {
+  width: 200%;
 }
 
 .advert_banner {
