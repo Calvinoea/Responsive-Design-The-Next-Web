@@ -605,7 +605,7 @@ section {
   text-transform: uppercase;
   color: whitesmoke;
   padding: 10px 10px 0;
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
 }
 
 #nav_ul1 li:hover {
@@ -1007,7 +1007,7 @@ header .small-header-nav ul li .fa-bars {
   font-family: Avalon, sans-serif;
   font-weight: bold;
   font-size: 28px;
-  letter-spacing: -.015em;
+  letter-spacing: -0.015em;
 }
 
 .funding_title a {
@@ -1241,7 +1241,7 @@ a:hover {
 }
 
 .venture_description {
-  background-color: rgba(255, 68, 34, .08);
+  background-color: rgba(255, 68, 34, 0.08);
   padding-top: 8%;
   padding-bottom: 8%;
   text-indent: 7%;
@@ -1260,7 +1260,7 @@ a:hover {
 }
 
 .additional_description {
-  background-color: rgba(255, 68, 34, .08);
+  background-color: rgba(255, 68, 34, 0.08);
   width: 100%;
   line-height: 20px;
 }
@@ -1543,13 +1543,13 @@ a:hover {
   font-family: Shentox, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
   line-height: 1.5;
 }
 
 .image_text>p:nth-child(3) {
   font-size: 11px;
-  color: hsla(0, 0%, 100%, .6);
+  color: hsla(0, 0%, 100%, 0.6);
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
@@ -1991,7 +1991,7 @@ a:hover {
   padding-left: 10%;
   font-family: Avalon, sans-serif;
   font-size: 28px;
-  letter-spacing: -.015em;
+  letter-spacing: -0.015em;
 }
 
 .latest_news h4 a:hover {
