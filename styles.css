@@ -1,4 +1,4 @@
-@media screen and (max-width:1111px) {
+@media screen and (max-width: 1111px) {
   #TNW {
     max-width: 50px !important;
     min-width: 300px !important;
@@ -145,7 +145,7 @@
   }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
   .landing-caption div {
     height: 334px;
     padding: 12px;
