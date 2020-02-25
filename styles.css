@@ -235,7 +235,7 @@
     grid-row-end: 3;
     position: relative;
     top: 230%;
-    padding-left: 0px;
+    padding-left: 0;
     width: 300px;
     margin-left: -486px;
     min-width: 487px;
@@ -1337,7 +1337,7 @@ a:hover {
 }
 
 .apps ul li {
-  padding: 5px 0px;
+  padding: 5px 0;
   width: 70%;
   margin-top: 1px;
   margin-left: 4%;
@@ -1386,7 +1386,7 @@ a:hover {
 }
 
 .gear ul li {
-  padding: 5px 0px;
+  padding: 5px 0;
   width: 79%;
   margin-top: 1px;
   margin-left: 5%;
@@ -1463,7 +1463,7 @@ a:hover {
 }
 
 .tech ul li {
-  padding: 5px 0px;
+  padding: 5px 0;
   width: 60%;
   margin-top: 1px;
   margin-left: 5%;
@@ -1639,7 +1639,7 @@ a:hover {
 }
 
 .creative ul li {
-  padding: 5px 0px;
+  padding: 5px 0;
   width: 70%;
   margin-top: 1px;
   margin-left: 4%;
@@ -1679,7 +1679,7 @@ a:hover {
 }
 
 .podium ul li {
-  padding: 5px 0px;
+  padding: 5px 0;
   width: 90%;
   margin-top: 1px;
   margin-left: 5%;
@@ -1756,7 +1756,7 @@ a:hover {
 }
 
 .insights ul li {
-  padding: 5px 0px;
+  padding: 5px 0;
   width: 85%;
   margin-top: 1px;
   margin-left: 5%;
@@ -1889,7 +1889,7 @@ a:hover {
 }
 
 .launch ul li {
-  padding: 5px 0px;
+  padding: 5px 0;
   width: 50%;
   margin-top: 1px;
   margin-left: 2%;
@@ -1921,7 +1921,7 @@ a:hover {
 }
 
 .distract ul li {
-  padding: 5px 0px;
+  padding: 5px 0;
   width: 70%;
   margin-top: 1px;
   margin-left: 3%;
@@ -2138,7 +2138,7 @@ footer {
   justify-content: center;
   flex-direction: row;
   color: #aaa;
-  margin: 0 10px 0px 10px;
+  margin: 0 10px 0 10px;
   cursor: pointer;
 }
 
