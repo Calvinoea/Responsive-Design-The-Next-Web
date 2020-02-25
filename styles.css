@@ -643,6 +643,38 @@ a:hover {
   font-weight: bold;
 }
 
+.latest_funding p,
+ul li,
+a {
+  font-size: 12px;
+  color: rgb(118, 113, 113);
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.links-menu a {
+  color: #aaa;
+  font-size: 11px;
+}
+
+.links-menu {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  color: #aaa;
+  padding-top: 2%;
+}
+
+.links-menu li {
+  padding-right: 1%;
+  font-family: shentox, sans-serif;
+  font-size: 13px;
+}
+
+.links-menu > li a:hover {
+  color: white;
+}
+
 .nav_options li {
   color: gray;
   margin-right: 4px;
@@ -652,6 +684,18 @@ a:hover {
 
 .venture_description li {
   margin: 5px 0 0 0;
+}
+
+.social-media li {
+  margin-right: 1%;
+  background-color: rgba(146, 143, 143, 0.301);
+  border-radius: 50%;
+  height: 40px;
+  padding: 12px;
+}
+
+.social-media li:hover {
+  background-color: black;
 }
 
 header .small-header-nav ul li {
@@ -1069,15 +1113,6 @@ header .small-header-nav ul li .fa-bars {
   height: 25%;
 }
 
-.latest_funding p,
-ul li,
-a {
-  font-size: 12px;
-  color: rgb(118, 113, 113);
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-  font-weight: bold;
-}
-
 .latest_funding hr {
   background-color: #f42;
   font-weight: lighter;
@@ -1094,6 +1129,19 @@ a {
   padding-bottom: 7%;
   margin-top: -22%;
   text-indent: 12%;
+}
+
+.apps_latest p {
+  margin-top: 30px;
+  margin-left: -47px;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.footer-legal p {
+  padding-top: 3%;
+  margin: 0 5px;
 }
 
 .funding_story p:first-child {
@@ -1165,6 +1213,16 @@ a {
   width: 100%;
 }
 
+.additional_description {
+  text-indent: 7%;
+  padding-top: 5%;
+  padding-bottom: 14%;
+  font-size: 6px;
+  width: 45%;
+  color: gray;
+  font-weight: light;
+}
+
 .third_funding_story img {
   margin-top: -12%;
   margin-left: 5%;
@@ -1231,16 +1289,6 @@ a {
   width: 100%;
 }
 
-.additional_description {
-  text-indent: 7%;
-  padding-top: 5%;
-  padding-bottom: 14%;
-  font-size: 6px;
-  width: 45%;
-  color: gray;
-  font-weight: light;
-}
-
 .venture_description {
   background-color: rgba(255, 68, 34, 0.08);
   padding-top: 8%;
@@ -1296,51 +1344,14 @@ a {
   width: 27%;
 }
 
-.apps_latest p {
-  margin-top: 30px;
-  margin-left: -47px;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: bolder;
-}
-
 .apps_latest p:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 
-.footer-legal p {
-  padding-top: 3%;
-  margin: 0 5px;
-}
-
 .footer-legal img {
   width: 50px;
   height: 100px;
-}
-
-
-.links-menu a {
-  color: #aaa;
-  font-size: 11px;
-}
-
-.links-menu {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  color: #aaa;
-  padding-top: 2%;
-}
-
-.links-menu li {
-  padding-right: 1%;
-  font-family: shentox, sans-serif;
-  font-size: 13px;
-}
-
-.links-menu > li a:hover {
-  color: white;
 }
 
 .apps > img:nth-child(3) {
@@ -2120,18 +2131,6 @@ footer {
   color: #aaa;
   margin: 0 10px 0 10px;
   cursor: pointer;
-}
-
-.social-media li {
-  margin-right: 1%;
-  background-color: rgba(146, 143, 143, 0.301);
-  border-radius: 50%;
-  height: 40px;
-  padding: 12px;
-}
-
-.social-media li:hover {
-  background-color: black;
 }
 
 .footer-legal {
