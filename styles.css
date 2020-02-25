@@ -108,47 +108,38 @@
     margin-right: -19%;
     margin-top: -8%;
   }
-  
   .distract {
     min-width: 95%;
     margin-right: 50%;
     margin-top: -8%;
   }
-  
   .launch_and_distract {
     margin-top: 5%;
   }
-  
   .latest_deals_top {
     display: flex;
     flex-flow: wrap;
   }
-  
   .latest_deals_bottom {
     flex-flow: wrap;
     margin-left: -5%;
     margin-top: 5%;
   }
-  
   .deals3 {
     margin-right: -10%;
   }
-  
   .deals4 {
     margin-right: 39%;
     margin-top: 5%;
   }
-  
   .deals5 {
     margin-top: -31%;
     margin-left: 10%;
   }
-  
   .deals6 {
     margin-top: -31%;
     margin-right: -91%;
   }
-  
   .deals7 {
     margin-left: 10%;
   }
