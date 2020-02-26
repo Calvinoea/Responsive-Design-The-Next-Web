@@ -597,7 +597,6 @@ section {
   margin: 8px auto;
 }
 
-
 {
   font-family: Shentox, sans-serif;
   font-weight: 600;
@@ -619,6 +618,31 @@ header .small-header-nav {
   height: 100%;
   display: flex;
   background-color: white;
+}
+
+.social-media li {
+  margin-right: 1%;
+  background-color: rgba(146, 143, 143, 0.301);
+  border-radius: 50%;
+  height: 40px;
+  padding: 12px;
+}
+
+.venture_description li {
+  margin: 5px 0 0 0;
+}
+
+.nav_options li {
+  color: gray;
+  margin-right: 4px;
+  margin-left: 4px;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
+.links-menu li {
+  padding-right: 1%;
+  font-family: shentox, sans-serif;
+  font-size: 13px;
 }
 
 .distract ul li {
@@ -703,12 +727,6 @@ a {
   padding-top: 2%;
 }
 
-.links-menu li {
-  padding-right: 1%;
-  font-family: shentox, sans-serif;
-  font-size: 13px;
-}
-
 .latest_news_row1 a:nth-child(1) {
   color: black;
   font-size: 97%;
@@ -747,25 +765,6 @@ a {
 
 .links-menu > li a:hover {
   color: white;
-}
-
-.nav_options li {
-  color: gray;
-  margin-right: 4px;
-  margin-left: 4px;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-}
-
-.venture_description li {
-  margin: 5px 0 0 0;
-}
-
-.social-media li {
-  margin-right: 1%;
-  background-color: rgba(146, 143, 143, 0.301);
-  border-radius: 50%;
-  height: 40px;
-  padding: 12px;
 }
 
 .apps ul li {
