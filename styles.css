@@ -215,7 +215,6 @@
     top: 77%;
     max-width: 500%;
     min-width: 479px;
-    max-width: 200px;
     padding-left: -100%;
     text-align: center;
     margin-left: 6px;
@@ -338,8 +337,8 @@
   }
   .latest_funding {
     display: flex;
-    flex-direction: column-reverse;
     flex-flow: wrap;
+    flex-direction: column-reverse;
   }
   .funding_title {
     margin-top: 5%;
@@ -349,7 +348,6 @@
     padding-left: -50%;
     margin-left: 50px;
     margin-left: 500px;
-    padding-left: -40%;
     position: relative;
     right: 290px;
     width: 117%;
@@ -372,6 +370,14 @@
     position: relative;
     left: 28px;
     width: 127%;
+  }
+    .latest_deals_bottom p {
+    color: gray;
+    margin-left: 55%;
+    font-size: 13px;
+    position: relative;
+    left: 24px;
+    width: 100%;
   }
   .second_funding_story {
     position: absolute;
@@ -481,14 +487,6 @@
     color: pink;
     display: flex;
     flex-direction: column;
-  }
-  .latest_deals_bottom p {
-    color: gray;
-    margin-left: 55%;
-    font-size: 13px;
-    position: relative;
-    left: 24px;
-    width: 100%;
   }
   .deals1 {
     margin-left: -27%;
@@ -706,7 +704,6 @@ header .small-header-nav .small-logo {
 
 .latest_news h4 a {
   color: red;
-  font-size: 155%;
   font-weight: bolder;
   padding-left: 10%;
   font-family: Avalon, sans-serif;
@@ -729,7 +726,6 @@ header .small-header-nav .small-logo {
 
 .latest_news_row1 a:nth-child(1) {
   color: black;
-  font-size: 97%;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
@@ -743,7 +739,6 @@ header .small-header-nav .small-logo {
 
 .latest_news_row2 a:nth-child(1) {
   color: black;
-  font-size: 97%;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
@@ -1497,7 +1492,6 @@ header .small-header-nav ul li .fa-bars {
   margin-top: -1%;
   width: 80%;
   background-color: rgba(252, 216, 222, 0.666);
-  width: 75%;
 }
 
 .apps_latest span {
@@ -1713,7 +1707,6 @@ header .small-header-nav ul li .fa-bars {
   color: #fff;
   font-size: 11px;
   pointer-events: none;
-  font-weight: lighter;
   font-family: Shentox, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
@@ -1761,7 +1754,6 @@ header .small-header-nav ul li .fa-bars {
   margin-top: -1%;
   width: 80%;
   background-color: rgba(252, 216, 222, 0.666);
-  width: 75%;
 }
 
 .creative_latest span {
