@@ -620,6 +620,15 @@ header .small-header-nav {
   background-color: white;
 }
 
+.latest_funding p,
+ul li,
+a {
+  font-size: 12px;
+  color: rgb(118, 113, 113);
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-weight: bold;
+}
+
 .social-media li {
   margin-right: 1%;
   background-color: rgba(146, 143, 143, 0.301);
@@ -672,15 +681,6 @@ ul li,
 a:hover {
   color: black;
   cursor: pointer;
-  font-weight: bold;
-}
-
-.latest_funding p,
-ul li,
-a {
-  font-size: 12px;
-  color: rgb(118, 113, 113);
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   font-weight: bold;
 }
 
