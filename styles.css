@@ -629,6 +629,14 @@ a {
   font-weight: bold;
 }
 
+.latest_funding p,
+ul li,
+a:hover {
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
 .social-media li {
   margin-right: 1%;
   background-color: rgba(146, 143, 143, 0.301);
@@ -674,14 +682,6 @@ header .small-header-nav .small-logo {
   height: 100%;
   flex: 1;
   max-width: 106px;
-}
-
-.latest_funding p,
-ul li,
-a:hover {
-  color: black;
-  cursor: pointer;
-  font-weight: bold;
 }
 
 .latest_deals_top a {
