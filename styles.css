@@ -142,8 +142,7 @@
   }
   .deals7 {
     margin-left: 10%;
-  } 
-  
+  }  
 }
 
 @media screen and (max-width: 767px) {
@@ -366,6 +365,14 @@
   .first_funding_story img {
     padding-top: 1%;
   }
+  .latest_deals_top p {
+    color: gray;
+    margin-left: 55%;
+    font-weight: lighter;
+    position: relative;
+    left: 28px;
+    width: 127%;
+  }
   .second_funding_story {
     position: absolute;
     margin-top: 79%;
@@ -464,14 +471,6 @@
     width: 50%;
     height: 45%;
     margin-bottom: -25%;
-  }
-  .latest_deals_top p {
-    color: gray;
-    margin-left: 55%;
-    font-weight: lighter;
-    position: relative;
-    left: 28px;
-    width: 127%;
   }
   .latest_deals_bottom img {
     width: 50%;
@@ -622,6 +621,15 @@ header .small-header-nav {
   background-color: white;
 }
 
+.distract ul li {
+  padding: 5px 0;
+  width: 70%;
+  margin-top: 1px;
+  margin-left: 3%;
+  font-weight: lighter;
+  border-bottom: solid rgb(194, 191, 191) 1px;
+}
+
 header .small-header-nav ul {
   height: 100%;
   display: flex;
@@ -660,16 +668,16 @@ a {
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
-.links-menu a {
-  color: #aaa;
-  font-size: 11px;
-}
-
 .funding_sub a {
   color: red;
   font-size: 100%;
   font-weight: light;
   margin-top: 1%;
+}
+
+.links-menu a {
+  color: #aaa;
+  font-size: 11px;
 }
 
 .latest_news h4 a {
@@ -685,11 +693,6 @@ a {
 .latest_deals_top a:hover {
   color: red;
   text-decoration: underline;
-}
-
-.links-menu a {
-  color: #aaa;
-  font-size: 11px;
 }
 
 .links-menu {
@@ -827,6 +830,15 @@ a {
 .gear ul li {
   padding: 5px 0;
   width: 79%;
+  margin-top: 1px;
+  margin-left: 5%;
+  font-weight: lighter;
+  border-bottom: solid rgb(194, 191, 191) 1px;
+}
+
+.tech ul li {
+  padding: 5px 0;
+  width: 60%;
   margin-top: 1px;
   margin-left: 5%;
   font-weight: lighter;
@@ -1541,6 +1553,16 @@ header .small-header-nav ul li .fa-bars {
   width: 30%;
 }
 
+.podium_latest > img {
+  height: 12vh;
+  width: 27%;
+}
+
+.tech_latest > img {
+  height: 12vh;
+  width: 27%;
+}
+
 .apps > img:nth-child(3) {
   height: 40%;
   width: 75%;
@@ -1637,20 +1659,6 @@ header .small-header-nav ul li .fa-bars {
 .tech > img:nth-child(3) {
   height: 40%;
   width: 70%;
-}
-
-.tech_latest > img {
-  height: 12vh;
-  width: 27%;
-}
-
-.tech ul li {
-  padding: 5px 0;
-  width: 60%;
-  margin-top: 1px;
-  margin-left: 5%;
-  font-weight: lighter;
-  border-bottom: solid rgb(194, 191, 191) 1px;
 }
 
 .tech ul li::before {
@@ -1824,11 +1832,6 @@ header .small-header-nav ul li .fa-bars {
   width: 100%;
 }
 
-.podium_latest > img {
-  height: 12vh;
-  width: 27%;
-}
-
 .podium_latest p:hover {
   text-decoration: underline;
   cursor: pointer;
@@ -1947,15 +1950,6 @@ header .small-header-nav ul li .fa-bars {
 .distract > img:nth-child(3) {
   height: 40%;
   width: 70%;
-}
-
-.distract ul li {
-  padding: 5px 0;
-  width: 70%;
-  margin-top: 1px;
-  margin-left: 3%;
-  font-weight: lighter;
-  border-bottom: solid rgb(194, 191, 191) 1px;
 }
 
 .distract ul li::before {
