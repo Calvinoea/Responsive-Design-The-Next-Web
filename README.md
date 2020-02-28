@@ -37,10 +37,16 @@ You are welcome to make contributions to the repository. Contributions may be ma
 
 ## 👤 Authors
 
+# Mupa M'mbetsa
+
+- Github: [@mupa1](https://github.com/Mupa1)
+- Twitter: [@mupa_mmbetsa](https://twitter.com/mupa_mmbetsa)
+- Linkedin: [mupa](https://www.linkedin.com/in/mupa_mmbetsa)
 
 # Calvin
 - GitHub [here](https://github.com/calvinoea/)
 - Twitter: [@yasukeoz](https://twitter.com/yasukeoz)
+- LinkedIn: [Calvin](https://www.linkedin.com/in/calvin-ebun-amu-9b200017a/)
 
 ## Show your support  
 Give a ⭐️ if you like this project!
