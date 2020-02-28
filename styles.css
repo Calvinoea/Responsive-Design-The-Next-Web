@@ -5,6 +5,10 @@
         background-color: transparent !important;
         padding-bottom: 100%;
         padding-left: 5%;
+        height: 4%;
+        margin-top: 9%;
+        margin-left: 13%;
+        padding-left: 5%;
         min-height: 130px;
     }
     /*
@@ -43,16 +47,20 @@
         color: green;
         font-size: 900px;
     }
+    .landing-banners>article:first-child {
+        width: 800px;
+    }
     .caption1 {
         background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/1-796x417.jpg) no-repeat;
         background-size: cover;
         grid-column-start: 1;
         grid-row-start: 1;
         grid-row-end: 5;
-        min-width: 705px;
-        max-width: 900px;
-        max-height: 90%;
-        height: 73%;
+        /* min-width: 893px; */
+        max-width: 500px;
+        width: 500px;
+        min-height: 91%;
+        max-height: 96%;
     }
     .caption2 {
         background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/1-1-796x417.jpg) no-repeat;
@@ -60,9 +68,8 @@
         grid-column-start: 2;
         grid-row-start: 1;
         grid-row-end: 3;
-        min-width: 41%;
-        max-width: 102%;
-        max-height: 86%;
+        max-width: 100%;
+        max-height: 90%;
     }
     .caption3 {
         background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Copy-of-...-796x417.png) no-repeat;
@@ -70,11 +77,9 @@
         grid-column-start: 2;
         grid-row-start: 3;
         grid-row-end: 5;
-        max-height: 90%;
-        min-width: 40%;
         max-width: 100%;
-        max-height: 92%;
-        margin-top: -8%;
+        max-height: 90%;
+        margin-top: -11%;
     }
     .latest_news_row1 {
         display: flex;
@@ -251,10 +256,36 @@
     .deals7 {
         margin-left: 10%;
     }
+    .footer-legal {
+        text-align: center;
+        margin-right: 8%;
+    }
+    .footer-legal p {
+        padding-top: 3%;
+        margin: 0 5px;
+        max-width: 19%;
+    }
+    #stackpath_logo {
+        position: relative;
+        left: -6%;
+        padding-bottom: -1%;
+        min-width: 50px;
+        margin-top: 2%;
+    }
+    #TNW_logo {
+        padding-bottom: 2%;
+        margin-right: -1%;
+        position: relative;
+        size: 4%;
+        left: -1%;
+    }
 }
 
 @media screen and (max-width: 767px) {
-    .landing-caption div {
+    .landing-banners>article:first-child {
+        width: 410px;
+    }
+    .landing-caption div:nth-child(0) {
         height: 334px;
         padding: 12px;
         line-height: 30px;
@@ -263,6 +294,26 @@
         max-height: 50%;
         min-height: 100%;
         font-size: 60%;
+    }
+    .landing-caption div:nth-child(1) {
+        height: 334px;
+        padding: 12px;
+        line-height: 30px;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 41%, rgba(0, 0, 0, 0) 100%);
+        max-height: 50%;
+        min-height: 100%;
+        font-size: 100%;
+    }
+    .landing-caption div:nth-child(2) {
+        height: 334px;
+        padding: 12px;
+        line-height: 30px;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 41%, rgba(0, 0, 0, 0) 100%);
+        max-height: 50%;
+        min-height: 100%;
+        font-size: 42%;
     }
     #display {
         color: red;
@@ -322,10 +373,10 @@
         height: 36%;
         top: 77%;
         max-width: 500%;
-        min-width: 479px;
+        min-width: 484px;
         padding-left: -100%;
         text-align: center;
-        margin-left: 6px;
+        margin-left: 8px;
     }
     .caption2 {
         background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/1-1-796x417.jpg) no-repeat;
@@ -337,8 +388,8 @@
         top: 230%;
         padding-left: 0;
         width: 300px;
-        margin-left: -486px;
-        min-width: 487px;
+        margin-left: -493px;
+        min-width: 486px;
         height: 76%;
     }
     .caption3 {
@@ -350,8 +401,8 @@
         position: relative;
         top: 205%;
         background-color: white;
-        margin-left: -485px;
-        min-width: 486px;
+        margin-left: -495px;
+        min-width: 491px;
         height: 73%;
     }
     .description_1 {
@@ -363,6 +414,8 @@
         text-align: left;
         font-size: 50%;
         margin-top: 30%;
+        min-width: 20px;
+        max-width: 600px;
     }
     .description_3 {
         min-height: 58%;
@@ -370,11 +423,11 @@
         font-size: 50%;
         margin-top: 30%;
     }
-    .funding_title a {
+    #funding_title a {
         color: red;
         font-size: 100%;
     }
-    .funding_title a:hover {
+    #funding_title a:hover {
         color: black;
     }
     .latest_news {
@@ -597,7 +650,7 @@
         flex-flow: wrap;
         flex-direction: column-reverse;
     }
-    .funding_title {
+    #funding_title {
         margin-top: 5%;
         color: red;
     }
@@ -807,17 +860,23 @@
         text-align: center;
         margin-right: 8%;
     }
+    .footer-legal p {
+        padding-top: 3%;
+        margin: 0 5px;
+        max-width: 45%;
+    }
     #stackpath_logo {
         position: relative;
-        left: -32%;
-        padding-bottom: 5%;
+        left: -16%;
+        padding-bottom: -3%;
+        bottom: 1%;
         min-width: 50px;
     }
     #TNW_logo {
         padding-bottom: 12%;
         margin-right: -1%;
         position: relative;
-        left: 2%;
+        left: 1%;
     }
 }
 
@@ -835,43 +894,94 @@
     .latest-deals {
         color: blue;
     }
+    #inner_sub1 {
+        position: relative;
+        top: 216%;
+        right: 14%;
+        color: red;
+        font-size: 100%;
+        margin-top: 1%;
+        font-weight: lighter;
+    }
+    #inner_sub2 {
+        position: relative;
+        top: 118%;
+        right: 46%;
+        color: red;
+        font-size: 100%;
+        margin-top: 1%;
+        font-weight: lighter;
+    }
+    #inner_sub3 {
+        position: relative;
+        top: 278%;
+        right: 38%;
+        color: red;
+        font-size: 100%;
+        margin-top: 1%;
+        font-weight: lighter;
+    }
+    .latest_deals_top p {
+        color: gray;
+        margin-left: 55%;
+        font-weight: lighter;
+        position: relative;
+        font-size: 14px;
+        left: 4px;
+        width: 127%;
+    }
+    .latest_deals_bottom p {
+        color: gray;
+        margin-left: 55%;
+        margin-top: 3%;
+        font-weight: lighter;
+        position: relative;
+        font-size: 14px;
+        left: 4px;
+        width: 127%;
+    }
     .deals1 {
-        margin-left: -14%;
+        margin-left: -13%;
         margin-bottom: 42%;
     }
     .deals2 {
         margin-top: 21%;
-        margin-left: -47%;
+        margin-left: -63%;
         margin-bottom: 24%;
     }
     .deals3 {
         margin-bottom: 16%;
         margin-top: 38%;
         margin-right: -8%;
-        margin-left: -41%;
+        margin-left: -54%;
         position: relative;
-        left: -34px;
+        left: -38px;
     }
     .deals4 {
-        margin-top: 53%;
-        margin-right: -4%;
+        margin-top: -17%;
+        margin-right: -29%;
         position: relative;
-        right: 45%;
+        right: 13%;
     }
     .deals5 {
-        top: 16px;
-        right: 90px;
+        top: -13px;
+        right: -8px;
         position: relative;
     }
-    .deals6 {}
-    .deals7 {
-        top: -35px;
+    .deals6 {
+        margin-top: 1%;
+        padding-right: 0%;
         position: relative;
-        left: 96px;
+        left: 2%;
+    }
+    .deals7 {
+        top: -42px;
+        position: relative;
+        left: 7px;
     }
     .deals8 {
-        right: 186px;
-        top: 108px;
+        right: -6px;
+        top: -52px;
         position: relative;
     }
     #text {
@@ -1359,14 +1469,30 @@ header .small-header-nav ul li .fa-bars {
     font-size: 34px;
 }
 
+
+/*
 .caption1 {
     background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/1-796x417.jpg) no-repeat;
     background-size: cover;
     grid-column-start: 1;
     grid-row-start: 1;
     grid-row-end: 5;
-    min-width: 893px;
     max-width: 900px;
+    width: 778px;
+    min-height: 91%;
+    max-height: 96%;
+}*/
+
+.caption1 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/1-796x417.jpg) no-repeat;
+    background-size: cover;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    /* min-width: 893px;
+    max-width: 900px;*/
+    max-width: 1200px;
+    width: 1050px;
     max-height: 90%;
 }
 
@@ -1376,7 +1502,7 @@ header .small-header-nav ul li .fa-bars {
     grid-column-start: 2;
     grid-row-start: 1;
     grid-row-end: 3;
-    max-width: 110%;
+    max-width: 100%;
     max-height: 90%;
 }
 
@@ -1388,7 +1514,7 @@ header .small-header-nav ul li .fa-bars {
     grid-row-end: 5;
     max-width: 100%;
     max-height: 90%;
-    margin-top: -7%;
+    margin-top: -12%;
 }
 
 .landing-caption div {
@@ -1576,13 +1702,13 @@ h5 {
     width: 189%;
 }
 
-.funding_title {
+#funding_title a {
     color: red;
-    margin-left: 10%;
+    margin-left: 9%;
     margin-bottom: -2%;
     font-family: Avalon, sans-serif;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 25px;
     letter-spacing: -0.015em;
 }
 
@@ -2513,4 +2639,8 @@ footer {
 
 #stackpath_logo {
     inline-size: 5%;
+}
+
+#heart {
+    color: red;
 }
