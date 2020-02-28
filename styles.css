@@ -654,7 +654,10 @@
         margin-top: 5%;
         color: red;
     }
-    #lines {
+    #lines1 {
+        display: none;
+    }
+    #lines2 {
         display: none;
     }
     .funding_sub {
