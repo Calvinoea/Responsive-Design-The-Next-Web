@@ -1400,6 +1400,7 @@ header {
   height: 48px;
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 
 header .small-header-nav {
