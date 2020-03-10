@@ -193,10 +193,6 @@
 
   .second_funding_story img {
     min-height: 46px !important;
-
-    /* z-index: 1; */
-
-    /* max-width: 100%; */
     min-width: 22% !important;
   }
 
@@ -364,8 +360,6 @@
     margin-top: 7% !important;
     margin-top: 8% !important;
     margin-top: 5px !important;
-
-    /* margin-bottom: 5%; */
     position: relative !important;
     top: 2% !important;
   }
@@ -388,8 +382,6 @@
 
   .deals5 {
     margin-top: -66% !important;
-
-    /* height: 50%; */
     margin-top: -203% !important;
     margin-left: -8% !important;
     height: 174% !important;
@@ -413,10 +405,6 @@
     position: relative;
     top: 429% !important;
     margin-left: -61% !important;
-
-    /* height: 116% !important; */
-
-    /* width: 42% !important; */
     height: 170% !important;
   }
 
@@ -565,8 +553,6 @@
 
   .row_item_4 {
     margin-left: 10% !important;
-
-    /* width: 192% !important; */
     max-width: 132% !important;
     margin-top: 11% !important;
     min-width: 107% !important;
@@ -596,8 +582,6 @@
 
   .row_item_8 {
     margin-left: 10% !important;
-
-    /* width: 98%; */
     min-width: 105% !important;
     max-width: 119% !important;
     margin-top: 5% !important;
@@ -800,8 +784,6 @@
     margin-top: 7% !important;
     margin-top: 8% !important;
     margin-top: 5px !important;
-
-    /* margin-bottom: 5%; */
     position: relative !important;
     top: 2% !important;
   }
@@ -824,8 +806,6 @@
 
   .deals5 {
     margin-top: -66% !important;
-
-    /* height: 50%; */
     margin-top: -173% !important;
     margin-left: -8% !important;
     height: 174% !important;
@@ -849,10 +829,6 @@
     position: relative;
     top: 351% !important;
     margin-left: -61% !important;
-
-    /* height: 116% !important; */
-
-    /* width: 42% !important; */
     height: 170% !important;
   }
 
@@ -1110,10 +1086,6 @@
 
   .second_funding_story img {
     min-height: 46px !important;
-
-    /* z-index: 1; */
-
-    /* max-width: 100%; */
     min-width: 22% !important;
   }
 
@@ -1281,8 +1253,6 @@
     margin-top: 7% !important;
     margin-top: 8% !important;
     margin-top: 5px !important;
-
-    /* margin-bottom: 5%; */
     position: relative !important;
     top: 2% !important;
   }
@@ -1305,8 +1275,6 @@
 
   .deals5 {
     margin-top: -66% !important;
-
-    /* height: 50%; */
     margin-top: -203% !important;
     margin-left: -8% !important;
     height: 174% !important;
@@ -1330,10 +1298,6 @@
     position: relative;
     top: 429% !important;
     margin-left: -61% !important;
-
-    /* height: 116% !important; */
-
-    /* width: 42% !important; */
     height: 170% !important;
   }
 
@@ -1391,424 +1355,6 @@
     font-size: 8px !important;
   }
 }
-
-/*
-            @media screen and (min-width: 375px) and (max-width:375px) {
-                html,
-                body {
-                    width: 600px !important;
-                    overflow-x: hidden !important;
-                }
-                #bodyid {
-                    min-width: 100px;
-                    max-width: 926px;
-                }
-                #htmlid {}
-                .landing-banners {
-                    position: absolute;
-                    top: 5%;
-                }
-                #iphoneX {
-                    width: 171%;
-                    max-height: 41%;
-                }
-                .caption1 {
-                    margin-top: 15%;
-                    width: 157%;
-                    height: 33%;
-                    margin-left: 2%;
-                }
-                .caption2 {
-                    margin-top: 3%;
-                    min-width: 157%;
-
-                    max-width: 138%;
-
-                    right: 120%;
-                    min-width: 171%;
-                    position: relative;
-                    top: 18%;
-                    max-height: 29%;
-                    margin-left: 2%;
-                }
-                #iphoneX1 {
-                    min-height: 333px;
-                }
-                .caption3 {
-                    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Copy-of-...-796x417.png) no-repeat;
-                    background-size: cover;
-                    max-width: 39%;
-                    max-height: 26%;
-                    margin-top: -72%;
-                    margin-left: 60%;
-                    position: relative;
-                    top: 53%;
-                    left: -57%;
-                }
-                #iphoneX2 {
-                    min-height: 44%;
-                    min-width: 169%;
-                }
-                .latest_news {
-                    padding-top: 247%;
-                }
-                .latest_news_row1 {
-                    position: absolute;
-                    margin-top: 162%;
-                }
-                .row_item_1 {
-                    margin-top: -34%;
-                    margin-left: -71px;
-                    margin-left: -4%;
-                    max-height: 216px;
-                    max-width: 97px;
-                }
-                .row_item_2 {
-                    position: relative;
-                    margin-top: -8%;
-                    padding-left: -11px;
-                    left: -23%;
-                    max-width: 342px;
-                    max-height: 211px;
-                }
-                .row_item_3 {
-                    position: relative;
-                    margin-top: 21%;
-                    left: -47%;
-                    max-width: 98px;
-                    max-height: 216px;
-                }
-                .row_item_4 {
-                    margin-top: 50%;
-                    position: relative;
-                    left: -73%;
-                    height: 228px;
-                    max-width: 119px;
-                }
-                .latest_news_row2 {
-                    display: flex;
-                    flex-direction: column;
-                    flex-flow: column wrap;
-                    margin-top: 25%;
-                }
-                .row_item_5 {
-                    padding-left: 10%;
-                    width: 24%;
-                    max-width: 19%;
-                    max-height: 160px;
-                    margin-left: -5%;
-                    margin-top: -7%;
-                }
-                .row_item_6 {
-                    max-width: 19%;
-                    max-height: 161px;
-                    margin-top: 11%;
-                    margin-left: -19%;
-                }
-                .row_item_7 {
-                    max-width: 20%;
-                    margin-top: 27%;
-                    max-height: 157px;
-                    margin-left: 34%;
-                    padding-right: 5%;
-                    position: relative;
-                    right: 21%;
-                }
-                .row_item_8 {
-                    max-width: 25%;
-                    margin-top: 41%;
-                    margin-left: -42%;
-                    min-height: 142px;
-                    max-height: 168px;
-                }
-                #funding_title {
-                    margin-top: 97%;
-                    margin-left: 5%;
-                }
-                .funding_sub {
-                    padding-top: 5%;
-                    padding-left: 5%;
-                }
-                .row_sub {
-                    margin-left: 214%;
-                    margin-top: -127%;
-                    width: max-content;
-                    max-width: 560%;
-                    min-width: 520%;
-                }
-                .row_sub {
-                    width: max-content;
-                }
-                #first_sub1 {
-                    font-size: 10px;
-                }
-                #first_sub2 {
-                    font-size: 10px;
-                    width: max-content;
-                }
-                .latest_funding {}
-                .first_funding_story {
-                    min-width: 74%;
-                    margin-top: 16%;
-                    position: relative;
-                    left: 4%;
-                }
-                .first_funding_story img {
-                    margin-top: -8%;
-                    margin-left: 5%;
-                    height: 98%;
-                    width: 25%;
-                    max-height: 107%;
-                    min-height: 112px;
-                }
-                .first_funding_story h6 {
-                    font-size: 14px;
-                    background-color: #f42;
-                    padding-top: 3%;
-                    width: 100%;
-                    height: 18%;
-                    font-family: Avalon, sans-serif;
-                    text-indent: 33%;
-                    color: white;
-                    min-height: 41px;
-                }
-                #fiftym {
-                    margin-top: 5%;
-                }
-                .second_funding_story {
-                    margin-top: 98%;
-                    min-width: 75%;
-                    position: relative;
-                    left: -72%;
-                }
-                .second_funding_story img {
-                    margin-top: -17%;
-                    margin-left: 5%;
-                    height: 44%;
-                    width: 25%;
-                    min-height: 116px;
-                    max-height: 61%;
-                    padding-top: 9%;
-                }
-                .second_funding_story h6 {
-                    font-size: 14px;
-                    background-color: #f42;
-                    padding-top: 3%;
-                    width: 100%;
-                    height: 18%;
-                    font-family: Avalon, sans-serif;
-                    text-indent: 33%;
-                    color: white;
-                    min-height: 59px;
-                }
-                #second_fund {
-                    margin-top: 12%;
-                }
-                .third_funding_story {
-                    margin-top: 180%;
-                    width: 461px;
-                    min-width: 470px;
-                    width: 500px;
-                    padding-right: 1%;
-                    position: relative;
-                    left: -148%;
-                    min-width: 475px;
-                    height: 70px;
-                    margin-left: -38%;
-                }
-                .third_funding_story img {
-                    margin-top: -8%;
-                    margin-left: 5%;
-                    height: 98%;
-                    width: 25%;
-                    max-height: 107%;
-                    min-height: 104px;
-                }
-                .third_funding_story h6 {
-                    font-size: 14px;
-                    background-color: #f42;
-                    padding-top: 3%;
-                    width: 100%;
-                    height: 18%;
-                    font-family: Avalon, sans-serif;
-                    text-indent: 33%;
-                    color: white;
-                    min-height: 41px;
-                }
-                .fourth_funding_story {
-                    display: none;
-                }
-                .funding_story {}
-                .apps_gear_tech {
-                    padding-top: 290%;
-                    flex-flow: wrap;
-                }
-                .apps {
-                    position: relative;
-                    top: -542px;
-                    left: 13%;
-                    width: 117%;
-                }
-                #appsid {
-                    min-width: 666px;
-                    min-height: 161px;
-                    max-height: 799px;
-                }
-                .gear {
-                    position: relative;
-                    top: -126px;
-                    left: -20%;
-                }
-                #gearid {
-                    min-width: 583px;
-                    min-height: 50px;
-                    max-height: 643px;
-                }
-                .tech {
-                    min-width: 200px;
-                    max-width: 400px;
-                    width: 467px;
-                    height: 1007px;
-                    position: relative;
-                    top: 402px;
-                    left: -326px;
-                }
-                #techid {
-                    min-width: 694px;
-                }
-                .creative_podium_insights {
-                    display: flex;
-                    flex-direction: row;
-                    margin-top: 10%;
-                }
-                .creative {
-                    margin-left: 9%;
-                    max-width: 270%;
-                    min-width: 116%;
-                }
-                .podium {
-                    max-width: 104%;
-                    padding-left: 17%;
-                }
-                .insights {
-                    max-width: 103%;
-                    position: relative;
-                    left: 8%;
-                }
-                .launch_and_distract {
-                    top: 6%;
-                    padding-top: 40%;
-                }
-                .launch {
-                    position: relative;
-                    top: -508px;
-                    left: 8%;
-                    min-width: 50px;
-                    min-width: 300px;
-                    min-width: 100%;
-                    min-width: 30px;
-                }
-                #launchid {
-                    min-width: 180%;
-                }
-                .distract {
-                    position: relative;
-                    top: 101px;
-                    right: 734px;
-                    min-width: 100%;
-                    width: 577px;
-                    max-width: 590px;
-                    min-width: 301px;
-                }
-                #distractid {
-                    min-width: 149%;
-                }
-                .latest_deals_top {
-                    display: flex !important;
-                    margin-top: 20% !important;
-                    flex-flow: column wrap !important;
-                }
-                .deals1 {
-                    margin-top: -43%;
-                    width: 107%;
-                    height: 35%;
-                }
-                .deals2 {
-                    margin-top: -6%;
-                    margin-left: 16% !important;
-                    width: 73%;
-                    height: 30%;
-                }
-                .deals3 {
-                    margin-top: 3% !important;
-                    height: 25%;
-                    width: 85%;
-                    margin-left: 15% !important;
-                }
-                .deals4 {
-                    margin-top: 159% !important;
-                    margin-left: -83% !important;
-                    width: 24% !important;
-                    min-width: 30%;
-                    max-width: 100%;
-                    height: 95% !important;
-                }
-                #deals4img {
-                    height: 104px !important;
-                    min-width: 155px;
-                }
-                .latest_deals_bottom {
-                    position: absolute;
-                    padding-top: 7%;
-                }
-                .deals5 {
-                    margin-left: 61%;
-                    padding-top: -5% !important;
-                    margin-left: -370px !important;
-                    margin-right: 21%;
-                    position: relative;
-                    width: 43% !important;
-                    height: -5% !important;
-                    min-height: 37px !important;
-                    max-height: 23px !important;
-                    min-width: 42px !important;
-                    margin-top: 109% !important;
-                }
-                .deals6 {
-                    margin-top: -13% !important;
-                    width: 103% !important;
-                    height: 46% !important;
-                    position: relative;
-                    top: 8%;
-                    left: -63%;
-                    margin-top: 50px;
-                    padding-top: 37%;
-                }
-                .deals7 {
-                    margin-left: -11% !important;
-                    width: 38% !important;
-                    height: 34% !important;
-                    margin-top: 42% !important;
-                }
-                .deals8 {
-                    margin-top: 13% !important;
-                    width: 50% !important;
-                    height: 35% !important;
-                    margin-left: -53% !important;
-                }
-                .dealssub1 {
-                    margin-left: 66%;
-                    margin-top: -48% !important;
-                    width: max-content;
-                    width: max-content !important;
-                }
-                .dealssub2 {
-                    margin-left: 68%;
-                }
-                footer {
-                    padding-top: 130%;
-                }
-            }  */
 
 @media screen and (min-width: 414px) and (max-width: 414px) {
   .caption1 {
@@ -1900,8 +1446,6 @@
 
   .row_item_4 {
     margin-left: 10% !important;
-
-    /* width: 192% !important; */
     max-width: 132% !important;
     margin-top: 11% !important;
     min-width: 107% !important;
@@ -1931,8 +1475,6 @@
 
   .row_item_8 {
     margin-left: 10% !important;
-
-    /* width: 98%; */
     min-width: 105% !important;
     max-width: 119% !important;
     margin-top: 5% !important;
@@ -2134,8 +1676,6 @@
     margin-top: 7% !important;
     margin-top: 8% !important;
     margin-top: 5px !important;
-
-    /* margin-bottom: 5%; */
     position: relative !important;
     top: 2% !important;
   }
@@ -2158,8 +1698,6 @@
 
   .deals5 {
     margin-top: -66% !important;
-
-    /* height: 50%; */
     margin-top: -123% !important;
     margin-left: -8% !important;
     height: 174% !important;
@@ -2364,8 +1902,6 @@
 
   .row_item_8 {
     margin-left: 10% !important;
-
-    /* width: 98%; */
     min-width: 105% !important;
     max-width: 119% !important;
     margin-top: 5% !important;
@@ -2567,8 +2103,6 @@
     margin-top: 7% !important;
     margin-top: 8% !important;
     margin-top: 5px !important;
-
-    /* margin-bottom: 5%; */
     position: relative !important;
     top: 2% !important;
   }
@@ -2591,8 +2125,6 @@
 
   .deals5 {
     margin-top: -66% !important;
-
-    /* height: 50%; */
     margin-top: -123% !important;
     margin-left: -8% !important;
     height: 174% !important;
@@ -2773,8 +2305,6 @@
 
   .row_item_8 {
     margin-left: 10% !important;
-
-    /* width: 98%; */
     min-width: 105% !important;
     max-width: 119% !important;
     margin-top: 5% !important;
@@ -2972,8 +2502,6 @@
     margin-top: 7% !important;
     margin-top: 8% !important;
     margin-top: 5px !important;
-
-    /* margin-bottom: 5%; */
     position: relative !important;
     top: 2% !important;
   }
@@ -2996,8 +2524,6 @@
 
   .deals5 {
     margin-top: -66% !important;
-
-    /* height: 50%; */
     margin-top: -142% !important;
     margin-left: -8% !important;
     height: 94% !important;
@@ -3270,8 +2796,6 @@
 
   .deals6 {
     margin-top: -120%;
-
-    /* margin-right: -116%; */
     padding-left: 69%;
     height: 336%;
   }
@@ -3279,8 +2803,6 @@
   .deals7 {
     margin-top: -84%;
     margin-left: 19%;
-
-    /* min-width: 37%; */
     height: 352%;
   }
 
@@ -3676,11 +3198,7 @@
     background-size: cover;
     max-width: 40%;
     margin-top: -36%;
-
-    /* padding-top: 5%; */
     max-height: 26%;
-
-    /* padding-left: 0%; */
     margin-left: 452px;
   }
 
@@ -3689,8 +3207,6 @@
     background-size: cover;
     max-width: 39%;
     max-height: 26%;
-
-    /* padding-top: 40%; */
     margin-top: -72%;
     margin-left: 60%;
   }
@@ -5055,8 +4571,6 @@
 
   .deals6 {
     margin-top: -63%;
-
-    /* margin-right: -116%; */
     padding-left: 80%;
     height: 306%;
     width: 157%;
@@ -5065,8 +4579,6 @@
   .deals7 {
     margin-top: -63%;
     margin-left: 1%;
-
-    /* min-width: 37%; */
     height: 330%;
   }
 
@@ -5462,11 +4974,7 @@
     background-size: cover;
     max-width: 31%;
     margin-top: -27%;
-
-    /* padding-top: 5%; */
     max-height: 20%;
-
-    /* padding-left: 0%; */
     margin-left: 692px;
   }
 
@@ -5475,8 +4983,6 @@
     background-size: cover;
     max-width: 31%;
     max-height: 22%;
-
-    /* padding-top: 40%; */
     margin-top: -58%;
     margin-left: 69%;
   }
@@ -5866,8 +5372,6 @@
   .third_funding_story {
     padding-right: -2%;
     width: 23%;
-
-    /* height: 50%; */
     margin-left: 9%;
   }
 
