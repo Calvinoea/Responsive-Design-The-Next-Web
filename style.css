@@ -1,20 +1,29 @@
 @media screen and (min-width: 320px) and (max-width: 320px) {
+  .landing-banners {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: -46%;
+  }
+
   .caption1 {
     width: 100% !important;
-    min-height: 20% !important;
+    min-height: 25% !important;
     margin-top: 71% !important;
     max-height: 31% !important;
   }
 
   .caption2 {
-    margin-top: 45% !important;
+    margin-top: 3% !important;
     margin-left: 1% !important;
+    min-height: 25% !important;
     min-width: 99% !important;
   }
 
   .caption3 {
-    margin-top: 44% !important;
+    margin-top: 2% !important;
     min-width: 100% !important;
+    min-height: 24% !important;
     margin-left: 0% !important;
   }
 
@@ -26,8 +35,40 @@
     line-height: 32px !important;
   }
 
+  #landing_descr1 {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    padding-top: 6% !important;
+    margin-top: 16% !important;
+    line-height: 32px !important;
+  }
+
+  #landing_descr2 {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    padding-top: 6% !important;
+    margin-top: 16% !important;
+    line-height: 32px !important;
+  }
+
+  #landing_descr3 {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    padding-top: 6% !important;
+    margin-top: 16% !important;
+    line-height: 32px !important;
+  }
+
+  .description_1 {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    padding-top: 6% !important;
+    margin-top: 16% !important;
+    line-height: 32px !important;
+  }
+
   .latest_news {
-    margin-top: 152% !important;
+    margin-top: 100% !important;
   }
 
   .latest_news_row1 {
@@ -349,7 +390,7 @@
     margin-top: -66% !important;
 
     /* height: 50%; */
-    margin-top: -188% !important;
+    margin-top: -203% !important;
     margin-left: -8% !important;
     height: 174% !important;
     width: 33% !important;
@@ -393,7 +434,7 @@
 
   .deals7 {
     position: relative;
-    top: 888% !important;
+    top: 805% !important;
     width: 23% !important;
     height: 183% !important;
     left: -13% !important;
@@ -414,7 +455,7 @@
 
   .deals8 {
     position: relative;
-    top: 1423% !important;
+    top: 1337% !important;
     left: -5% !important;
     width: 39% !important;
     height: 191% !important;
@@ -461,6 +502,30 @@
     padding-top: 3% !important;
     margin-top: 25% !important;
     line-height: 28px !important;
+  }
+
+  #landing_descr1 {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    padding-top: 6% !important;
+    margin-top: 16% !important;
+    line-height: 32px !important;
+  }
+
+  #landing_descr2 {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    padding-top: 6% !important;
+    margin-top: 16% !important;
+    line-height: 32px !important;
+  }
+
+  #landing_descr3 {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    padding-top: 6% !important;
+    margin-top: 16% !important;
+    line-height: 32px !important;
   }
 
   .latest_news {
@@ -877,6 +942,38 @@
     min-width: 100% !important;
     min-height: 24% !important;
     margin-left: 0% !important;
+  }
+
+  .landing_description {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    padding-top: 6% !important;
+    margin-top: 16% !important;
+    line-height: 32px !important;
+  }
+
+  #landing_descr1 {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    padding-top: 6% !important;
+    margin-top: 16% !important;
+    line-height: 32px !important;
+  }
+
+  #landing_descr2 {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    padding-top: 6% !important;
+    margin-top: 16% !important;
+    line-height: 32px !important;
+  }
+
+  #landing_descr3 {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    padding-top: 6% !important;
+    margin-top: 16% !important;
+    line-height: 32px !important;
   }
 
   .description_1 {
@@ -1742,6 +1839,30 @@
     line-height: 28px !important;
   }
 
+  #landing_descr1 {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    padding-top: 6% !important;
+    margin-top: 16% !important;
+    line-height: 32px !important;
+  }
+
+  #landing_descr2 {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    padding-top: 6% !important;
+    margin-top: 16% !important;
+    line-height: 32px !important;
+  }
+
+  #landing_descr3 {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    padding-top: 6% !important;
+    margin-top: 16% !important;
+    line-height: 32px !important;
+  }
+
   .latest_news {
     margin-top: 17% !important;
     margin-left: -5%;
@@ -2146,6 +2267,30 @@
   }
 
   .landing_description {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    padding-top: 6% !important;
+    margin-top: 16% !important;
+    line-height: 32px !important;
+  }
+
+  #landing_descr1 {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    padding-top: 6% !important;
+    margin-top: 16% !important;
+    line-height: 32px !important;
+  }
+
+  #landing_descr2 {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    padding-top: 6% !important;
+    margin-top: 16% !important;
+    line-height: 32px !important;
+  }
+
+  #landing_descr3 {
     font-size: 24px !important;
     font-weight: bold !important;
     padding-top: 6% !important;
@@ -7018,6 +7163,22 @@
     max-width: 100%;
     max-height: 300%;
     margin-bottom: 16%;
+  }
+
+  .landing_description {
+    font-size: 40px !important;
+    font-weight: bold !important;
+    padding-top: 6% !important;
+    margin-top: 52% !important;
+    line-height: 32px !important;
+  }
+
+  .description_1 {
+    font-size: 40px !important;
+    font-weight: bold !important;
+    padding-top: 6% !important;
+    margin-top: 52% !important;
+    line-height: 32px !important;
   }
 
   .landing-caption div {
