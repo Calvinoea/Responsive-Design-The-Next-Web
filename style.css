@@ -1,14 +1,21 @@
 @media screen and (min-width: 320px) and (max-width: 320px) {
+  body,
+  html {
+    min-width: 100vh;
+    max-width: 100vh;
+    width: 100vh;
+  }
+
   .landing-banners {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    margin-top: -46%;
+    margin-top: -54%;
   }
 
   .caption1 {
     width: 100% !important;
-    min-height: 25% !important;
+    min-height: 34% !important;
     margin-top: 71% !important;
     max-height: 31% !important;
   }
@@ -16,14 +23,14 @@
   .caption2 {
     margin-top: 3% !important;
     margin-left: 1% !important;
-    min-height: 25% !important;
+    min-height: 32% !important;
     min-width: 99% !important;
   }
 
   .caption3 {
     margin-top: 2% !important;
     min-width: 100% !important;
-    min-height: 24% !important;
+    min-height: 34% !important;
     margin-left: 0% !important;
   }
 
@@ -170,15 +177,17 @@
   }
 
   .first_funding_story h6 {
-    height: 58% !important;
+    height: 58px !important;
   }
 
   .first_funding_story img {
-    min-height: 58% !important;
+    min-height: 50px !important;
+    max-height: 100px !important;
+    height: 50px !important;
   }
 
   #firststory_sub {
-    margin-top: -11% !important;
+    margin-top: -9% !important;
   }
 
   .second_funding_story {
@@ -197,7 +206,7 @@
   }
 
   #secondstory_sub {
-    margin-top: -12% !important;
+    margin-top: -10% !important;
   }
 
   .third_funding_story {
@@ -215,7 +224,7 @@
   }
 
   #thirdstory_sub {
-    margin-top: -13% !important;
+    margin-top: -10% !important;
   }
 
   .fourth_funding_story {
@@ -284,6 +293,8 @@
 
   .image_text {
     width: max-content !important;
+    position: fixed;
+    z-index: 0;
   }
 
   .latest_deals {
@@ -382,7 +393,7 @@
 
   .deals5 {
     margin-top: -66% !important;
-    margin-top: -203% !important;
+    margin-top: -133% !important;
     margin-left: -8% !important;
     height: 174% !important;
     width: 33% !important;
@@ -403,26 +414,26 @@
 
   .deals6 {
     position: relative;
-    top: 429% !important;
+    top: 425% !important;
     margin-left: -61% !important;
     height: 170% !important;
   }
 
   #deals6_firstsub {
-    margin-left: 12% !important;
+    margin-left: 17% !important;
     margin-top: -9% !important;
     font-size: 10px !important;
   }
 
   #deals6_secondsub {
-    margin-left: 13% !important;
+    margin-left: 17% !important;
     font-size: 8px !important;
     margin-top: 0% !important;
   }
 
   .deals7 {
     position: relative;
-    top: 805% !important;
+    top: 440% !important;
     width: 23% !important;
     height: 183% !important;
     left: -13% !important;
@@ -431,19 +442,19 @@
   #deals7_firstsub {
     font-size: 10px !important;
     margin-top: -58% !important;
-    margin-left: 83% !important;
+    margin-left: 97% !important;
     width: max-content !important;
   }
 
   #deals7_secondsub {
-    margin-left: 85% !important;
+    margin-left: 98% !important;
     width: max-content !important;
     font-size: 8px !important;
   }
 
   .deals8 {
     position: relative;
-    top: 1337% !important;
+    top: 746% !important;
     left: -5% !important;
     width: 39% !important;
     height: 191% !important;
@@ -452,14 +463,18 @@
   #deals8_firstsub {
     font-size: 10px !important;
     margin-top: -54% !important;
-    margin-left: 94% !important;
+    margin-left: 98% !important;
     width: max-content;
   }
 
   #deals8_secondsub {
     width: max-content !important;
-    margin-left: 92% !important;
+    margin-left: 100% !important;
     font-size: 8px !important;
+  }
+
+  footer {
+    padding-top: 65%;
   }
 }
 
@@ -3957,7 +3972,8 @@
 
   .first_funding_story {
     padding-left: 0%;
-    width: 19%;
+    width: 28%;
+    height: 114%;
     margin-left: 9%;
   }
 
@@ -3979,15 +3995,16 @@
   .second_funding_story img {
     margin-top: -17%;
     margin-left: 5%;
-    height: 31%;
+    height: 27%;
     width: 25%;
     max-height: 32%;
   }
 
   .second_funding_story {
     padding-left: 1%;
-    width: 19%;
+    width: 29%;
     margin-left: 1%;
+    height: 167%;
   }
 
   .second_funding_story h6 {
@@ -4006,16 +4023,17 @@
   }
 
   .third_funding_story img {
-    margin-top: -8%;
+    margin-top: -10%;
     margin-left: 5%;
-    height: 26%;
+    height: 44%;
     width: 25%;
-    max-height: 27%;
+    max-height: 31%;
   }
 
   .third_funding_story {
     padding-right: 1%;
-    width: 20%;
+    width: 30%;
+    height: 128%;
     margin-left: 2%;
   }
 
@@ -4055,6 +4073,7 @@
     padding-right: 1%;
     width: 20%;
     margin-left: 1%;
+    display: none;
   }
 
   .fourth_funding_story h6 {
