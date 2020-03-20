@@ -2067,14 +2067,6 @@
     background: red;
   }
 
-  .cover_two {
-    margin-top: -7%;
-  }
-
-  .cover_three {
-    margin-top: 1%;
-  }
-
   .cover_one_image {
     width: 98vh !important;
   }
@@ -2256,11 +2248,6 @@
 
   .nav_icons {
     margin-left: 54% !important;
-  }
-
-  .menu_box {
-    display: block !important;
-    padding-top: 9% !important;
   }
 
   #lorem {
@@ -3453,7 +3440,7 @@
   }
 }
 
-@media only screen and (min-width: 1287px) and (device-heigth: 1033px) {
+@media only screen and (min-width: 1287px) {
   body {
     width: 100%;
     overflow-x: hidden;
