@@ -283,8 +283,8 @@ html {
     grid-row: 1;
   }
 
-  .main_article .recent_article_header h2,
-  .recent_article_header h2 {
+  .recent_article_header h2,
+  .main_article {
     font-size: 2rem;
   }
 }
