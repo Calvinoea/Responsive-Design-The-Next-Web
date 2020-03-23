@@ -2,417 +2,363 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
 
   <title>The Next Web </title>
-  <meta name="description" content="The HTML5 Herald">
+
   <meta name="author" content="SitePoint">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <script src="https://kit.fontawesome.com/dcc95333f3.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
+
+
+
+<div class="main_container">
 <header class="main_header">
 
-  <nav class="nav">
+  <nav class="navigation">
       <div class="nav_logo">
          <img id="tnw_logo" alt="TNW logo" src="https://i.pinimg.com/originals/03/59/9f/03599f07e2a075d79d9f81a59b2be797.png">
       </div>
+      <div class="first_nav hidden_small_large">
       <ul class="nav_titles">
-      <li>Latest</li>
-      <li>HARDFORK</li>
-      <li>PLUGGED</li>
-      <li>FUNDAMENTALS</li>
-      <li>READ&nbsp;ME</li>
-         <li>Growth&nbsp;Quarters</li>
-            <li>Neural</li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Events</a></li>
+      <li><a href="#">Business</a></li>
+      <li><a href="#">AMAs</a></li>
+      <li><a href="#">Spaces</a></li>
+         <li><a href="#">Terms & Conditions</a></li>
       </ul>
-      <div class="nav_icons">
-      <div class="search_box">
-       <span class="search_span">
-      <i class="fas fa-search search_icon" id="search"></i>
-     </span>
+      <ul class="hidden_medium_small">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Contact</a></li>
+      </ul>
       </div>
+      <div class="second_nav">
+      <ul class="hidden_small_large">
+       <li><a href="#">Latest</a></li>
+      <li><a href="#">HARDFORK</a></li>
+      <li><a href="#">PLUGGED</a></li>
+      <li><a href="#">FUNDAMENTALS</a></li>
+      <li class="hidden_medium_large"><a href="#">READ ME</a></li>
+         <li class="hidden_medium_large"><a href="#">Growth Quarters</a></li>
+            <li><a href="#" class="hidden_medium">Neural</a></li>
+      </ul>
+      <ul>
+      <li>
+            <button>
 
-      <div class="menu_box">
-      <span class="menu_span">
-        <i class="fa fa-bars menu_bars" id="display"></i>
-        </span>
-        </div>
 
+              <i class="fas fa-search icon" id="search"></i>
+
+            </button>
+
+      </li>
+
+      <li>
+      <button>
+
+        <i class="fa fa-bars icon" id="display"></i>
+        </button>
+      </li>
+           </ul>
       </div>
-
   </nav>
-
 
  <div class="advert_banner">
 
-      <div class="banner_text">
-      <p><a href="#">Did you know we have a TECH FESTIVAL? Check it out →</a></p>
-    </div>
 
+      <p><a href="#">Did you know we have a TECH FESTIVAL? Check it out →</a></p>
 
     </div>
 
   </header>
+<main>
+   <section class="recent_articles_container">
+        <h2 class="lorem">lorem</h2>
+          <article
+            class="recent_article main_article"
+            style="background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Redmi-Note-9-Pro-Max-796x418.png');"
+          >
+            <div class="hero hide_medium">
+              <div class="articles_logo"></div>
+              <time datetime="2020-03-21">Saturday — March 21, 2020</time>
+            </div>
+            <header class="recent_article_header">
+              <h4>TECH</h4>
+              <h2>
+                Xiaomi packed a massive 5,020mAh battery into its new $200 phone
+              </h2>
+              <div class="article_author">
+                <span>by Michael Giano</span>
+                 <i class="far fa-clock icon"></i>
+                <span>1 hour ago</span>
+                <i class="fas fa-share-alt icon"></i>
+                <span>2</span>
+              </div>
+            </header>
+          </article>
+          <article
+            class="recent_article"
+            style="background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/TNW-Conference-PanelImg.jpg');"
+          >
+            <header class="recent_article_header">
+              <h4>INSIGHT</h4>
+              <h2>
+                Xiaomi packed a massive 5,020mAh battery into its new $200 phone
+              </h2>
+              <div class="article_author">
+                <span>by Pritesh Khan</span>
+                 <i class="far fa-clock icon"></i>
+                <span>2 hours ago</span>
+                <i class="fas fa-share-alt icon"></i>
+                <span>15</span>
+              </div>
+            </header>
+          </article>
+          <article
+            class="recent_article"
+            style="background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/mar-yessi-wfh-796x417.png');"
+          >
+            <header class="recent_article_header">
+              <h4>TECH</h4>
+              <h2>
+               Xiaomi packed a massive 5,020mAh battery into its new $200 phone
+              </h2>
+              <div class="article_author">
+                <span>by Matt Homestead</span>
+                 <i class="far fa-clock icon"></i>
+                <span>103 hours ago</span>
+                <i class="fas fa-share-alt icon"></i>
+                <span>45</span>
+              </div>
+            </header>
+          </article>
+        </section>
 
-   <section class="cover cover-grid">
-      <h3 id="lorem">lorem</h3>
-    <article class="cover_one">
-
-
-     <img alt="cover image" class="cover_one_image cover_image" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Redmi-Note-9-Pro-Max-796x418.png" id="cover1">
-
-    <header class="cover_text ct_1" id="ct_id">
-     <p class="cover_title cover_title1">Gear</p>
-     <h2 class="cover_heading">Xiaomi packed a massive 5,020mAh battery into its new $200 phone</h2>
-
-     <ul class="cover_sub">
-      <li>By George</li>
-      <li><i class="fas fa-share-alt">&nbsp;1 hour ago</i></li>
-      <li><i class="far fa-clock"></i>&nbsp;4</li>
-     </ul>
-     </header>
-
-
-    </article>
-
-
-    <article class="cover_two">
-
-   <img alt="cover image" class="cover_two_image cover_image" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/TNW-Conference-PanelImg.jpg">
-
-    <header class="cover_text ct_2">
-     <p class="cover_title cover_title2">Gear</p>
-     <h2 class="cover_heading cover_heading2">Xiaomi packed a massive 5,020mAh battery into its new $200 phone</h2>
-     <ul class="cover_sub cover_sub2">
-      <li>By George</li>
-      <li><i class="fas fa-share-alt">&nbsp;1 hour ago</i></li>
-      <li><i class="far fa-clock">&nbsp;4</i></li>
-     </ul>
-     </header>
-
-
-    </article>
-
-
-    <article class="cover_three">
-
-  <img alt="cover image" class="cover_three_image cover_image" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/mar-yessi-wfh-796x417.png">
-
-
-       <header class="cover_text ct_3">
-     <p class="cover_title cover_title3">Gear</p>
-     <h2 class="cover_heading cover_heading3">Xiaomi packed a massive 5,020mAh battery into its new $200 phone</h2>
-     <ul class="cover_sub cover_sub3">
-      <li>By George</li>
-      <li><i class="fas fa-share-alt">&nbsp;1 hour ago</i></li>
-      <li><i class="far fa-clock">&nbsp;4</i></li>
-     </ul>
-     </header>
-
-
-
-
-    </article>
-
-
-
-
-
-
-   </section>
-
- <section class="latest_news">
-
+<div class="container">
+ <section class="latest_news_container">
     <h2 id="latestnews_title"><a href="#">Latest news ></a></h2>
 
-    <ul class="latest_news_items">
-        <li class="news_item1"><img alt="news item" class="latest_news_image lni_1" src="https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F03%2Fsocial-manager.png&signature=e58dcc55af4456e3c89772c0f6429ebc">
-
-        <h4 class="latest_news_heading lnh_1">How to handle toxic people as an online community manager </h4>
-
-        <ul class="latest_news_sub lns_1">
-              <li>Michelle Hanslow&nbsp;.</li>
-              <li>30 minutes ago</li>
-        </ul>
-
-         <li class="news_item2"><img alt="news item" class="latest_news_image  lni_2" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Apple_16-inch-MacBook-Pro_New-Magic-Keyboard_111319_inline.jpg.medium_2x-479x270.jpg">
-
-        <h4 class="latest_news_heading lnh_2">Apple will reportedly release MacBooks with new and improved keyboards soon </h4>
-
-        <ul class="latest_news_sub lns_2">
-              <li>Michelle Hanslow&nbsp;.</li>
-              <li>30 minutes ago</li>
-        </ul>
-
-
-        </li>
-
-          <li class="news_item3"><img alt="news item" class="latest_news_image lni_3" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Untitled-design19-516x270.png">
-
-        <h4 class="latest_news_heading lnh_3">Researchers use AI to translate text found on ancient clay tablets</h4>
-
-        <ul class="latest_news_sub lns_3">
-              <li>Michelle Hanslow&nbsp;.</li>
-              <li>30 minutes ago</li>
-        </ul>
-
-
-        </li>
-
-          <li class="news_item4"><img alt="news item" class="latest_news_image lni_4" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/huawei-480x270.jpg">
-
-        <h4 class="latest_news_heading lnh_4">US looks to block Huawei from banks after Trump ban fails</h4>
-
-        <ul class="latest_news_sub lns_4">
-              <li>Michelle Hanslow&nbsp;.</li>
-              <li>30 minutes ago</li>
-        </ul>
-
-
-        </li>
-
-          <li class="news_item5"><img alt="news item" class="latest_news_image lni_5" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/LEGO-Super-Mario-516x270.jpg">
-
-        <h4 class="latest_news_heading lnh_5">LEGO Super Mario combines two staples of childhood </h4>
-
-        <ul class="latest_news_sub lns_5">
-              <li>Michelle Hanslow&nbsp;.</li>
-              <li>30 minutes ago</li>
-        </ul>
-
-
-        </li>
-
-          <li class="news_item6"><img alt="news item" class="latest_news_image lni_6" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/communication2-516x270.png">
-
-        <h4 class="latest_news_heading lnh_6">No clue how to handle coronavirus as a startup founder? Here's what we're doing</h4>
-
-        <ul class="latest_news_sub lns_6">
-              <li>Michelle Hanslow&nbsp;.</li>
-              <li>30 minutes ago</li>
-        </ul>
-
-
-        </li>
-
-          <li class="news_item7"><img alt="news item" class="latest_news_image lni_7" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Untitled-design18-516x270.png">
-
-        <h4 class="latest_news_heading lnh_7">White House asks Silicon Valley for AI solutions to coronavirus </h4>
-
-        <ul class="latest_news_sub lns_7">
-              <li>Michelle Hanslow&nbsp;.</li>
-              <li>30 minutes ago</li>
-        </ul>
-
-
-        </li>
-
-          <li class="news_item8"><img alt="news item" class="latest_news_image lni_8" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/washington-state-zero-emission-future-bill-opportunity-mandate-481x270.jpg">
-
-        <h4 class="latest_news_heading lnh_8">Washington state finally lifting ban on zero-emission vehicle mandates</h4>
-
-        <ul class="latest_news_sub lns_8">
-              <li>Michelle Hanslow&nbsp;.</li>
-              <li>30 minutes ago</li>
-        </ul>
-
-
-        </li>
 
 
 
-    </ul>
+    <article class="latest_news">
+        <a  href="#" style="background-image: url(&quot;https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/washington-state-zero-emission-future-bill-opportunity-mandate-481x270.jpg&quot;);"></a>
 
+            <div class="header_container">
+        <h3>How to handle toxic people as an online community manager </h3>
+      <p class="author">Michelle Hanslow • 30 minutes ago</P>
+      </div>
+      </article>
+      <article class="latest_news">
+         <a  href="#" style="background-image: url(&quot;https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/washington-state-zero-emission-future-bill-opportunity-mandate-481x270.jpg&quot;);"></a>
 
+            <div class="header_container">
+        <h3>How to handle toxic people as an online community manager </h3>
+      <p class="author">Michelle Hanslow • 30 minutes ago</P>
+      </div>
+      </article>
+      <article class="latest_news">
+         <a  href="#" style="background-image: url(&quot;https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/washington-state-zero-emission-future-bill-opportunity-mandate-481x270.jpg&quot;);"></a>
 
+            <div class="header_container">
+        <h3>How to handle toxic people as an online community manager </h3>
+      <p class="author">Michelle Hanslow • 30 minutes ago</P>
+      </div>
+      </article>
+      <article class="latest_news">
+        <a  href="#" style="background-image: url(&quot;https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/washington-state-zero-emission-future-bill-opportunity-mandate-481x270.jpg&quot;);"></a>
+
+            <div class="header_container">
+        <h3>How to handle toxic people as an online community manager </h3>
+      <p class="author">Michelle Hanslow • 30 minutes ago</P>
+      </div>
+      </article>
+      <article class="latest_news">
+         <a  href="#" style="background-image: url(&quot;https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/washington-state-zero-emission-future-bill-opportunity-mandate-481x270.jpg&quot;);"></a>
+
+            <div class="header_container">
+        <h3>How to handle toxic people as an online community manager </h3>
+      <p class="author">Michelle Hanslow • 30 minutes ago</P>
+      </div>
+      </article>
+      <article class="latest_news">
+         <a  href="#" style="background-image: url(&quot;https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/washington-state-zero-emission-future-bill-opportunity-mandate-481x270.jpg&quot;);"></a>
+
+            <div class="header_container">
+        <h3>How to handle toxic people as an online community manager </h3>
+      <p class="author">Michelle Hanslow • 30 minutes ago</P>
+      </div>
+      </article>
+       <article class="latest_news">
+         <a  href="#" style="background-image: url(&quot;https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/washington-state-zero-emission-future-bill-opportunity-mandate-481x270.jpg&quot;);"></a>
+
+            <div class="header_container">
+        <h3>How to handle toxic people as an online community manager </h3>
+      <p class="author">Michelle Hanslow • 30 minutes ago</P>
+      </div>
+      </article>
+       <article class="latest_news">
+         <a  href="#" style="background-image: url(&quot;https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/washington-state-zero-emission-future-bill-opportunity-mandate-481x270.jpg&quot;);"></a>
+
+            <div class="header_container">
+        <h3>How to handle toxic people as an online community manager </h3>
+      <p class="author">Michelle Hanslow • 30 minutes ago</P>
+      </div>
+      </article>
  </section>
 
 
-<section class="latest_deals">
+<section class="latest_deals_container">
 
     <header class="deals_header">
-    <h2 id="funding_title"><a href="#"> Latest funding rounds on Index.co > </a></h2>
-    <p class="funding_sub"><span><a href="#" id="inner_sub1">Add info </a></span> <span> <span id="lines1">| </span><a href="#" id="inner_sub2">Get updates by email</a>&nbsp;<span id="lines2">|</span> </span>&nbsp; <a href="#" id="inner_sub3"><span>See more </span></a> </p>
+    <h2>Latest funding rounds on Index.co > </h2>
+    <ul>
+    <li><a href="#">Add info </a></li>
+    <li><a href="#">Get updates by email</a></li>
+    <li> <a href="#"> See more</a></li>
+    </ul>
     </header>
 
-    <div class="funding_deals">
+      <article class="funding_deals">
+      <img src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F818394773895581697%2FY3dtwEG0.jpg&signature=5612aa580ccbd58837448b0d910a15cc" alt="news item"/>
+        <h4>Shopback</h4>
+        <hgroup>
+         <h4>$150 M</h4>
+            <h5>SERIES E</h5>
+        </hgroup>
+      <ul class="funding_category">
+      <li>
 
-    <div class="investment_story story_one">
-        <a class="investment_top_section">
-                <img alt="news item" class="investment_image" src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F818394773895581697%2FY3dtwEG0.jpg&signature=5612aa580ccbd58837448b0d910a15cc"/>
-                <h4 class="investment_name">Shopback</h4>
+        <a href="#"><i class="fas fa-tag icon"></i>&nbsp;&nbsp; E-Commerce, +2</a>
+       <a href="#"><i class="fas fa-briefcase icon"></i>&nbsp;&nbsp;&nbsp;SoftBank</a>
 
-              <div class="funding_story">
-                <h4>$150 M</h4>
-                <h5>SERIES E</h5>
-                </div>
-        </a>
+      </li>
+      </ul>
 
-        <div class="investment_middle_section">
-
-                    <ul>
-                   <li><a href="#"><i class="fas fa-tag"></i>&nbsp;&nbsp; E-Commerce, +2</a></li>
-
-                    <li><a href="#"><i class="fas fa-briefcase"></i>&nbsp;&nbsp;&nbsp;SoftBank</a></li>
-                    </ul>
-        </div>
-
-          <ul class="investment_bottom_section">
-          <li><a href="#">India’s FirstCry Lands Another  $150M from Softbank in $400M Deal</a></li>
-          <li><a href="#" class="credit">on Crunchbase News</a></li>
-          </ul>
+      <p class="investment_bottom_section">
+         India’s FirstCry Lands Another  $150M from Softbank in $400M Deal
+         <a href="#" class="credit">on Crunchbase News</a>
+          </p>
 
 
+     </article>
 
-      </div>
+       <article class="funding_deals">
+      <img src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F818394773895581697%2FY3dtwEG0.jpg&signature=5612aa580ccbd58837448b0d910a15cc" alt="news item"/>
+        <h4>Shopback</h4>
+        <hgroup>
+         <h4>$150 M</h4>
+            <h5>SERIES E</h5>
+        </hgroup>
+      <ul class="funding_category">
+      <li>
 
+        <a href="#"><i class="fas fa-tag icon"></i>&nbsp;&nbsp; E-Commerce, +2</a>
+       <a href="#"><i class="fas fa-briefcase icon"></i>&nbsp;&nbsp;&nbsp;SoftBank</a>
 
+      </li>
+      </ul>
 
-    <div class="investment_story story_two">
-        <a class="investment_top_section">
-                <img alt="investment image" class="investment_image" src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1184132478874857472%2Fnv6XvJvS.png&signature=ef9180ce85644936d924159bb935ca3a"/>
-                <h4 class="investment_name">Bella & Duke</h4>
-
-              <div class="funding_story">
-                <h4>$150 M</h4>
-                <h5>SERIES E</h5>
-                </div>
-        </a>
-
-        <div class="investment_middle_section">
-
-                    <ul>
-                   <li><a href="#"><i class="fas fa-tag"></i>&nbsp;&nbsp; E-Commerce, +2</a></li>
-
-                    <li><a href="#"><i class="fas fa-briefcase"></i>&nbsp;&nbsp;&nbsp;SoftBank</a></li>
-                    </ul>
-        </div>
-
-          <ul class="investment_bottom_section">
-          <li><a href="#">India’s FirstCry Lands Another  $150M from Softbank in $400M Deal</a></li>
-          <li><a href="#" class="credit">on Crunchbase News</a></li>
-          </ul>
+      <p class="investment_bottom_section">
+         India’s FirstCry Lands Another  $150M from Softbank in $400M Deal
+         <a href="#" class="credit">on Crunchbase News</a>
+          </p>
 
 
-
-      </div>
-
-
-    <div class="investment_story story_three">
-        <a class="investment_top_section">
-                <img alt="investment image" class="investment_image" src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1214124184290430976%2FWOU4F9j1.jpg&signature=3366cfb2b671ba2fd8759cf6fc0fc7c3"/>
-                <h4 class="investment_name">Phemex</h4>
-
-              <div class="funding_story">
-                <h4>$150 M</h4>
-                <h5>SERIES E</h5>
-                </div>
-        </a>
-
-        <div class="investment_middle_section">
-
-                    <ul>
-                   <li><a href="#"><i class="fas fa-tag"></i>&nbsp;&nbsp; E-Commerce, +2</a></li>
-
-                    <li><a href="#"><i class="fas fa-briefcase"></i>&nbsp;&nbsp;&nbsp;SoftBank</a></li>
-                    </ul>
-        </div>
-
-          <ul class="investment_bottom_section">
-          <li><a href="#">India’s FirstCry Lands Another  $150M from Softbank in $400M Deal</a></li>
-          <li><a href="#" class="credit">on Crunchbase News</a></li>
-          </ul>
+     </article>
 
 
+       <article class="funding_deals">
+      <img src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F818394773895581697%2FY3dtwEG0.jpg&signature=5612aa580ccbd58837448b0d910a15cc" alt="news item"/>
+        <h4>Shopback</h4>
+        <hgroup>
+         <h4>$150 M</h4>
+            <h5>SERIES E</h5>
+        </hgroup>
+      <ul class="funding_category">
+      <li>
 
-      </div>
+        <a href="#"><i class="fas fa-tag icon"></i>&nbsp;&nbsp; E-Commerce, +2</a>
+       <a href="#"><i class="fas fa-briefcase icon"></i>&nbsp;&nbsp;&nbsp;SoftBank</a>
 
+      </li>
+      </ul>
 
-
-    <div class="investment_story story_four">
-        <a class="investment_top_section">
-                <img alt="investment image" class="investment_image" src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F818394773895581697%2FY3dtwEG0.jpg&signature=5612aa580ccbd58837448b0d910a15cc"/>
-                <h4 class="investment_name">Shopback</h4>
-
-              <div class="funding_story">
-                <h4>$150 M</h4>
-                <h5>SERIES E</h5>
-                </div>
-        </a>
-
-        <div class="investment_middle_section">
-
-                    <ul>
-                   <li><a href="#"><i class="fas fa-tag"></i>&nbsp;&nbsp; E-Commerce, +2</a></li>
-
-                    <li><a href="#"><i class="fas fa-briefcase"></i>&nbsp;&nbsp;&nbsp;SoftBank</a></li>
-                    </ul>
-        </div>
-
-          <ul class="investment_bottom_section">
-          <li><a href="#">India’s FirstCry Lands Another  $150M from Softbank in $400M Deal</a></li>
-          <li><a href="#" class="credit">on Crunchbase News</a></li>
-          </ul>
+      <p class="investment_bottom_section">
+         India’s FirstCry Lands Another  $150M from Softbank in $400M Deal
+         <a href="#" class="credit">on Crunchbase News</a>
+          </p>
 
 
+     </article>
 
-      </div>
+     <article class="funding_deals">
+      <img src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F818394773895581697%2FY3dtwEG0.jpg&signature=5612aa580ccbd58837448b0d910a15cc" alt="news item"/>
+        <h4>Shopback</h4>
+        <hgroup>
+         <h4>$150 M</h4>
+            <h5>SERIES E</h5>
+        </hgroup>
+      <ul class="funding_category">
+      <li>
 
+        <a href="#"><i class="fas fa-tag icon"></i>&nbsp;&nbsp; E-Commerce, +2</a>
+       <a href="#"><i class="fas fa-briefcase icon"></i>&nbsp;&nbsp;&nbsp;SoftBank</a>
 
-    </div>
+      </li>
+      </ul>
 
-
-
+      <p class="investment_bottom_section">
+         India’s FirstCry Lands Another  $150M from Softbank in $400M Deal
+         <a href="#" class="credit">on Crunchbase News</a>
+          </p>
+     </article>
 </section>
 
-<div class="article_categories">
 
+<section class="article_categories_container">
+      <h2 class="lorem">lorem</h2>
+      <section class="article_categories">
 
-
-      <section class="category_item apps_category apps_c">
 
             <h2>Apps ></h2>
-
           <ul>
               <li>
-              <div class="test">
-                <article>
-                      <img alt="category image" class="category_image" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Chrome-plain-368x276.jpg">
+                <article class="latest_category" style="background-image:url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Chrome-plain-368x276.jpg');">
 
 
-
-
-                      <header class="category_header" id="cat_header">
-                          <h5>MOST POPULAR</h5>
+                      <header class="category_header">
+                          <h4>MOST POPULAR</h4>
                           <h3>Google Play now has dark mode — here's how to turn it on</h3>
 
-                          <ul class="category_sub">
-                          <li> Mix .</li>
-                          <li>21 Hours Ago</li>
-                          </ul>
+
+                          <p class="author"> Mix Manila • 21 Hours Ago</p>
                     </header>
               </article>
-              </div>
-                    <li class="list_item_latest">
+              </li>
+
+                    <li>
                         <article class="category_latest">
 
                           <header>
-                          <h5>LATEST</h5>
+                          <h4>LATEST</h4>
 
-                      <h4>WhatsApp beta reveals dark mode is finally coming to the iPhone</h4>
+                      <h3>WhatsApp beta reveals dark mode is finally coming to the iPhone</h3>
                       </header>
-                          <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/WhatsApp-hed-796x419.jpg" alt="WhatsApp Darkmode"/>
+                        <a class="category_latest_image" style="background-image:url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/WhatsApp-hed-796x419.jpg');"></a>
 
                           </article>
                     </li>
-              </ul>
-
-            <ul class="categories_bullet_list">
-
-                   <li><h4>How to opt out of Netflix's autoplay previews</h4></li>
+                      <li><h4>How to opt out of Netflix's autoplay previews</h4></li>
 
                   <li><h4>This indoor cycling app is making me suffer, and it's highly effective</h4></li>
 
@@ -422,53 +368,42 @@
 
                   <li><h4>WhatsApp fixed a bug in its desktop app that allowed access to files on your computer</h4></li>
 
-            </ul>
-
-
-
-
+              </ul>
 
       </section>
 
-<section class="category_item apps_category gear_c">
+      <section class="article_categories">
+
 
             <h2>Gear ></h2>
-
           <ul>
               <li>
-              <div class="test">
-                <article>
-                      <img alt="category image" class="category_image" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Apple_16-inch-MacBook-Pro_New-Magic-Keyboard_111319_inline.jpg.medium_2x-368x276.jpg">
+                <article class="latest_category" style="background-image:url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Chrome-plain-368x276.jpg');">
 
-                      <header class="category_header" id="cat_header">
-                          <h5>MOST POPULAR</h5>
+
+                      <header class="category_header">
+                          <h4>MOST POPULAR</h4>
                           <h3>Google Play now has dark mode — here's how to turn it on</h3>
 
-                          <ul class="category_sub">
-                          <li> Mix .</li>
-                          <li>21 Hours Ago</li>
-                          </ul>
+
+                          <p class="author"> Mix Manila • 21 Hours Ago</p>
                     </header>
               </article>
-              </div>
-                    <li class="list_item_latest">
+              </li>
+
+                    <li>
                         <article class="category_latest">
 
                           <header>
-                          <h5>LATEST</h5>
+                          <h4>LATEST</h4>
 
-                      <h4>WhatsApp beta reveals dark mode is finally coming to the iPhone</h4>
+                      <h3>WhatsApp beta reveals dark mode is finally coming to the iPhone</h3>
                       </header>
-                          <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/WhatsApp-hed-796x419.jpg" alt="WhatsApp Darkmode">
+                        <a class="category_latest_image" style="background-image:url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/WhatsApp-hed-796x419.jpg');"></a>
 
                           </article>
                     </li>
-
-              </ul>
-
-            <ul class="categories_bullet_list">
-
-                   <li><h4>How to opt out of Netflix's autoplay previews</h4></li>
+                      <li><h4>How to opt out of Netflix's autoplay previews</h4></li>
 
                   <li><h4>This indoor cycling app is making me suffer, and it's highly effective</h4></li>
 
@@ -478,53 +413,43 @@
 
                   <li><h4>WhatsApp fixed a bug in its desktop app that allowed access to files on your computer</h4></li>
 
-            </ul>
-
-
-
-
+              </ul>
 
       </section>
 
-<section class="category_item apps_category tech_c">
+
+<section class="article_categories">
+
 
             <h2>Tech ></h2>
-
           <ul>
               <li>
-              <div class="test">
-                <article>
-                      <img alt="category image" class="category_image" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/Discord-Go-Live-368x276.jpg"/>
+                <article class="latest_category" style="background-image:url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Chrome-plain-368x276.jpg');">
 
-                      <header class="category_header" id="cat_header">
-                          <h5>MOST POPULAR</h5>
+
+                      <header class="category_header">
+                          <h4>MOST POPULAR</h4>
                           <h3>Google Play now has dark mode — here's how to turn it on</h3>
 
-                          <ul class="category_sub">
-                          <li> Mix .</li>
-                          <li>21 Hours Ago</li>
-                          </ul>
+
+                          <p class="author"> Mix Manila • 21 Hours Ago</p>
                     </header>
               </article>
-              </div>
-                    <li class="list_item_latest">
+              </li>
+
+                    <li>
                         <article class="category_latest">
 
                           <header>
-                          <h5>LATEST</h5>
+                          <h4>LATEST</h4>
 
-                      <h4>WhatsApp beta reveals dark mode is finally coming to the iPhone</h4>
+                      <h3>WhatsApp beta reveals dark mode is finally coming to the iPhone</h3>
                       </header>
-                          <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/WhatsApp-hed-796x419.jpg" alt="WhatsApp Darkmode">
+                        <a class="category_latest_image" style="background-image:url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/WhatsApp-hed-796x419.jpg');"></a>
 
                           </article>
                     </li>
-
-              </ul>
-
-            <ul class="categories_bullet_list">
-
-                   <li><h4>How to opt out of Netflix's autoplay previews</h4></li>
+                      <li><h4>How to opt out of Netflix's autoplay previews</h4></li>
 
                   <li><h4>This indoor cycling app is making me suffer, and it's highly effective</h4></li>
 
@@ -534,60 +459,43 @@
 
                   <li><h4>WhatsApp fixed a bug in its desktop app that allowed access to files on your computer</h4></li>
 
-            </ul>
-
-
-
-
+              </ul>
 
       </section>
 
-<section class="category_item apps_category creative_c">
 
-            <h2>Creative</h2>
+      <section class="article_categories">
 
+
+            <h2>Creative ></h2>
           <ul>
               <li>
-              <div class="test">
-                <article>
-                      <img alt="category" class="category_image" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Amazon-Dating-Featured-368x276.jpg">
+                <article class="latest_category" style="background-image:url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Chrome-plain-368x276.jpg');">
 
-                      <header class="category_header" id="cat_header">
-                          <h5>MOST POPULAR</h5>
+
+                      <header class="category_header">
+                          <h4>MOST POPULAR</h4>
                           <h3>Google Play now has dark mode — here's how to turn it on</h3>
 
-                          <ul class="category_sub">
-                          <li> Mix .</li>
-                          <li>21 Hours Ago</li>
-                          </ul>
+
+                          <p class="author"> Mix Manila • 21 Hours Ago</p>
                     </header>
               </article>
-              </div>
-                    <li class="list_item_latest">
+              </li>
+
+                    <li>
                         <article class="category_latest">
 
                           <header>
-                          <h5>LATEST</h5>
+                          <h4>LATEST</h4>
 
-                      <h4>WhatsApp beta reveals dark mode is finally coming to the iPhone</h4>
+                      <h3>WhatsApp beta reveals dark mode is finally coming to the iPhone</h3>
                       </header>
-                          <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/WhatsApp-hed-796x419.jpg" alt="WhatsApp Darkmode">
+                        <a class="category_latest_image" style="background-image:url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/WhatsApp-hed-796x419.jpg');"></a>
 
                           </article>
                     </li>
-
-
-
-
-
-
-
-
-              </ul>
-
-            <ul class="categories_bullet_list">
-
-                   <li><h4>How to opt out of Netflix's autoplay previews</h4></li>
+                      <li><h4>How to opt out of Netflix's autoplay previews</h4></li>
 
                   <li><h4>This indoor cycling app is making me suffer, and it's highly effective</h4></li>
 
@@ -597,60 +505,42 @@
 
                   <li><h4>WhatsApp fixed a bug in its desktop app that allowed access to files on your computer</h4></li>
 
-            </ul>
-
-
-
-
+              </ul>
 
       </section>
 
-<section class="category_item apps_category podium_c">
+    <section class="article_categories">
 
-            <h2>Podium</h2>
 
+            <h2>Podium ></h2>
           <ul>
               <li>
-              <div class="test">
-                <article>
-                      <img alt="category image" class="category_image" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Chrome-plain-368x276.jpg">
+                <article class="latest_category" style="background-image:url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Chrome-plain-368x276.jpg');">
 
-                      <header class="category_header" id="cat_header">
-                          <h5>MOST POPULAR</h5>
+
+                      <header class="category_header">
+                          <h4>MOST POPULAR</h4>
                           <h3>Google Play now has dark mode — here's how to turn it on</h3>
 
-                          <ul class="category_sub">
-                          <li> Mix .</li>
-                          <li>21 Hours Ago</li>
-                          </ul>
+
+                          <p class="author"> Mix Manila • 21 Hours Ago</p>
                     </header>
               </article>
-              </div>
-                    <li class="list_item_latest">
+              </li>
+
+                    <li>
                         <article class="category_latest">
 
                           <header>
-                          <h5>LATEST</h5>
+                          <h4>LATEST</h4>
 
-                      <h4>WhatsApp beta reveals dark mode is finally coming to the iPhone</h4>
+                      <h3>WhatsApp beta reveals dark mode is finally coming to the iPhone</h3>
                       </header>
-                          <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/WhatsApp-hed-796x419.jpg" alt="WhatsApp Darkmode">
+                        <a class="category_latest_image" style="background-image:url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/WhatsApp-hed-796x419.jpg');"></a>
 
                           </article>
                     </li>
-
-
-
-
-
-
-
-
-              </ul>
-
-            <ul class="categories_bullet_list">
-
-                   <li><h4>How to opt out of Netflix's autoplay previews</h4></li>
+                      <li><h4>How to opt out of Netflix's autoplay previews</h4></li>
 
                   <li><h4>This indoor cycling app is making me suffer, and it's highly effective</h4></li>
 
@@ -660,60 +550,43 @@
 
                   <li><h4>WhatsApp fixed a bug in its desktop app that allowed access to files on your computer</h4></li>
 
-            </ul>
-
-
-
-
+              </ul>
 
       </section>
 
-<section class="category_item apps_category insights_c">
 
-            <h2>Insights ></h2>
+    <section class="article_categories">
 
+
+            <h2>Inisghts ></h2>
           <ul>
               <li>
-              <div class="test">
-                <article>
-                      <img alt="category image" class="category_image" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Chrome-plain-368x276.jpg">
+                <article class="latest_category" style="background-image:url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Chrome-plain-368x276.jpg');">
 
-                      <header class="category_header" id="cat_header">
-                          <h5>MOST POPULAR</h5>
+
+                      <header class="category_header">
+                          <h4>MOST POPULAR</h4>
                           <h3>Google Play now has dark mode — here's how to turn it on</h3>
 
-                          <ul class="category_sub">
-                          <li> Mix .</li>
-                          <li>21 Hours Ago</li>
-                          </ul>
+
+                          <p class="author"> Mix Manila • 21 Hours Ago</p>
                     </header>
               </article>
-              </div>
-                    <li class="list_item_latest">
+              </li>
+
+                    <li>
                         <article class="category_latest">
 
                           <header>
-                          <h5>LATEST</h5>
+                          <h4>LATEST</h4>
 
-                      <h4>WhatsApp beta reveals dark mode is finally coming to the iPhone</h4>
+                      <h3>WhatsApp beta reveals dark mode is finally coming to the iPhone</h3>
                       </header>
-                          <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/WhatsApp-hed-796x419.jpg" alt="WhatsApp Darkmode">
+                        <a class="category_latest_image" style="background-image:url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/WhatsApp-hed-796x419.jpg');"></a>
 
                           </article>
                     </li>
-
-
-
-
-
-
-
-
-              </ul>
-
-            <ul class="categories_bullet_list">
-
-                   <li><h4>How to opt out of Netflix's autoplay previews</h4></li>
+                      <li><h4>How to opt out of Netflix's autoplay previews</h4></li>
 
                   <li><h4>This indoor cycling app is making me suffer, and it's highly effective</h4></li>
 
@@ -723,53 +596,43 @@
 
                   <li><h4>WhatsApp fixed a bug in its desktop app that allowed access to files on your computer</h4></li>
 
-            </ul>
-
-
-
-
+              </ul>
 
       </section>
 
-<section class="category_item apps_category launch_c">
+
+    <section class="article_categories">
+
 
             <h2>Launch ></h2>
-
           <ul>
               <li>
-              <div class="test">
-                <article>
-                      <img alt="category image" class="category_image" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Chrome-plain-368x276.jpg">
+                <article class="latest_category" style="background-image:url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Chrome-plain-368x276.jpg');">
 
-                      <header class="category_header" id="cat_header">
-                          <h5>MOST POPULAR</h5>
+
+                      <header class="category_header">
+                          <h4>MOST POPULAR</h4>
                           <h3>Google Play now has dark mode — here's how to turn it on</h3>
 
-                          <ul class="category_sub">
-                          <li> Mix .</li>
-                          <li>21 Hours Ago</li>
-                          </ul>
+
+                          <p class="author"> Mix Manila • 21 Hours Ago</p>
                     </header>
               </article>
-              </div>
-                    <li class="list_item_latest">
+              </li>
+
+                    <li>
                         <article class="category_latest">
 
                           <header>
-                          <h5>LATEST</h5>
+                          <h4>LATEST</h4>
 
-                      <h4>WhatsApp beta reveals dark mode is finally coming to the iPhone</h4>
+                      <h3>WhatsApp beta reveals dark mode is finally coming to the iPhone</h3>
                       </header>
-                          <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/WhatsApp-hed-796x419.jpg" alt="WhatsApp Darkmode">
+                        <a class="category_latest_image" style="background-image:url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/WhatsApp-hed-796x419.jpg');"></a>
 
                           </article>
                     </li>
-
-              </ul>
-
-            <ul class="categories_bullet_list">
-
-                   <li><h4>How to opt out of Netflix's autoplay previews</h4></li>
+                      <li><h4>How to opt out of Netflix's autoplay previews</h4></li>
 
                   <li><h4>This indoor cycling app is making me suffer, and it's highly effective</h4></li>
 
@@ -779,54 +642,43 @@
 
                   <li><h4>WhatsApp fixed a bug in its desktop app that allowed access to files on your computer</h4></li>
 
-            </ul>
-
-
-
-
+              </ul>
 
       </section>
 
-<section class="category_item apps_category distract_c" id="d_c">
 
-            <h2> Distract ></h2>
+    <section class="article_categories">
 
+
+            <h2>Distract ></h2>
           <ul>
               <li>
-              <div class="test">
-                <article>
-                      <img alt="category image" class="category_image" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Chrome-plain-368x276.jpg">
+                <article class="latest_category" style="background-image:url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Chrome-plain-368x276.jpg');">
 
-                      <header class="category_header" id="cat_header">
-                          <h5>MOST POPULAR</h5>
+
+                      <header class="category_header">
+                          <h4>MOST POPULAR</h4>
                           <h3>Google Play now has dark mode — here's how to turn it on</h3>
 
-                          <ul class="category_sub">
-                          <li> Mix .</li>
-                          <li>21 Hours Ago</li>
-                          </ul>
+
+                          <p class="author"> Mix Manila • 21 Hours Ago</p>
                     </header>
               </article>
-              </div>
-                    <li class="list_item_latest">
+              </li>
+
+                    <li>
                         <article class="category_latest">
 
                           <header>
-                          <h5>LATEST</h5>
+                          <h4>LATEST</h4>
 
-                      <h4>WhatsApp beta reveals dark mode is finally coming to the iPhone</h4>
+                      <h3>WhatsApp beta reveals dark mode is finally coming to the iPhone</h3>
                       </header>
-                          <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/WhatsApp-hed-796x419.jpg" alt="WhatsApp Darkmode">
+                        <a class="category_latest_image" style="background-image:url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/WhatsApp-hed-796x419.jpg');"></a>
 
                           </article>
                     </li>
-
-
-              </ul>
-
-            <ul class="categories_bullet_list">
-
-                   <li><h4>How to opt out of Netflix's autoplay previews</h4></li>
+                      <li><h4>How to opt out of Netflix's autoplay previews</h4></li>
 
                   <li><h4>This indoor cycling app is making me suffer, and it's highly effective</h4></li>
 
@@ -836,184 +688,197 @@
 
                   <li><h4>WhatsApp fixed a bug in its desktop app that allowed access to files on your computer</h4></li>
 
-            </ul>
-
-
-
-
-
+              </ul>
       </section>
+ </section>
 
 
 
+    <section class="latest_deals">
 
+<header class="latest_deals_header">
+              <h2>Latest deals ›</h2>
+              <a href="#">See all Deals</a>
+            </header>
+            <article class="latest-deal">
+              <a
+                class="deal_image"
+                style="background-image: url('https://cdnp1.stackassets.com/d70d575440dc2303f6c0f578f6546cc872eb2b6b/store/bc8a1c7c761aaedca8d2eb395cf9fccb9e15aadd0d764277c827cda8ada8/sale_26801_primary_image.jpg');"
+                href="#"
+              ></a>
+              <div class="heading-container">
+                <h3>
+                 The 2020 All-in-One Data Scientist Mega Bundle
+                </h3>
+                <h4>
+                  <span class="cancelled-price">$1,000,000.99</span>
+                  <span class="new-price">$309</span>
+                </h4>
+              </div>
+            </article>
+            <article class="latest-deal">
+              <a
+                class="deal_image"
+                style="background-image: url('https://cdnp1.stackassets.com/d70d575440dc2303f6c0f578f6546cc872eb2b6b/store/bc8a1c7c761aaedca8d2eb395cf9fccb9e15aadd0d764277c827cda8ada8/sale_26801_primary_image.jpg');"
+                href="#"
+              ></a>
+              <div class="heading-container">
+                <h3>
+                The 2020 All-in-One Data Scientist Mega Bundle
+                </h3>
+                <h4>
+                  <span class="cancelled-price">$1,000,000.99</span>
+                  <span class="new-price">$309</span>
+                </h4>
+              </div>
+            </article>
+            <article class="latest-deal">
+              <a
+                class="deal_image"
+                style="background-image: url('https://cdnp1.stackassets.com/d70d575440dc2303f6c0f578f6546cc872eb2b6b/store/bc8a1c7c761aaedca8d2eb395cf9fccb9e15aadd0d764277c827cda8ada8/sale_26801_primary_image.jpg');"
+                href="#"
+              ></a>
+              <div class="heading-container">
+                <h3>
+                  The 2020 All-in-One Data Scientist Mega Bundle
+                </h3>
+                <h4>
+                  <span class="cancelled-price">$1,000,000.99</span>
+                  <span class="new-price">$309</span>
+                </h4>
+              </div>
+            </article>
+            <article class="latest-deal">
+              <a
+                class="deal_image"
+                style="background-image: url('https://cdnp1.stackassets.com/d70d575440dc2303f6c0f578f6546cc872eb2b6b/store/bc8a1c7c761aaedca8d2eb395cf9fccb9e15aadd0d764277c827cda8ada8/sale_26801_primary_image.jpg');"
+                href="#"
+              ></a>
+              <div class="heading-container">
+                <h3>
+               The 2020 All-in-One Data Scientist Mega Bundle
+                </h3>
+                <h4>
+                  <span class="cancelled-price">$1,000,000.99</span>
+                  <span class="new-price">$309</span>
+                </h4>
+              </div>
+            </article>
+            <article class="latest-deal">
+              <a
+                class="deal_image"
+                style="background-image: url('https://cdnp1.stackassets.com/d70d575440dc2303f6c0f578f6546cc872eb2b6b/store/bc8a1c7c761aaedca8d2eb395cf9fccb9e15aadd0d764277c827cda8ada8/sale_26801_primary_image.jpg');"
+                href="#"
+              ></a>
+              <div class="heading-container">
+                <h3>
+                The 2020 All-in-One Data Scientist Mega Bundle
+                </h3>
+                <h4>
+                  <span class="cancelled-price">$1,000,000.99</span>
+                  <span class="new-price">$309</span>
+                </h4>
+              </div>
+            </article>
+            <article class="latest-deal">
+              <a
+                class="deal_image"
+                style="background-image: url('https://cdnp1.stackassets.com/d70d575440dc2303f6c0f578f6546cc872eb2b6b/store/bc8a1c7c761aaedca8d2eb395cf9fccb9e15aadd0d764277c827cda8ada8/sale_26801_primary_image.jpg');"
+                href="#"
+              ></a>
+              <div class="heading-container">
+                <h3>
+                 The 2020 All-in-One Data Scientist Mega Bundle
+                </h3>
+                <h4>
+                  <span class="cancelled-price">$1,000,000.99</span>
+                  <span class="new-price">$309</span>
+                </h4>
+              </div>
+            </article>
+            <article class="latest-deal">
+              <a
+                class="deal_image"
+                style="background-image: url('https://cdnp1.stackassets.com/d70d575440dc2303f6c0f578f6546cc872eb2b6b/store/bc8a1c7c761aaedca8d2eb395cf9fccb9e15aadd0d764277c827cda8ada8/sale_26801_primary_image.jpg');"
+                href="#"
+              ></a>
+              <div class="heading-container">
+                <h3>
+                 The 2020 All-in-One Data Scientist Mega Bundle
+                </h3>
+                <h4>
+                  <span class="cancelled-price">$1,000,000.99</span>
+                  <span class="new-price">$309</span>
+                </h4>
+              </div>
+            </article>
+            <article class="latest-deal">
+              <a
+                class="deal_image"
+                style="background-image: url('https://cdnp1.stackassets.com/d70d575440dc2303f6c0f578f6546cc872eb2b6b/store/bc8a1c7c761aaedca8d2eb395cf9fccb9e15aadd0d764277c827cda8ada8/sale_26801_primary_image.jpg');"
+                href="#"
+              ></a>
+              <div class="heading-container">
+                <h3>
+                  The 2020 All-in-One Data Scientist Mega Bundle
+                </h3>
+                <h4>
+                  <span class="cancelled-price">$1,000,000.99</span>
+                  <span class="new-price">$309</span>
+                </h4>
+              </div>
+            </article>
 
-
-
-</div>
-
-
-    <section class="deals">
-
-      <header class="deals_header">
-        <h2 id="deals_main_title">Latest Deals ></h2> <p id="deals_header_sub">See all Deals</p>
-    </header>
-
-    <ul class="deals_list">
-      <li class="first_deal">
-            <div class="deals_image deal1_image">
-            <img alt="deals image" src="https://cdnp1.stackassets.com/d70d575440dc2303f6c0f578f6546cc872eb2b6b/store/bc8a1c7c761aaedca8d2eb395cf9fccb9e15aadd0d764277c827cda8ada8/sale_26801_primary_image.jpg">
-            </div>
-
-            <div class="details_of_deal">
-            <div class="deal_description"><h4>The 2020 All-in-One Data Scientist Mega Bundle</h4></div>
-            <div class="deal_price"><span class="cancelled_price">$6000</span>&nbsp;<span class="new_price">$39.99</span></div>
-            </div>
-
-      </li>
-      <li class="second_deal">
-
-               <div class="deals_image deal2_image">
-            <img alt="deals" src="https://cdnp1.stackassets.com/cba31166b47b2c151d94a8397c4aa0604771f268/store/04b44dd5593f2a7c175e4dd48292fe76d560b9c1c0536d03345aa8c50141/sale_18367_primary_image.jpg">
-            </div>
-
-            <div class="details_of_deal">
-            <div class="deal_description"><h4>The 2020 All-in-One Data Scientist Mega Bundle</h4></div>
-            <div class="deal_price"><span class="cancelled_price">$6000</span>&nbsp;<span class="new_price">$39.99</span></div>
-            </div>
-
-
-      </li>
-      <li class="third_deal">
-
-                             <div class="deals_image deal3_image">
-            <img alt="deals" src="https://cdnp0.stackassets.com/a1b45c57042cdef1f1b897016cfde23589de621d/store/55c827cf0a6ce820b885872694c7271be3c3e8f89e91e59b2637a866fffa/sale_25748_primary_image.jpg">
-            </div>
-            <div class="details_of_deal">
-            <div class="deal_description dd_3"><h4>The 2020 All-in-One Data Scientist Mega Bundle</h4></div>
-            <div class="deal_price"><span class="cancelled_price">$6000</span>&nbsp;<span class="new_price">$39.99</span></div>
-            </div>
-
-
-      </li>
-      <li class="fourth_deal">
-
-                                   <div class="deals_image deal4_image">
-            <img alt="deals" src="https://cdnp1.stackassets.com/5e5f466abcd436434edba4f58d25c704ad06af78/store/3d0d720d0781f975608acd54d86abf1c1f6687deaa14804680bdb3d23afb/sale_26533_primary_image.jpg">
-            </div>
-
-            <div class="details_of_deal details_fourth">
-            <div class="deal_description"><h4>The 2020 All-in-One Data Scientist Mega Bundle</h4></div>
-            <div class="deal_price"><span class="cancelled_price">$6000</span>&nbsp;<span class="new_price">$39.99</span></div>
-            </div>
-
-
-      </li>
-      <li class="fifth_deal">
-
-                                   <div class="deals_image deal5_image">
-            <img alt="deals" src="https://cdnp1.stackassets.com/d70d575440dc2303f6c0f578f6546cc872eb2b6b/store/bc8a1c7c761aaedca8d2eb395cf9fccb9e15aadd0d764277c827cda8ada8/sale_26801_primary_image.jpg">
-            </div>
-
-            <div class="details_of_deal">
-            <div class="deal_description"><h4>The 2020 All-in-One Data Scientist Mega Bundle</h4></div>
-            <div class="deal_price"><span class="cancelled_price">$6000</span>&nbsp;<span class="new_price">$39.99</span></div>
-            </div>
-
-
-
-      </li>
-
-
-       <li class="sixth_deal">
-
-                                   <div class="deals_image deal6_image">
-            <img alt="deals" src="https://cdnp1.stackassets.com/d70d575440dc2303f6c0f578f6546cc872eb2b6b/store/bc8a1c7c761aaedca8d2eb395cf9fccb9e15aadd0d764277c827cda8ada8/sale_26801_primary_image.jpg">
-            </div>
-
-            <div class="details_of_deal dd_6">
-            <div class="deal_description"><h4>The 2020 All-in-One Data Scientist Mega Bundle</h4></div>
-            <div class="deal_price"><span class="cancelled_price">$6000</span>&nbsp;<span class="new_price">$39.99</span></div>
-            </div>
-
-
-
-      </li>
-
-
-       <li class="seventh_deal">
-
-                                   <div class="deals_image deal7_image">
-            <img alt="deals" src="https://cdnp1.stackassets.com/d70d575440dc2303f6c0f578f6546cc872eb2b6b/store/bc8a1c7c761aaedca8d2eb395cf9fccb9e15aadd0d764277c827cda8ada8/sale_26801_primary_image.jpg">
-            </div>
-
-            <div class="details_of_deal details_seventh">
-            <div class="deal_description dd_7"><h4>The 2020 All-in-One Data Scientist Mega Bundle</h4></div>
-            <div class="deal_price"><span class="cancelled_price">$6000</span>&nbsp;<span class="new_price">$39.99</span></div>
-            </div>
-
-
-
-      </li>
-
-
-       <li class="eigth_deal">
-
-                                   <div class="deals_image deal8_image">
-            <img alt="deals" src="https://cdnp1.stackassets.com/d70d575440dc2303f6c0f578f6546cc872eb2b6b/store/bc8a1c7c761aaedca8d2eb395cf9fccb9e15aadd0d764277c827cda8ada8/sale_26801_primary_image.jpg">
-            </div>
-
-            <div class="details_of_deal">
-            <div class="deal_description dd_8"><h4>The 2020 All-in-One Data Scientist Mega Bundle</h4></div>
-            <div class="deal_price"><span class="cancelled_price">$6000</span>&nbsp;<span class="new_price">$39.99</span></div>
-            </div>
-
-
-
-      </li>
-
-
-    </ul>
     </section>
-
-
- <footer>
-
-
-<div class="footer-links">
-
-<ul class="social-media">
-      <li><a href="#"><i class="fab fa-facebook"></i> </a></li>
-      <li> <a href="#"><i class="fab fa-twitter"></i></a></li>
-      <li> <a href="#"><i class="fab fa-youtube"></i></a></li>
-      <li> <a href="#"><i class="fab fa-instagram"></i></a></li>
-      <li> <a href="#"><i class="fab fa-pinterest"></i></a></li>
-      <li> <a href="#"><i class="fas fa-rss"></i></a></li>
-      <li> <a href="#"><i class="far fa-envelope"></i></a></li>
-</ul>
-
-<ul class="links-menu">
-        <li><a href="#">EVENTS </a></li>
-      <li> <a href="#">ABOUT</a></li>
-      <li> <a href="#">TEAM</a></li>
-      <li> <a href="#">ADVERTISE</a></li>
-      <li> <a href="#">JOBS</a></li>
-      <li> <a href="#">CONTACT</a></li>
-</ul>
-
-
-
 </div>
+</main>
+ <footer class="footer">
+        <div class="social">
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-facebook icon"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter icon"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube icon"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram icon"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-pinterest icon"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-rss icon"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="far fa-envelope icon"></i></a>
+            </li>
+          </ul>
+          <ul>
+            <li><a href="#">EVENTS</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li ><a href="#">TEAM</a></li>
+            <li><a href="#">ADVERTISE</a></li>
+            <li><a href="#">JOBS</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="legal">
+          <p>
+            <img src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg"  alt="The Next Web logo" id="TNW_logo">
+            © 2006–2020 The Next Web B.V.
+          </p>
+          <p>Made with <span style="color:red;">♥</span> in Amsterdam.</p>
+          <p>
+            Powered by
+            <img src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/stackpath.svg" alt="Stackpath logo" id ="stackpath_logo">
 
-<div class="footer-legal">
-<img src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg"  alt="The Next Web logo" id="TNW_logo"> <p>© 2006–2020 The Next Web B.V.
-Made with <span id="heart">♥</span> in Amsterdam.
-Powered by</p><img src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/stackpath.svg" alt="Stackpath logo" id ="stackpath_logo">
+          </p>
+        </div>
+      </footer>
 </div>
-
-  </footer>
-
-
-
 </body>
 </html>
