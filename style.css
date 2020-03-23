@@ -110,6 +110,12 @@ html {
   justify-content: space-between;
 }
 
+.funding_category li {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
 .first_nav ul:first-of-type li {
   margin-right: 1rem;
 }
@@ -155,6 +161,10 @@ html {
 .second_nav button {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.deals_header ul {
+  display: flex;
 }
 
 .second_nav ul:first-of-type {
@@ -253,6 +263,16 @@ html {
   padding-top: 0.5rem;
 }
 
+.latest_news_container h2 {
+  grid-column: 1/-1;
+  font-size: 2.6rem;
+  color: rgb(253, 64, 34);
+}
+
+.deals_header h2 {
+  font-size: 2.8rem;
+}
+
 .main_article .recent_article_header h2 {
   font-size: 5.2rem;
   padding-top: 0;
@@ -344,12 +364,6 @@ html {
   gap: 2rem;
 }
 
-.latest_news_container h2 {
-  grid-column: 1/-1;
-  font-size: 2.6rem;
-  color: rgb(253, 64, 34);
-}
-
 .latest_news a {
   display: block;
   width: 100%;
@@ -414,14 +428,6 @@ html {
   color: rgb(255, 68, 34);
 }
 
-.deals_header h2 {
-  font-size: 2.8rem;
-}
-
-.deals_header ul {
-  display: flex;
-}
-
 .deals_header li:nth-child(2)::before,
 .deals_header li:nth-child(2)::after {
   content: '|';
@@ -473,12 +479,6 @@ html {
   margin-bottom: 1.4rem;
   font-size: 1.2rem;
   border-bottom: 1px solid rgba(254, 68, 34, 0.3);
-}
-
-.funding_category li {
-  margin-bottom: 1rem;
-  display: flex;
-  align-items: center;
 }
 
 .funding_categoryli:last-of-type {
