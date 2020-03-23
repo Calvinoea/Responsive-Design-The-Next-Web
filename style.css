@@ -121,6 +121,17 @@ html {
     background-color: rgb(250, 64, 34);
 }
 
+.social li {
+    margin: 0 0.75rem;
+}
+
+.article_categories li:nth-child(n+3) {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid white;
+}
+
 .first_nav ul:first-of-type li {
     margin-right: 1rem;
 }
@@ -143,15 +154,14 @@ html {
     justify-items: center;
 }
 
-.article_categories li:nth-child(n+3) {
-    display: flex;
-    align-items: center;
-    padding: 1rem 0;
-    border-bottom: 1px solid white;
-}
-
 .second_nav ul:first-of-type li {
     margin-right: 2rem;
+}
+
+.social ul:first-of-type li {
+    padding: 11px;
+    background-color: rgb(47, 47, 47);
+    border-radius: 50%;
 }
 
 .second_nav ul:last-of-type li {
@@ -291,6 +301,10 @@ html {
     color: rgb(250, 69, 34);
 }
 
+.latest_deals_header h2 {
+    font-size: 2.8rem;
+}
+
 .main_article .recent_article_header h2 {
     font-size: 5.2rem;
     padding-top: 0;
@@ -304,7 +318,7 @@ html {
         font-size: 2rem;
     }
     .main_article .recent_article_header h2 {
-        font-size: 4rem;
+        font-size: 2rem;
     }
 }
 
@@ -476,6 +490,17 @@ html {
     line-height: 1.3;
 }
 
+.category_header h4 {
+    font-size: 1.1rem;
+    font-weight: 330;
+}
+
+.latest-deal h4 {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: rgb(77, 77, 77);
+}
+
 .funding_deals hgroup h4 {
     font-size: 1.7rem;
     color: black;
@@ -505,6 +530,10 @@ html {
 .social .icon {
     width: 1.8rem;
     height: 1.8rem;
+}
+
+.legal .icon {
+    display: inline-block;
 }
 
 .funding_category li .icon {
@@ -589,11 +618,6 @@ html {
     padding: 0.4rem 0;
 }
 
-.category_header h4 {
-    font-size: 1.1rem;
-    font-weight: 330;
-}
-
 .category_latest {
     display: flex;
     margin-top: 2px;
@@ -653,10 +677,6 @@ html {
     color: rgb(255, 68, 34);
 }
 
-.latest_deals_header h2 {
-    font-size: 2.8rem;
-}
-
 .deal_image {
     display: block;
     width: 100%;
@@ -668,12 +688,6 @@ html {
 .latest-deal h3 {
     padding: 1rem 0;
     font-size: 1.6rem;
-}
-
-.latest-deal h4 {
-    font-weight: 400;
-    font-size: 1.6rem;
-    color: rgb(77, 77, 77);
 }
 
 .cancelled-price {
@@ -724,16 +738,6 @@ html {
     margin-bottom: 3rem;
 }
 
-.social li {
-    margin: 0 0.75rem;
-}
-
-.social ul:first-of-type li {
-    padding: 11px;
-    background-color: rgb(47, 47, 47);
-    border-radius: 50%;
-}
-
 .legal {
     display: flex;
     justify-content: center;
@@ -742,10 +746,6 @@ html {
     color: #999;
     background: #000;
     text-align: center;
-}
-
-.legal .icon {
-    display: inline-block;
 }
 
 #TNW_logo {
