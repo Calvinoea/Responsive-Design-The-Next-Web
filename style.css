@@ -34,9 +34,6 @@ html {
   background-repeat: no-repeat;
 }
 
-
-/* Header */
-
 .nav_logo {
   display: none;
   background-image: linear-gradient(to bottom right, rgb(206, 2, 149), rgb(250, 56, 56) 80%);
@@ -198,12 +195,6 @@ html {
   padding: 1.5rem 0 1.5rem 2rem;
 }
 
-
-/*
-.second_nav li:first-of-type .icon {
-    transform: rotate(90deg);
-} */
-
 .second_nav ul:last-of-type {
   align-self: stretch;
   align-items: strech;
@@ -239,12 +230,6 @@ html {
     font-size: 1rem;
   }
 }
-
-
-/* main */
-
-
-/* recent-articles */
 
 .recent_articles_container {
   margin: 2px 5px;
